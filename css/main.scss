@@ -25,24 +25,41 @@ $grey-color-dark:  darken($grey-color, 25%);
 // Width of the content area
 $content-width:    800px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$breakpoints: (
+  mobile: 480px,
+  tablet: 768px,
+  desktop: 992px
+);
 
 
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
+//
+// Breakpoint mixin with named or pixel values.
+//
+// Usage:
+//
+//   @include(600px) { ... }
+//     => @media all and (min-width: 600px) { ... }
+//
+//   @include(400px, 900px) { ... }
+//     => @media all and (min-width: 400px) and (max-width: 900px) { ... }
+//
+@mixin breakpoint($min, $max: null) {
+  @if type-of($min) == string {
+    $min: map-get($breakpoints, $min);
+  }
+  @if type-of($max) == string {
+    $max: map-get($breakpoints, $max);
+  }
+  @if ($max) {
+    @media all and (min-width: $min) and (max-width: $max - 1px) {
+      @content;
     }
+  } @else {
+    @media all and (min-width: $min) {
+      @content;
+    }
+  }
 }
-
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
