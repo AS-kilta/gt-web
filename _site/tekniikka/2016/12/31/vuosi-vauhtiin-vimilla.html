@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Vuosi vauhtiin Vimillä</title>
+  <meta name="description" content="Vim on yksi maailman kolmesta[1] eeppisimmästä editorista. Muinaisuudestaanhuolimatta se on edelleen kaikkeen käyttöön erityisen soveltuva ja jopamoderni. Mu...">
+
+  <link rel="stylesheet" href="/beta/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/beta/tekniikka/2016/12/31/vuosi-vauhtiin-vimilla.html">
+  <link rel="alternate" type="application/rss+xml" title="Kultainen Tomaatti" href="http://localhost:4000/beta/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <div class="header__title">
+      <h1>
+        <a class="site-title" href="/beta/">Kultainen Tomaatti</a>
+      </h1>
+    </div>
+    <nav class="navigation header__navigation">
+      <ul>
+        <a href="/beta/"><li class="navigation__item">Artikkelit</li></a>
+        <a href="/beta/lehti'"><li class="navigation__item">Uusin lehti</li></a>
+        <a href="http://as.fi/~gt/pdf/"><li class="navigation__item">Arkisto</li></a>
+        <a href="/beta/toimitus"><li class="navigation__item">Toimitus</li></a>
+        <a href="/beta/tilaa"><li class="navigation__item">Tilaa</li></a>
+      </ul>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <p class="post__category">Tekniikka</p>
+    <h1 class="post-title" itemprop="name headline">Vuosi vauhtiin Vimillä</h1>
+    <div class="post-meta">
+      <p><time datetime="2016-12-31T23:39:46+02:00" itemprop="datePublished">31.12. 23.39</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Konsta Hölttä</span></span><p>
+    </div>
+    
+    <p class="post__ingress">Vim on yksi maailman kolmesta[1] eeppisimmästä editorista. Muinaisuudestaan huolimatta se on edelleen kaikkeen käyttöön erityisen soveltuva ja jopa moderni. Muinaisuutensa vuoksi se on erittäin nopea [2] (vanhat koneet eivät olleet, joten ennen oli editorien ohjelmoijat rautaa). Moderniutta pönkittää valtava laajennettavuus [3]. Vimistä forkattu Neovim [4] on vieläkin modernimpi, ja mikä parasta, luonnollinen käyttää vanhoille Vimmaajille.</p>
+    
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    
+    <p>Vim on yksi maailman kolmesta[1] eeppisimmästä editorista. Muinaisuudestaan
+huolimatta se on edelleen kaikkeen käyttöön erityisen soveltuva ja jopa
+moderni. Muinaisuutensa vuoksi se on erittäin nopea [2] (vanhat koneet eivät
+olleet, joten ennen oli editorien ohjelmoijat rautaa). Moderniutta pönkittää
+valtava laajennettavuus [3]. Vimistä forkattu Neovim [4] on vieläkin
+modernimpi, ja mikä parasta, luonnollinen käyttää vanhoille Vimmaajille.</p>
+
+<p>Tässä artikkelisarjan ensimmäisessä osassa esitellään muutama oleellinen
+viminkäyttöperiaate ja joitakin perussäätöjä. Erikoisuuksiensa takia Vim ei
+varmasti sovellu kaikille, mutta ne joille sopii varmaankin tykkäävät.
+Kokeilemiseen suositellaan varattavaksi aikaa, vaikka sanonta, että vi(mi)n
+oppimiskäyrä on askelfunktio [5], ei olekaan totta (askelia on useita).</p>
+
+<p>Asetuksien säätämiseen järkeväksi Vi:stä pohjautuvan historian päälle kannattaa
+tehdä jotain heti ensimmäisellä käyttökerralla. Jo muutamalla yksinkertaisella
+säädöllä saa paikattua historiallisia jäänteitä ja asetettua käteviä
+lisätoiminnallisuuksia. Konffit esitellään seuraavalla sivulla.</p>
+
+<p>Vimissä on likimain äärettömien asetusten lisäksi paljon sille ominaisia
+yksinkertaisia perusasioita, joita yhdistämällä emergoituu varsinainen
+elämäntapa ja oma filosofianhaaransa. Tätä kaikkea ei voi opettaa yhdessä
+introtekstissä - ei edes koko vuoden lehdissä - mutta tavoitteena on innostaa
+kokeilemaan sekä ohjeistaa muutama protip.</p>
+
+<p>Kyseessä on “modal editor” eli tässä härpättimessä on kuusi eri tilaa. Jotkin
+näppäinyhdistelmät toimivat joissakin, eikä missään tunnu olevan täyttä järkeä.
+Sanotaan, että vimissä on kaksi eri moodia: toisessa se piippaa, ja toisessa se
+poistaa kaiken. Tämä on oikeasti Vi. Vimin tilat ovat normal, insert, visual,
+select, commandline ja ex. (Vi on Visual ex ja ex julkaistiin 1978.)</p>
+
+<p>Suunnilleen kaikkiin toimintoihin on oma “kielioppi” [6]. Jos huomaa vaikka
+selailevansa ympäriinsä nuolinäppäimillä tai poistavansa tekstiä merkki
+kerrallaan, niin on menossa ihan metsään. Erikoisliikkeitä on roppakaupalla, ja
+nämä yleensä yhdistetään johonkin muokkaustoimintoon tuon kieliopin kautta.</p>
+
+<p>Samaan “tabiin” saa useita “ikkunoita”, joissa kussakin lojuu yksi “bufferi”.
+Varttuneemmalla vimmaajalla voi olla helposti vaikka kuusi tiedostoa näkyvillä
+samanaikaisesti - tai sitten samasta tiedostosta useita eri näkymiä.</p>
+
+<p>Jos editorista ei löydy makroja, se on suorastaan käyttökelvoton mihinkään
+työhön, missä tarvitaan lukuisia määriä säännönmukaisia editointeja. Vimin
+editointikielioppi tanssii kauniisti makrojen kanssa, ja makroja voikin
+tallettamisen jälkeen jopa editoida merkki kerrallaan.</p>
+
+<p>Alkuun pääsee käynnistämällä (g)vimin ja kirjoittamalla “:help”. Sen näyttämä
+“quickref” on huikean kätevä ja sisältää kaikenlaista jota ei tässä tarvitse
+turhaan toistaa. Kokeile!</p>
+
+<p>Tässä “Movement cheat sheet” asciina; nähdään selvästi nuolinappien turhuus:</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">                  gg
+              # n ?text N
+                  C-b C-u
+                  H
+                  { (
+      ;    B gE   k           ,
+0 ^ Fx Tx b ge h   l e w tx fx $
+      ,           j   E W     ;
+                ) }
+                  L
+              C-d C-f
+                N /text n *
+                  G</code></pre></figure>
+
+<p>Joitakin perussäätöjä, laita $HOME/.vimrc:hen:</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">filetype plugin indent on " tiedostotyypin arvausmagiat päälle ja autoformatia
+syntax enable " päälle ne vimin 16 tai jotain oletusväriä
+set nocompatible " vi-purkkaa pois. lainausmerkki on btw kommentin alku
+set ruler " yleishyödyllistä kivaa alariville
+set number " rivinumerot
+set background=dark " kellä muka on valkoinen tausta terminaalissa?
+set incsearch " ala etsiä jo kun hakutekstiä kirjoittaa, ennen enteriä
+set hlsearch " hakulöydöt on hyvä korostaa väreillä
+set mouse=a " hiiri toimii joka tilassa kuten olettaisi
+set backspace=indent,eol,start " moderni pyyhkimisnappi toimii notepadmaisesti
+set smartindent " arvaa sisennykset suht järkevästi
+set wildmenu wildmode=longest,list " suurruhtinaiden tab-täydennykset
+set hidden " älä vaadi välitöntä tallentamista bufferia sulkiessa</code></pre></figure>
+
+<p>Jatkolukemista innokkaille:</p>
+
+<p><a href="">https://github.com/tpope/vim-sensible</a></p>
+
+<p><a href="">https://mouhola.club/.vimrc</a></p>
+
+<p><a href="">http://stackoverflow.com/questions/1218390#1220118</a></p>
+
+<p><a href="">http://www.viemu.com/a-why-vi-vim.html</a></p>
+
+<p><a href="">http://naleid.com/blog/2010/10/04/vim-movement-shortcuts-wallpaper</a></p>
+
+<p><br /></p>
+
+<p>[1] Loput kaksi kolmesta: ed ja emacs. Vain toinen on moderni.</p>
+
+<p>[2] <a href="">https://pavelfatin.com/typing-with-pleasure/</a></p>
+
+<p>[3] <a href="">http://www.vim.org/scripts/</a></p>
+
+<p>[4] <a href="">https://neovim.io/</a></p>
+
+<p>[5] <a href="">https://i.stack.imgur.com/7Cu9Z.jpg</a></p>
+
+<p>[6] <a href="">https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/</a></p>
+
+
+  </div>
+
+  <aside class="sidebar post__sidebar">
+    <div class="post__sidebar--inner">
+  <h3>Uusimmat</h3>
+  
+    <div class="sidebar__teaser">
+      <span class="post-meta"><span class="post__category">pääkirjoitus</span>15.01. 23.39</span>
+      <h4><a href="/beta/p%C3%A4%C3%A4kirjoitus/2017/01/15/lorem-ipsum.html">Lorem ipsum dolor sit amet</a></h4>
+    </div>
+  
+    <div class="sidebar__teaser">
+      <span class="post-meta"><span class="post__category">Horoskooppi</span> 1.01. 12.00</span>
+      <h4><a href="/beta/horoskooppi/2017/01/01/vuosihoroskooppi.html">Vuosihoroskooppi 2017</a></h4>
+    </div>
+  
+    <div class="sidebar__teaser">
+      <span class="post-meta"><span class="post__category">Tekniikka</span>31.12. 23.39</span>
+      <h4><a href="/beta/tekniikka/2016/12/31/vuosi-vauhtiin-vimilla.html">Vuosi vauhtiin Vimillä</a></h4>
+    </div>
+  
+    <div class="sidebar__teaser">
+      <span class="post-meta"><span class="post__category">AYYH</span>31.12. 23.39</span>
+      <h4><a href="/beta/ayyh/2016/12/31/tarinoita-ketolta.html">Tarinoita ketolta</a></h4>
+    </div>
+  
+    <div class="sidebar__teaser">
+      <span class="post-meta"><span class="post__category">pääkirjoitus</span>31.12. 23.39</span>
+      <h4><a href="/beta/p%C3%A4%C3%A4kirjoitus/2016/12/31/guld-igen.html">Guld igen</a></h4>
+    </div>
+  
+</div>
+
+  </aside>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Kultainen Tomaatti</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Kultainen Tomaatti</li>
+          <li><a href="mailto:gt@as.fi">gt@as.fi</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Kultainen Tomaatti (GT) on Aalto-yliopiston Automaatio- ja systeemitekniikan killan kiltalehti.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
