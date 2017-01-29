@@ -465,8 +465,11 @@ body {
 
 .post {
   overflow: auto;
-  padding: 30px;
+  padding: 15px;
   background-color: #fff; }
+  @media all and (min-width: 480px) {
+    .post {
+      padding: 30px; } }
 
 h2 a, h2 a:visited,
 h3 a,
