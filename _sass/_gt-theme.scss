@@ -1,0 +1,89 @@
+body {
+  font-family: $font-sans;
+  background-color: $grey-color-light;
+}
+
+.teaser {
+  margin: ($spacing-unit / 2) 0;
+  background-color: $white-color;
+  @at-root {
+    .teaser__image {
+      display: inline-block;
+      max-width: 200px;
+    }
+    .teaser__text {
+      display: inline-block;
+      padding: ($spacing-unit / 2);
+    }
+  }
+}
+
+.site-header {
+  .wrapper {
+    background-color: $white-color;
+  }
+}
+
+.site-footer {
+  background: $grey-color-dark;
+  border-top: 5px solid $brand-color;
+  color: $background-color;
+  .footer-col {
+    color: $background-color;
+  }
+}
+
+.header__navigation {
+  .navigation__item {
+    display: inline;
+    padding: 20px;
+    font-size: 1.2em;
+  }
+  a, a:visited, a:hover {
+    color: $text-color;
+  }
+  border-bottom: 1px solid $border-color;
+}
+
+.header__title {
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
+    h1 {
+        text-align: center;
+    }
+}
+
+.header__logo {
+  display: block;
+  margin: auto;
+}
+
+.post-content {
+  font-family: $font-serif;
+}
+
+.post__ingress {
+  font-size: 1.15em;
+  font-family: $font-serif;
+  @include breakpoint(desktop) {
+    width: 80%;
+  }
+}
+
+.post__category {
+  color: $brand-color;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.post {
+  padding: $spacing-unit;
+  background-color: $white-color;
+}
+
+h2 a {
+  &, &:visited {
+    color: $text-color;
+  }
+}
