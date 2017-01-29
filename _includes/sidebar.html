@@ -3,7 +3,7 @@
   {% for post in site.posts limit:5 %}
     <div class="sidebar__teaser">
       <span class="post-meta"><span class="post__category">{{ post.categories }}</span>{{ post.date | localize: ":short"}}</span>
-      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
     </div>
   {% endfor %}
 </div>
