@@ -4,7 +4,7 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-          <p class="post__category">{{ page.categories }}</p>
+    <p class="post__category">{{ page.categories }}</p>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <div class="post-meta">
       <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | localize: ":short" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}<p>
@@ -14,7 +14,7 @@ layout: default
     {% endif %}
     {% if page.image %}
     <figure>
-      <img class="post__image" src="{{ page.image }}">
+      <img class="post__image" src="{{ page.image | prepend: site.baseurl }}">
       <figcaption>{{ page.caption }}</figcaption>
     </figure>
     {% endif %}
@@ -23,5 +23,9 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  <aside class="sidebar post__sidebar">
+    {% include sidebar.html %}
+  </aside>
 
 </article>
