@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kultainen Tomaatti</title>
+    <description>Kultainen Tomaatti (GT) on Aalto-yliopiston Automaatio- ja systeemitekniikan killan kiltalehti.
+</description>
+    <link>http://gt.as.fi/beta/</link>
+    <atom:link href="http://gt.as.fi/beta/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 29 Jan 2017 19:42:32 +0200</pubDate>
+    <lastBuildDate>Sun, 29 Jan 2017 19:42:32 +0200</lastBuildDate>
+    <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>Lorem ipsum dolor sit amet</title>
+        <description>&lt;p&gt;Vuoden alku on jännittävää aikaa killistille. Järjestetäänkö wappu? Onko poikaa jäljellä? Tekeekö uusi hallitus mitään? Kultainen Tomaatti tekee parhaansa vastatakseen näihin kysymyksiin – tai ainakin joihinkin kysymyksiin.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur soluta sed, quis repellendus architecto dolorem, voluptatem id. Corporis quae incidunt aliquid quam, fuga eveniet illo odit? Dolor obcaecati distinctio similique.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nulla inventore porro provident repudiandae, commodi illo adipisci distinctio rem quis quo doloribus nemo culpa quas at, sed consequatur repellat temporibus.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit culpa, expedita quibusdam. Ut laborum doloribus tempora velit id. Sed asperiores sapiente illum repellat porro necessitatibus vitae nostrum dolore. Ex, quasi.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Jan 2017 23:39:46 +0200</pubDate>
+        <link>http://gt.as.fi/beta/p%C3%A4%C3%A4kirjoitus/2017/01/15/lorem-ipsum.html</link>
+        <guid isPermaLink="true">http://gt.as.fi/beta/p%C3%A4%C3%A4kirjoitus/2017/01/15/lorem-ipsum.html</guid>
+        
+        
+        <category>pääkirjoitus</category>
+        
+      </item>
+    
+      <item>
+        <title>Tarinoita ketolta</title>
+        <description>&lt;p&gt;Jokaisessa GTn numerossa on tänä vuonna “Tarinoita KeTolta”-palsta, jossa paneudutaan AYYn sydämen sisimpään olemukseen, eli keskustoimistoon. Palstalla käydään läpi moninaisia ylioppilaskunnan osa-alueita enemmän tai vähemmän poliittisesti korrektisti ja faktuaalisesti. Tässä numerossa koitetaan kuitenkin pitäytyä asiassa ja keskittyä siihen, mitä AYYllä ensi vuonna tapahtuu ja miltä ylioppilaskunta näyttää.&lt;/p&gt;
+
+&lt;h1 id=&quot;ayyn-hallitus-mikä-se-on-ja-mitä-se-tekee&quot;&gt;AYY:n hallitus, mikä se on ja mitä se tekee?&lt;/h1&gt;
+
+&lt;p&gt;Kuten millä tahansa Otaniemeläisellä yhteisöllä, on myös AYYllä hallitus. Hallitus on kuitenkin monelle ylioppilaskunna jäsenille hyvin etäinen ja huonosti tuttu elin. Tämä ei välttämättä ole huono juttu, mutta on ehkä paikallaan tuoda lyhyesti esille hallituksen olemus.&lt;/p&gt;
+
+&lt;p&gt;Hallituksen tehtävänä on johtaa ylioppilaskunnan toimintaa. Tämä pitää sisällään esimerkiksi asuntopalvelut, tilapalvelut, edunvalvontaa sekä kulttuuria. Näitä vastuualueita on jaettu kymmenen hallituksen jäsenen kesken joka vuosi hieman eri tavalla, mutta lähtökohtaisesti hallituksessa on aina vuodesta toiseen ns. asumisvastaava, viestintävastaava, järjestövastaava, kopovastaava jne. Ensi vuonna hallituksella on työn alla monta erittäin laajaa projektia, kuten brändiuudistus ja opiskelijakeskuksen valmistelu.&lt;/p&gt;
+
+&lt;h1 id=&quot;ayyn-vapaaehtoisjaostojen-opintotaustajakauma&quot;&gt;AYYn vapaaehtoisjaostojen opintotaustajakauma:&lt;/h1&gt;
+
+&lt;p&gt;Tärkeä ja ehkä näkyvin osa AYY:tä ovat erinäiset jaostot. Jaostojen (etenkin TJn) valinnat herättävät vuosittain Otaniemessä erinäisiä mouhon aiheita; “Miksi jaostossa X on niin paljon Kyltereitä?”, “Mikä tää puuhan alla oleva suur-Inkubio-jaosto oikein on ?!”. Alla oleva taulukko (jossa mukana myös AYYH) antaa näihin selkeän vastauksen, suur-Inkubio todellakin on jo nyt todellisuutta!&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Korkeakoulu&lt;/th&gt;
+      &lt;th&gt;TJ&lt;/th&gt;
+      &lt;th&gt;Aava&lt;/th&gt;
+      &lt;th&gt;Kampusjaosto&lt;/th&gt;
+      &lt;th&gt;Mosaic&lt;/th&gt;
+      &lt;th&gt;Yrityssuhdejaosto&lt;/th&gt;
+      &lt;th&gt;AYYH&lt;/th&gt;
+      &lt;th&gt;Yhteensä&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ARTS&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;BIZ&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CHEM&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ELEC&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;17&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ENG&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SCI&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Kuten yllä todettiin, on AYY:n vapaaehtoisten kirjo käsittämättömän valtava. Vapaaehtoisten lisäksi keskustoimistolla pyörii monta kymmentä palkattua työntekijää, joiden vastuulla on mm.  palvelupiste, edunvalvonta, kiinteistöjen ylläpito sekä asuntotoimisto. Organisaationa AYY on siis erittäin laaja ja ainutlaatuinen, 90% palveluista ja toiminnasta tapahtuu aivan yliopiston kampuksen ytimessä siellä, missä opiskelijatkin ovat.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 31 Dec 2016 23:39:46 +0200</pubDate>
+        <link>http://gt.as.fi/beta/ayyh/2016/12/31/tarinoita-ketolta.html</link>
+        <guid isPermaLink="true">http://gt.as.fi/beta/ayyh/2016/12/31/tarinoita-ketolta.html</guid>
+        
+        
+        <category>AYYH</category>
+        
+      </item>
+    
+      <item>
+        <title>Guld igen</title>
+        <description>&lt;p&gt;Vuodenvaihde on perinteisesti uudistumisen ja puhtaan sivun (tai gentoon toim. huom.) kääntämisen aikaa. Myös GT on saanut uuden upean toimituksen, joka ryhtyy pelottomasti uudistamaan kiltalehteämme. Jo tämän lehden sivuilta löydät paljon uutta ja ihmeellistä, eikä GT:n uudistuminen rajoitu vain sisältöön. Tämäkin pääkirjoitus on nähtävillä GT:n uunituoreessa gt.as.fi-domainissa, joka tulee jo alkuvuodesta tarjoamaan rakkaan kiltalehtemme verkkoon sopivassa formaatissa.&lt;/p&gt;
+
+&lt;p&gt;Toinen merkittävä uudistus on GT:n tilausmahdollisuus, joka tuo lehden saataville kauas rakkaan niememme ulkopuolelle, kunhan posti kulkee. Lisätietoa tilausmahdollisuudesta löytyy lehden sisäkannesta.&lt;/p&gt;
+
+&lt;p&gt;Vuosi 2017 on monella tapaa poikkeuksellista aikaa. Maamme täyttää 100 vuotta, mikä näkyy myös tässä lehdessä teemaan sopivan isänmaallisen kansikuvituksen muodossa. Kauden mittaan juhlavuosi tulee näkymään lehdessä eri tavoin.&lt;/p&gt;
+
+&lt;p&gt;Nollas numero antaa hyvää esimakua siitä, mitä vuoden paperilehdet tuovat tullessaan. Tässä lehdessä esittäytyy niin GT:n uusi toimitus kuin kiltamme uusi hallituskin. Listasimme lisäksi hyviä uudenvuodenlupauksia alkavalle vuodelle ja horoskooppimme paljastaa, miten vuotesi oikeasti tulee alkamaan.&lt;/p&gt;
+
+&lt;p&gt;Parahinta uutta vuotta ja hyviä lukuhetkiä toivottaen&lt;/p&gt;
+
+&lt;p&gt;Juuso Mikkonen
+Kultainen päätoimittaja&lt;/p&gt;
+
+&lt;p&gt;PS. Päätoimittajahakemuksessa lupaamani yhden (1) oluen palkkio pääkirjoituksesta löytyvästä kirjoitus- tai kielioppivirheestä on nyt voimassa.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 31 Dec 2016 23:39:46 +0200</pubDate>
+        <link>http://gt.as.fi/beta/p%C3%A4%C3%A4kirjoitus/2016/12/31/guld-igen.html</link>
+        <guid isPermaLink="true">http://gt.as.fi/beta/p%C3%A4%C3%A4kirjoitus/2016/12/31/guld-igen.html</guid>
+        
+        
+        <category>pääkirjoitus</category>
+        
+      </item>
+    
+      <item>
+        <title>Hallitus esittäytyy</title>
+        <description>&lt;p&gt;Vuoden 2017 Automaatio- ja systeemitekniikan hallitusta grillattiin seuraavin kysymyksin:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Esittele itsesi yhdellä lauseella&lt;/li&gt;
+  &lt;li&gt;Mitä sinulla on päällä&lt;/li&gt;
+  &lt;li&gt;Mieluisin ohjelmointikieli&lt;/li&gt;
+  &lt;li&gt;Jallu vai punssi?&lt;/li&gt;
+  &lt;li&gt;Mikä on ensi vuonna pääprioriteettisi&lt;/li&gt;
+  &lt;li&gt;Montako opintopistettä aiot suorittaa ensi vuonna&lt;/li&gt;
+  &lt;li&gt;Kuinka monta vuosijuhlalahjaa aiot ensi vuonna rakentaa&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;titta-saari&quot;&gt;Titta Saari&lt;/h3&gt;
+&lt;h4 id=&quot;puheenjohtaja&quot;&gt;Puheenjohtaja&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Haluuttekste niinku tota jotain järkevää?&lt;/li&gt;
+  &lt;li&gt;Juoksutrikoot, pitkä neule, villasukat, toppatakki&lt;/li&gt;
+  &lt;li&gt;*miettii pitkään* Python&lt;/li&gt;
+  &lt;li&gt;Punssi&lt;/li&gt;
+  &lt;li&gt;Pitää kilta hyvinvoivana&lt;/li&gt;
+  &lt;li&gt;50&lt;/li&gt;
+  &lt;li&gt;ööö, n+1, jossa n on vuosijuhlaosallistumisieni määrä&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;veikka-kähkönen&quot;&gt;Veikka Kähkönen&lt;/h3&gt;
+&lt;h4 id=&quot;sihteeri&quot;&gt;Sihteeri&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;*Hakee kaljan* En osaa ajatella&lt;/li&gt;
+  &lt;li&gt;stringit, semmoset punaset&lt;/li&gt;
+  &lt;li&gt;C++&lt;/li&gt;
+  &lt;li&gt;Jallu&lt;/li&gt;
+  &lt;li&gt;mmmm, selviytyä kaikesta siitä dokaamisesta hengissä&lt;/li&gt;
+  &lt;li&gt;ööö, luku- vai kalenterivuonna? 45&lt;/li&gt;
+  &lt;li&gt;ainakin 4&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;ilkka-malassu&quot;&gt;Ilkka Malassu&lt;/h3&gt;
+&lt;h4 id=&quot;rahastonhoitaja&quot;&gt;Rahastonhoitaja&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Olen otamuusikko Ilkka, vuoden 2017 rahastonhoitaja, mutta ensisijaisesti vapaa ihminen.&lt;/li&gt;
+  &lt;li&gt;Tällä hetkellä alusvaatteet&lt;/li&gt;
+  &lt;li&gt;C++&lt;/li&gt;
+  &lt;li&gt;Jallu&lt;/li&gt;
+  &lt;li&gt;Olla upottamatta killan taloutta&lt;/li&gt;
+  &lt;li&gt;Ei pidä odottaa että aikomukset vastaavat todellisuutta, mutta toivotaan että Kela pysyy tyytyväisenä&lt;/li&gt;
+  &lt;li&gt;Riippuu inspiraation ja innovaatioherkkyyden määrästä&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;noora-salminen&quot;&gt;Noora Salminen&lt;/h3&gt;
+&lt;h4 id=&quot;phuksikapteeni&quot;&gt;Phuksikapteeni&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Moikkamoi oon norsu :new_moon_with_face:&lt;/li&gt;
+  &lt;li&gt;iha mitä sä haluut et mul on :smirk: joo siis mul o pieruverkkarit ja teepaita&lt;/li&gt;
+  &lt;li&gt;Kysytsä tätä tosissaan multa halp xD&lt;/li&gt;
+  &lt;li&gt;Tähä o pakko vissii sanoo jallu tai menee kasvot.&lt;/li&gt;
+  &lt;li&gt;nauttii joka hetkestä.&lt;/li&gt;
+  &lt;li&gt;Enemmän ku tänä vuonna.&lt;/li&gt;
+  &lt;li&gt;en tiä rakentamisesta mutta useita aattelin kyllä antaa.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;sanna-halmkrona&quot;&gt;Sanna Halmkrona&lt;/h3&gt;
+&lt;h4 id=&quot;isäntä&quot;&gt;Isäntä&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Heimoi, oon Sanna, killan isäntä 2017.&lt;/li&gt;
+  &lt;li&gt;Tällä hetkellä on päällä perus kulahtaneet lomavaatteet.&lt;/li&gt;
+  &lt;li&gt;Python:new_moon_with_face:&lt;/li&gt;
+  &lt;li&gt;Jallu (mieluiten kyllä Gambe)&lt;/li&gt;
+  &lt;li&gt;Järjestää onnistuneita tapahtumia kiltalaisille&lt;/li&gt;
+  &lt;li&gt;Tarpeeksi Kelalle olis super nice&lt;/li&gt;
+  &lt;li&gt;Muutaman, ellen sitten innostu tosissaan vujuilemaan jolloin enemmänkin&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;taru-virtanen&quot;&gt;Taru Virtanen&lt;/h3&gt;
+&lt;h4 id=&quot;emäntä&quot;&gt;Emäntä&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Moi olen taru. Olen tämän vuoden emäntä. Tykkään kissoista&lt;/li&gt;
+  &lt;li&gt;Leopardi yöpuku&lt;/li&gt;
+  &lt;li&gt;C++&lt;/li&gt;
+  &lt;li&gt;Jallu&lt;/li&gt;
+  &lt;li&gt;Järjestää hauskoja tapahtumia&lt;/li&gt;
+  &lt;li&gt;Toivotaan 45&lt;/li&gt;
+  &lt;li&gt;3-4&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;severi-casserly&quot;&gt;Severi Casserly&lt;/h3&gt;
+&lt;h4 id=&quot;yrityssuhdemestari&quot;&gt;Yrityssuhdemestari&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Hei, olen Severi&lt;/li&gt;
+  &lt;li&gt;On onneksi katto pään päällä.&lt;/li&gt;
+  &lt;li&gt;Scala varmaan, mutta C-kurssista nautin aika paljon.&lt;/li&gt;
+  &lt;li&gt;Olen siirtynyt vuoden aikana jallun puolelle.&lt;/li&gt;
+  &lt;li&gt;Killalle pitäisi kai saada rahaa jostain. Ja sit olis joku rrrRankkakin.&lt;/li&gt;
+  &lt;li&gt;45 niin olisin hyvin tyytyväinen.&lt;/li&gt;
+  &lt;li&gt;Jos aikaa on teen niitä miellelläni. Sanotaan ainakin kaksi.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;antti-mella&quot;&gt;Antti Mella&lt;/h3&gt;
+&lt;h4 id=&quot;kulttuurimestari&quot;&gt;Kulttuurimestari&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Olen Antti Mellansuu.&lt;/li&gt;
+  &lt;li&gt;Farmarihousut ja t-paita&lt;/li&gt;
+  &lt;li&gt;HTML&lt;/li&gt;
+  &lt;li&gt;Jallu&lt;/li&gt;
+  &lt;li&gt;Ulkomaisten ulkosuhteiden elvytys eli en tiedä&lt;/li&gt;
+  &lt;li&gt;Varmaan sellanen &amp;gt;70&lt;/li&gt;
+  &lt;li&gt;13&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;santeri-salmijärvi&quot;&gt;Santeri Salmijärvi&lt;/h3&gt;
+&lt;h4 id=&quot;opintomestari&quot;&gt;Opintomestari&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Kolmannen vuoden aasi, automaatio pääaineena&lt;/li&gt;
+  &lt;li&gt;Kollarit ja rrrRankkapaita&lt;/li&gt;
+  &lt;li&gt;C++&lt;/li&gt;
+  &lt;li&gt;Jallu&lt;/li&gt;
+  &lt;li&gt;Opiskelijoiden puolten pitäminen lafkan toimikunnissa&lt;/li&gt;
+  &lt;li&gt;58&lt;/li&gt;
+  &lt;li&gt;n&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;karolina-itäinen&quot;&gt;Karolina Itäinen&lt;/h3&gt;
+&lt;h4 id=&quot;viestintämestari&quot;&gt;Viestintämestari&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Moi, olen Karolina, tupsuphuksiaasi!&lt;/li&gt;
+  &lt;li&gt;Yöpaita.&lt;/li&gt;
+  &lt;li&gt;Python&lt;/li&gt;
+  &lt;li&gt;Punssi on hyvää&lt;/li&gt;
+  &lt;li&gt;Jännä kysymys. Palaan asiaan ensi vuonna.&lt;/li&gt;
+  &lt;li&gt;Sopivasti :D&lt;/li&gt;
+  &lt;li&gt;Mahdollisimman monta:new_moon_with_face:&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sat, 31 Dec 2016 23:39:46 +0200</pubDate>
+        <link>http://gt.as.fi/beta/haastattelu/2016/12/31/hellitus-esittaytyy.html</link>
+        <guid isPermaLink="true">http://gt.as.fi/beta/haastattelu/2016/12/31/hellitus-esittaytyy.html</guid>
+        
+        
+        <category>haastattelu</category>
+        
+      </item>
+    
+  </channel>
+</rss>
