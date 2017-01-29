@@ -448,14 +448,14 @@ body {
   @media all and (min-width: 480px) {
     .post-content {
       float: left;
-      width: 65%; } }
+      width: 68%; } }
 
 .post__ingress {
   font-size: 1.15em;
   font-family: "Noto Serif", serif; }
   @media all and (min-width: 992px) {
     .post__ingress {
-      width: 80%; } }
+      width: 95%; } }
 
 .post__category {
   color: #b31aff;
@@ -478,7 +478,8 @@ h4 a:visited {
 @media all and (min-width: 480px) {
   .sidebar {
     float: right;
-    width: 25%; } }
+    width: 25%;
+    padding-top: 15px; } }
 
 /**
  * Syntax highlighting styles

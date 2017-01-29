@@ -12,15 +12,15 @@ layout: default
     {% if page.ingress %}
     <p class="post__ingress">{{ page.ingress }}</p>
     {% endif %}
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
     {% if page.image %}
     <figure>
       <img class="post__image" src="{{ page.image | prepend: site.baseurl }}">
       <figcaption>{{ page.caption }}</figcaption>
     </figure>
     {% endif %}
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
 
