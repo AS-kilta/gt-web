@@ -1,0 +1,130 @@
+---
+layout: post
+title:  "Hallitus esittäytyy"
+date:   2016-12-31 23:39:46 +0200
+categories: haastattelu
+author: Aku Viitanen
+ingress:  GT päätti ottaa selvää killan tämän vuoden ruorinkääntäjistä.
+---
+
+Vuoden 2017 Automaatio- ja systeemitekniikan hallitusta grillattiin seuraavin kysymyksin:
+
+1. Esittele itsesi yhdellä lauseella
+2. Mitä sinulla on päällä
+3. Mieluisin ohjelmointikieli
+4. Jallu vai punssi?
+5. Mikä on ensi vuonna pääprioriteettisi
+6. Montako opintopistettä aiot suorittaa ensi vuonna
+7. Kuinka monta vuosijuhlalahjaa aiot ensi vuonna rakentaa
+
+### Titta Saari
+#### Puheenjohtaja
+
+1. Haluuttekste niinku tota jotain järkevää?
+2. Juoksutrikoot, pitkä neule, villasukat, toppatakki
+3. \*miettii pitkään* Python
+4. Punssi
+5. Pitää kilta hyvinvoivana
+6. 50
+7. ööö, n+1, jossa n on vuosijuhlaosallistumisieni määrä
+
+### Veikka Kähkönen
+#### Sihteeri
+
+1. \*Hakee kaljan* En osaa ajatella
+2. stringit, semmoset punaset
+3. C++
+4. Jallu
+5. mmmm, selviytyä kaikesta siitä dokaamisesta hengissä
+6. ööö, luku- vai kalenterivuonna? 45
+7. ainakin 4
+
+### Ilkka Malassu
+#### Rahastonhoitaja
+
+1. Olen otamuusikko Ilkka, vuoden 2017 rahastonhoitaja, mutta ensisijaisesti vapaa ihminen.
+2. Tällä hetkellä alusvaatteet
+3. C++
+4. Jallu
+5. Olla upottamatta killan taloutta
+6. Ei pidä odottaa että aikomukset vastaavat todellisuutta, mutta toivotaan että Kela pysyy tyytyväisenä
+7. Riippuu inspiraation ja innovaatioherkkyyden määrästä
+
+
+
+### Noora Salminen
+#### Phuksikapteeni
+
+1. Moikkamoi oon norsu :new\_moon\_with_face:
+2. iha mitä sä haluut et mul on :smirk: joo siis mul o pieruverkkarit ja teepaita
+3. Kysytsä tätä tosissaan multa halp xD
+4. Tähä o pakko vissii sanoo jallu tai menee kasvot.
+5. nauttii joka hetkestä.
+6. Enemmän ku tänä vuonna.
+7. en tiä rakentamisesta mutta useita aattelin kyllä antaa.
+
+### Sanna Halmkrona
+#### Isäntä
+
+1. Heimoi, oon Sanna, killan isäntä 2017.
+2. Tällä hetkellä on päällä perus kulahtaneet lomavaatteet.
+3. Python:new\_moon\_with_face:
+4. Jallu (mieluiten kyllä Gambe)
+5. Järjestää onnistuneita tapahtumia kiltalaisille
+6. Tarpeeksi Kelalle olis super nice
+7. Muutaman, ellen sitten innostu tosissaan vujuilemaan jolloin enemmänkin
+
+### Taru Virtanen
+#### Emäntä
+
+1. Moi olen taru. Olen tämän vuoden emäntä. Tykkään kissoista
+2. Leopardi yöpuku
+3. C++
+4. Jallu
+5. Järjestää hauskoja tapahtumia
+6. Toivotaan 45
+7. 3-4
+
+### Severi Casserly
+#### Yrityssuhdemestari
+
+1. Hei, olen Severi
+2. On onneksi katto pään päällä.
+3. Scala varmaan, mutta C-kurssista nautin aika paljon.
+4. Olen siirtynyt vuoden aikana jallun puolelle.
+5. Killalle pitäisi kai saada rahaa jostain. Ja sit olis joku rrrRankkakin.
+6. 45 niin olisin hyvin tyytyväinen.
+7. Jos aikaa on teen niitä miellelläni. Sanotaan ainakin kaksi.
+
+### Antti Mella
+#### Kulttuurimestari
+
+1. Olen Antti Mellansuu.
+2. Farmarihousut ja t-paita
+3. HTML
+4. Jallu
+5. Ulkomaisten ulkosuhteiden elvytys eli en tiedä
+6. Varmaan sellanen >70
+7. 13
+
+### Santeri Salmijärvi
+#### Opintomestari
+
+1. Kolmannen vuoden aasi, automaatio pääaineena
+2. Kollarit ja rrrRankkapaita
+3. C++
+4. Jallu
+5. Opiskelijoiden puolten pitäminen lafkan toimikunnissa
+6. 58
+7. n
+
+### Karolina Itäinen
+#### Viestintämestari
+
+1. Moi, olen Karolina, tupsuphuksiaasi!
+2. Yöpaita.
+3. Python
+4. Punssi on hyvää
+5. Jännä kysymys. Palaan asiaan ensi vuonna.
+6. Sopivasti :D
+7. Mahdollisimman monta:new\_moon\_with_face:
