@@ -65,8 +65,10 @@ body {
 
 .post-content {
   font-family: $font-serif;
-  float: left;
-  width: 65%;
+  @include breakpoint(mobile) {
+    float: left;
+    width: 65%;
+  }
 }
 
 .post__ingress {
@@ -99,6 +101,8 @@ h4 a {
 }
 
 .sidebar {
-  float: right;
-  width: 25%;
+  @include breakpoint(mobile) {
+    float: right;
+    width: 25%;
+  }
 }

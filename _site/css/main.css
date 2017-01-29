@@ -444,9 +444,11 @@ body {
   margin: auto; }
 
 .post-content {
-  font-family: "Noto Serif", serif;
-  float: left;
-  width: 65%; }
+  font-family: "Noto Serif", serif; }
+  @media all and (min-width: 480px) {
+    .post-content {
+      float: left;
+      width: 65%; } }
 
 .post__ingress {
   font-size: 1.15em;
@@ -473,9 +475,10 @@ h4 a,
 h4 a:visited {
   color: #111; }
 
-.sidebar {
-  float: right;
-  width: 25%; }
+@media all and (min-width: 480px) {
+  .sidebar {
+    float: right;
+    width: 25%; } }
 
 /**
  * Syntax highlighting styles
