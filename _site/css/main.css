@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif|Fjalla+One");
 .auto-content {
   position: relative;
   width: 100%;
@@ -176,7 +176,7 @@ a {
  */
 blockquote {
   color: #828282;
-  border-left: 4px solid #f2f2f2;
+  border-left: 4px solid #f0f0f0;
   padding-left: 15px;
   font-size: 18px;
   letter-spacing: -1px;
@@ -190,7 +190,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid #f2f2f2;
+  border: 1px solid #f0f0f0;
   border-radius: 3px;
   background-color: #eef; }
 
@@ -239,10 +239,10 @@ pre {
   font-size: 26px;
   font-weight: 300;
   line-height: 56px;
-  letter-spacing: -1px;
-  margin-bottom: 0; }
-  .site-title, .site-title:visited {
-    color: #424242; }
+  margin: 0; }
+  .site-title, .site-title:visited, .site-title:hover {
+    color: #111;
+    text-decoration: none; }
 
 .site-nav {
   line-height: 56px; }
@@ -259,7 +259,7 @@ pre {
       top: 9px;
       right: 15px;
       background-color: #fdfdfd;
-      border: 1px solid #f2f2f2;
+      border: 1px solid #f0f0f0;
       border-radius: 5px;
       text-align: right; }
       .site-nav .menu-icon {
@@ -292,7 +292,7 @@ pre {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #f2f2f2;
+  border-top: 1px solid #f0f0f0;
   padding: 30px 0; }
 
 .footer-heading {
@@ -397,7 +397,7 @@ pre {
 
 body {
   font-family: "Noto Sans", sans-serif;
-  background-color: #f2f2f2; }
+  background-color: #f0f0f0; }
 
 .teaser {
   margin: 15px 0;
@@ -412,24 +412,42 @@ body {
     display: inline-block;
     padding: 15px; }
 
-.site-header .wrapper {
+.header__title {
   background-color: #fff; }
 
 .site-footer {
   background: #424242;
   border-top: 5px solid #b31aff;
+  padding: 30px;
   color: #fdfdfd; }
   .site-footer .footer-col {
     color: #fdfdfd; }
+  .site-footer h2 {
+    font-family: 'Fjalla One';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.3em; }
 
 .header__navigation {
+  border-top: 3px solid #b31aff;
+  margin-top: 7.5px;
+  overflow: hidden;
   text-align: center; }
   .header__navigation ul {
-    margin: 15px 0; }
+    overflow: hidden;
+    background: #fff;
+    margin: 0;
+    padding: 15px 0; }
   .header__navigation .navigation__item {
-    display: inline;
-    padding: 20px;
+    display: inline-block;
+    padding: 0 20px;
     font-size: 1.2em; }
+    @media all and (min-width: 768px) {
+      .header__navigation .navigation__item {
+        padding: 0;
+        display: block;
+        float: left;
+        width: 20%; } }
   .header__navigation a, .header__navigation a:visited, .header__navigation a:hover {
     color: #111; }
 
@@ -437,7 +455,15 @@ body {
   padding-top: 30px;
   padding-bottom: 30px; }
   .header__title h1 {
+    margin: 0 auto;
+    max-width: 200px;
     text-align: center; }
+
+.site-title {
+  font-family: 'Fjalla One';
+  letter-spacing: 1px;
+  font-size: 1.5em;
+  text-transform: uppercase; }
 
 .header__logo {
   display: block;
@@ -445,10 +471,6 @@ body {
 
 .post-content {
   font-family: "Noto Serif", serif; }
-  @media all and (min-width: 480px) {
-    .post-content {
-      float: left;
-      width: 68%; } }
 
 .post__ingress {
   font-size: 1.15em;
@@ -479,10 +501,25 @@ h4 a:visited {
   color: #111; }
 
 @media all and (min-width: 480px) {
+  .section-main {
+    float: left;
+    width: 68%; }
+    .section-main.article-list {
+      width: 73%; } }
+
+@media all and (min-width: 480px) {
   .sidebar {
     float: right;
     width: 25%;
     padding-top: 15px; } }
+
+.teaser--magazine {
+  margin: 0;
+  padding: 10px 20px; }
+
+.magazine__number {
+  text-align: center;
+  margin: 5px; }
 
 /**
  * Syntax highlighting styles

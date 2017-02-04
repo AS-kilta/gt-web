@@ -20,29 +20,46 @@ body {
   }
 }
 
-.site-header {
-  .wrapper {
-    background-color: $white-color;
-  }
+.header__title {
+  background-color: $white-color;
 }
 
 .site-footer {
   background: $grey-color-dark;
   border-top: 5px solid $brand-color;
+  padding: $spacing-unit;
   color: $background-color;
   .footer-col {
     color: $background-color;
   }
+  h2 {
+    font-family: 'Fjalla One';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.3em;
+  }
 }
 
 .header__navigation {
+  border-top: 3px solid $brand-color;
+  margin-top: $spacing-unit / 4;
+  overflow: hidden;
   ul {
-    margin: $spacing-unit /2 0;
+    overflow: hidden;
+    background: $white-color;
+    margin: 0;
+    padding: $spacing-unit /2 0;
   }
   text-align: center;
   .navigation__item {
-    display: inline;
-    padding: 20px;
+    display: inline-block;
+    padding: 0 20px;
+    @include breakpoint(tablet) {
+      padding: 0;
+      display: block;
+      float: left;
+      width: 20%;
+    }
     font-size: 1.2em;
   }
   a, a:visited, a:hover {
@@ -54,8 +71,20 @@ body {
     padding-top: $spacing-unit;
     padding-bottom: $spacing-unit;
     h1 {
+        margin: 0 auto;
+        max-width: 200px;
         text-align: center;
+        //border-bottom: 1px solid;
+        //border-top: 1px solid;
+
     }
+}
+
+.site-title {
+    font-family: 'Fjalla One';
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    text-transform: uppercase;
 }
 
 .header__logo {
@@ -65,10 +94,6 @@ body {
 
 .post-content {
   font-family: $font-serif;
-  @include breakpoint(mobile) {
-    float: left;
-    width: 68%;
-  }
 }
 
 .post__ingress {
@@ -103,10 +128,30 @@ h4 a {
   }
 }
 
+.section-main {
+    @include breakpoint(mobile) {
+    float: left;
+    width: 68%;
+    &.article-list {
+      width: 73%;
+    }
+  }
+}
+
 .sidebar {
   @include breakpoint(mobile) {
     float: right;
     width: 25%;
     padding-top: $spacing-unit / 2;
   }
+}
+
+.teaser--magazine {
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.magazine__number {
+  text-align: center;
+  margin: 5px;
 }

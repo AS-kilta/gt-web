@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
 
-  <div class="main__article-list article-list">
+  <div class="main__article-list article-list section-main">
     {% for post in site.posts %}
       <article class="article-list__teaser teaser">
         {% if post.image %}
@@ -18,6 +18,9 @@ layout: default
         </div>
       </article>
     {% endfor %}
+  </div>
+  <div class="sidebar">
+    {% include magazine.html %}
   </div>
 
 </div>
