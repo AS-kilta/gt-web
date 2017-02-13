@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/beta/</link>
     <atom:link href="http://localhost:4000/beta/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Feb 2017 20:44:27 +0200</pubDate>
-    <lastBuildDate>Mon, 13 Feb 2017 20:44:27 +0200</lastBuildDate>
+    <pubDate>Mon, 13 Feb 2017 21:38:16 +0200</pubDate>
+    <lastBuildDate>Mon, 13 Feb 2017 21:38:16 +0200</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
@@ -26,6 +26,45 @@
         
         
         <category>pääkirjoitus</category>
+        
+      </item>
+    
+      <item>
+        <title>Kuukauden nelikenttä: uudenvuodenlupakset</title>
+        <description>&lt;div class=&quot;fourfold clearfix&quot;&gt;
+    &lt;div class=&quot;fourfold__row&quot;&gt;
+        &lt;div class=&quot;fourfold__cell&quot;&gt;Hyödyllinen&lt;/div&gt;
+        &lt;div class=&quot;fourfold__cell&quot;&gt;1) Kommunikoi vain nelikenttien välityksellä&lt;/div&gt;
+        &lt;div class=&quot;fourfold__cell&quot;&gt;2) Valmistu&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;fourfold__row&quot;&gt;
+        &lt;div class=&quot;fourfold__cell&quot;&gt;Hyödytön&lt;/div&gt;
+        &lt;div class=&quot;fourfold__cell&quot;&gt;3) Ryhdy olutharrastajaksi&lt;/div&gt;
+        &lt;div class=&quot;fourfold__cell&quot;&gt;4) Asenna Linux from Scratch&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;fourfold__row&quot;&gt;
+        &lt;div class=&quot;fourfold__cell&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;fourfold__cell&quot;&gt;Helppo toteuttaa&lt;/div&gt;
+        &lt;div class=&quot;fourfold__cell&quot;&gt;Vaikea toteuttaa&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;1) Tämä lupaus tuo sinulle valtavan määrän uskottavuutta työyhteisössäsi. Voi aiheuttaa sivuvaikutuksena työllistymistä kansainväliseen strategiakonsultointiyritykseen.&lt;/p&gt;
+
+&lt;p&gt;2) Tämä työläs, mutta palkitseva lupaus soveltuu sinulle, mikäli olet a) kandidaattiopiskelija b) maisteriopiskelija tai c) Länsimetro.&lt;/p&gt;
+
+&lt;p&gt;3) Tämä lupaus vaatii lähinnä suosikkimallastuotteiden vaihdon sellaisiin, joiden etiketissä on siisti nimi ja/tai logo. Vai voisiko pelkkää Pirkka-lageria harrastaa?&lt;/p&gt;
+
+&lt;p&gt;4) Tämä lupaus tulee vähentämään uskoasi tekniikkaa kohtaan ja lisää luottopizzeriasi liikevaihtoa&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Jan 2017 12:00:01 +0200</pubDate>
+        <link>http://localhost:4000/beta/nelikentt%C3%A4/2017/01/01/kuukauden-nelikentta.html</link>
+        <guid isPermaLink="true">http://localhost:4000/beta/nelikentt%C3%A4/2017/01/01/kuukauden-nelikentta.html</guid>
+        
+        
+        <category>Nelikenttä</category>
         
       </item>
     
