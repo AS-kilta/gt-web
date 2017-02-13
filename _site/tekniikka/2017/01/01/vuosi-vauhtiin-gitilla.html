@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Vuosi vauhtiin Gitillä</title>
+  <meta name="description" content="Linus Torvalds kehitti Gitin korvaamaan BitKeeperinkäytön Linux-kernelin kehityksessä joskus 2005. Nykyisellään Gitiä kehittää jaylläpitää kasa muitakin ihmi...">
+
+  <link rel="stylesheet" href="/beta/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/beta/tekniikka/2017/01/01/vuosi-vauhtiin-gitilla.html">
+  <link rel="alternate" type="application/rss+xml" title="Kultainen Tomaatti" href="http://localhost:4000/beta/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <div class="header__title">
+      <h1>
+        <a class="site-title" href="/beta/">Kultainen Tomaatti</a>
+      </h1>
+    </div>
+    <nav class="navigation header__navigation">
+      <ul>
+        <li class="navigation__item"><a href="/beta/">Artikkelit</a></li>
+        <li class="navigation__item"><a href="/beta/lehti'">Uusin lehti</a></li>
+        <li class="navigation__item"><a href="http://as.fi/~gt/pdf/">Arkisto</a></li>
+        <li class="navigation__item"><a href="/beta/toimitus">Toimitus</a></li>
+        <li class="navigation__item"><a href="/beta/tilaa">Tilaa</a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <p class="post__category">Tekniikka</p>
+    <h1 class="post-title" itemprop="name headline">Vuosi vauhtiin Gitillä</h1>
+    <div class="post-meta">
+      <p><time datetime="2017-01-01T12:00:00+02:00" itemprop="datePublished"> 1.01. 12.00</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Konsta Hölttä</span></span><p>
+    </div>
+    
+    <p class="post__ingress">Git on toinen yleisimmin käytetyistä ja tunnetuimmista järkevistä avoimen lähdekoodin versionhallintajärjestelmistä; jotkut vääräuskoiset tykkäävät käyttää Mercurialia.</p>
+    
+  </header>
+
+  <div class="post-content section-main" itemprop="articleBody">
+    
+    <p>Linus Torvalds kehitti Gitin korvaamaan BitKeeperin
+käytön Linux-kernelin kehityksessä joskus 2005. Nykyisellään Gitiä kehittää ja
+ylläpitää kasa muitakin ihmisiä. Käyttäjiä sillä on <code class="highlighter-rouge">SIMOSTI()</code>, ja jollet kuulu
+joukkoon niin ei hätää - voit kääntää uuden sivun elämässäsi nyt
+vuodenvaihteen kunniaksi! Tässä lyhykäinen potkustartti peruskäyttöön; jatkoa
+seuraa myöhemmissä numeroissa. Gittiin kannattaa tuupata kaikki projektit,
+joiden parissa puuhailu kestää pidempään kuin yhden illan.</p>
+
+<p>Gitiä käytetään tiedostojen säilömiseen ja niiden muutos- eli versiohistorian
+hallintaan. Kerralla säilöttyä dataa yhden hakemiston alla kutsutaan
+repositoryksi tai repoksi. Joistain muista systeemeistä poiketen Git versioi
+koko repon kaikkien tiedostojen tilan kerralla, eli eri tiedostoista ei ole
+yksitellen erillisiä versioita. Jokaisesta tilasta lasketaan sen yksilöivä
+sha1-tiiviste (hash), eikä “versionumero” tarkoita mitään, sillä historia ei
+välttämättä ole täysin lineaarinen vaan itseasiassa graafi. Git on nimensä
+mukaisesti “tyhmä”, mikä tavallaan tarkoittaa, että se sisimmässään tietää
+hyvin vähän datan formaatista ja käsittelee kaiken binääridiffeinä. Tästä
+syystä se soveltuukin ihan hyvin suunnilleen kaikkeen, havaitsee
+heuristiikoilla mm. tiedoston siirtämisen (uudelleennimeämisen) ja sallii
+kaikenlaiset ulkoiset lisätyökalut.</p>
+
+<p>Git toimii hajautetusti (distributed), mikä on erityisesti lähdekoodin ja
+vastaavan mössön hallintaan rutkasti järkevämpää kuin keskitetty (centralized)
+vaihtoehto. Tämä tarkoittaa sitä, että järjestelmällä on koko historia
+paikallisesti saatavilla, eikä esim. tiedostojen muutoslokin tarkastelemiseksi
+tarvitse ottaa yhteyttä mihinkään keskusserveriin. Tätä ei kannata kuitenkaan
+sekoittaa siihen, että Gitin kanssakin toimii hyvin keskitetty devausmalli,
+jossa kaikki devaajat kommunikoivat esim. Githubin kautta. Se vain ei ole
+välttämätöntä. Kullakin saman repon käyttäjällä on oma historiatietokantansa,
+jossa jokaisella voi olla toisille vielä julkaisemattomia muutoksia.</p>
+
+<p>Gitin kaikki toiminnot pyörivät vahvasti sen sisäisen tietomallin ympärillä.
+Git on mainio hakkerityökalu viitseliäille macgyvereille, mutta sen varmaan
+suurin haittapuoli on juurikin se, että itse työkalu olettaa käyttäjän
+tietävän melko tarkkaan, miten se sisäisesti toimii. Siispä on hyvä tietää
+perusteet sekä komentorivihommista haluttuihin toimintoihin että siitä, mitä
+nämä toiminnot ovat Gitin mielestä. Git säilöö historian sisäisesti
+tietorakenteena, joka yleisesti tunnetaan DAGina (directed acyclic graph).
+Commitit ovat solmuja verkossa, ja se siitä. Joillakin solmuilla on erityinen
+nimi: haara (branch). Uudet commitit tehdään yleensä johonkin haaraan, jolloin
+haaran nimilappu etenee juuri commitattuun solmuun.</p>
+
+<p>Tässä komentorivityökaluja joilla pääsee alkuun, joista kaikille on toki vielä
+N parametria, googlaa toki lisää tai yritä tajuta manpageja (haha):</p>
+
+<ul>
+  <li>git init - kerro gitille, että haluaisit träkätä nykyistä hakemistoa</li>
+  <li>git status - tarkastele repon nykytilaa</li>
+  <li>git diff - vertaile hakemiston tilaa committien (tai nykytilan) välillä</li>
+  <li>git add - lisää muuttuneita tiedostoja commitattavaksi (-p on paras juttu)</li>
+  <li>git commit - lisää verkkoon uusi solmu hiljattain addatuista muutoksista</li>
+  <li>git log - tarkastele muutoshistoriaa</li>
+  <li>git rebase - muokkaa historiaa (-i on paras juttu)</li>
+  <li>git branch - muokkaa olemassaolevia haaranimiä</li>
+  <li>git checkout - siirry työskenneltävästä haarasta tai commitista toiseen</li>
+  <li>git merge - yhdistä kaksi haaraa eli lisää verkkoon uusi solmu, jolla on
+kaksi parent-solmua; näin liitetään rinnakkain tehdyt työt yhteen</li>
+  <li>git cherry-pick - kopioi commitin muutos jostain muualta ja länttää se
+nykytilan päälle, yleensä toiseen branchiin kuin alkuperäinen</li>
+</ul>
+
+<p>Lopuksi vielä käteviä aliaksia konffeihin helpottamaan elämää:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.df diff
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.sh show
+git config --global alias.cp cherry-pick
+git config --global alias.lol ‘log --graph --decorate --pretty=oneline
+                                  --abbrev-commit --all’
+git config --global pull.rebase true
+git config --global core.editor vim
+</code></pre>
+</div>
+
+<p><br /></p>
+
+<p>Jatkolukemista innokkaille:</p>
+
+<p><a href="">http://xkcd.com/1296/</a></p>
+
+<p><a href="">https://git-man-page-generator.lokaltog.net/</a></p>
+
+<p><a href="">http://git-animals.tumblr.com/</a></p>
+
+<p><a href="">http://wheningit-blog.tumblr.com/</a></p>
+
+<p><a href="">https://www.linux.fi/wiki/Git</a></p>
+
+<p><a href="">http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html</a></p>
+
+<p><a href="">http://chris.beams.io/posts/git-commit/</a></p>
+
+<p><a href="">http://eagain.net/articles/git-for-computer-scientists/</a></p>
+
+<p><a href="">https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control</a></p>
+
+<p><a href="">https://git-scm.com/documentation</a></p>
+
+<p><a href="">http://gitready.com/</a></p>
+
+<p><a href="">http://gitolite.com/gitk.html</a></p>
+
+<p><a href="">https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/</a></p>
+
+<p><a href="">https://github.com/tpope/vim-fugitive</a></p>
+
+  </div>
+
+  <aside class="sidebar post__sidebar">
+    <div class="post__sidebar--inner">
+  <h3>Uusimmat</h3>
+  
+    <div class="sidebar__teaser">
+      <span class="post-meta"><span class="post__category">pääkirjoitus</span>15.01. 23.39</span>
+      <h4><a href="/beta/p%C3%A4%C3%A4kirjoitus/2017/01/15/lorem-ipsum.html">Lorem ipsum dolor sit amet</a></h4>
+    </div>
+  
+    <div class="sidebar__teaser">
+      <span class="post-meta"><span class="post__category">Horoskooppi</span> 1.01. 12.00</span>
+      <h4><a href="/beta/horoskooppi/2017/01/01/vuosihoroskooppi.html">Vuosihoroskooppi 2017</a></h4>
+    </div>
+  
+    <div class="sidebar__teaser">
+      <span class="post-meta"><span class="post__category">Tekniikka</span> 1.01. 12.00</span>
+      <h4><a href="/beta/tekniikka/2017/01/01/vuosi-vauhtiin-gitilla.html">Vuosi vauhtiin Gitillä</a></h4>
+    </div>
+  
+    <div class="sidebar__teaser">
+      <span class="post-meta"><span class="post__category">Tekniikka</span>31.12. 23.39</span>
+      <h4><a href="/beta/tekniikka/2016/12/31/vuosi-vauhtiin-vimilla.html">Vuosi vauhtiin Vimillä</a></h4>
+    </div>
+  
+    <div class="sidebar__teaser">
+      <span class="post-meta"><span class="post__category">AYYH</span>31.12. 23.39</span>
+      <h4><a href="/beta/ayyh/2016/12/31/tarinoita-ketolta.html">Tarinoita ketolta</a></h4>
+    </div>
+  
+    <div class="sidebar__teaser">
+      <span class="post-meta"><span class="post__category">pääkirjoitus</span>31.12. 23.39</span>
+      <h4><a href="/beta/p%C3%A4%C3%A4kirjoitus/2016/12/31/guld-igen.html">Guld igen</a></h4>
+    </div>
+  
+    <div class="sidebar__teaser">
+      <span class="post-meta"><span class="post__category">haastattelu</span>31.12. 23.39</span>
+      <h4><a href="/beta/haastattelu/2016/12/31/hellitus-esittaytyy.html">Hallitus esittäytyy</a></h4>
+    </div>
+  
+</div>
+
+  </aside>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Kultainen Tomaatti</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Kultainen Tomaatti</li>
+          <li><a href="mailto:gt@as.fi">gt@as.fi</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Kultainen Tomaatti (GT) on Aalto-yliopiston Automaatio- ja systeemitekniikan killan kiltalehti.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

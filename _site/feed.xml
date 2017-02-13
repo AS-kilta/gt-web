@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/beta/</link>
     <atom:link href="http://localhost:4000/beta/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Feb 2017 14:44:08 +0200</pubDate>
-    <lastBuildDate>Sat, 04 Feb 2017 14:44:08 +0200</lastBuildDate>
+    <pubDate>Mon, 13 Feb 2017 20:44:27 +0200</pubDate>
+    <lastBuildDate>Mon, 13 Feb 2017 20:44:27 +0200</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
@@ -118,6 +118,126 @@
         
         
         <category>Horoskooppi</category>
+        
+      </item>
+    
+      <item>
+        <title>Vuosi vauhtiin Gitillä</title>
+        <description>&lt;p&gt;Linus Torvalds kehitti Gitin korvaamaan BitKeeperin
+käytön Linux-kernelin kehityksessä joskus 2005. Nykyisellään Gitiä kehittää ja
+ylläpitää kasa muitakin ihmisiä. Käyttäjiä sillä on &lt;code class=&quot;highlighter-rouge&quot;&gt;SIMOSTI()&lt;/code&gt;, ja jollet kuulu
+joukkoon niin ei hätää - voit kääntää uuden sivun elämässäsi nyt
+vuodenvaihteen kunniaksi! Tässä lyhykäinen potkustartti peruskäyttöön; jatkoa
+seuraa myöhemmissä numeroissa. Gittiin kannattaa tuupata kaikki projektit,
+joiden parissa puuhailu kestää pidempään kuin yhden illan.&lt;/p&gt;
+
+&lt;p&gt;Gitiä käytetään tiedostojen säilömiseen ja niiden muutos- eli versiohistorian
+hallintaan. Kerralla säilöttyä dataa yhden hakemiston alla kutsutaan
+repositoryksi tai repoksi. Joistain muista systeemeistä poiketen Git versioi
+koko repon kaikkien tiedostojen tilan kerralla, eli eri tiedostoista ei ole
+yksitellen erillisiä versioita. Jokaisesta tilasta lasketaan sen yksilöivä
+sha1-tiiviste (hash), eikä “versionumero” tarkoita mitään, sillä historia ei
+välttämättä ole täysin lineaarinen vaan itseasiassa graafi. Git on nimensä
+mukaisesti “tyhmä”, mikä tavallaan tarkoittaa, että se sisimmässään tietää
+hyvin vähän datan formaatista ja käsittelee kaiken binääridiffeinä. Tästä
+syystä se soveltuukin ihan hyvin suunnilleen kaikkeen, havaitsee
+heuristiikoilla mm. tiedoston siirtämisen (uudelleennimeämisen) ja sallii
+kaikenlaiset ulkoiset lisätyökalut.&lt;/p&gt;
+
+&lt;p&gt;Git toimii hajautetusti (distributed), mikä on erityisesti lähdekoodin ja
+vastaavan mössön hallintaan rutkasti järkevämpää kuin keskitetty (centralized)
+vaihtoehto. Tämä tarkoittaa sitä, että järjestelmällä on koko historia
+paikallisesti saatavilla, eikä esim. tiedostojen muutoslokin tarkastelemiseksi
+tarvitse ottaa yhteyttä mihinkään keskusserveriin. Tätä ei kannata kuitenkaan
+sekoittaa siihen, että Gitin kanssakin toimii hyvin keskitetty devausmalli,
+jossa kaikki devaajat kommunikoivat esim. Githubin kautta. Se vain ei ole
+välttämätöntä. Kullakin saman repon käyttäjällä on oma historiatietokantansa,
+jossa jokaisella voi olla toisille vielä julkaisemattomia muutoksia.&lt;/p&gt;
+
+&lt;p&gt;Gitin kaikki toiminnot pyörivät vahvasti sen sisäisen tietomallin ympärillä.
+Git on mainio hakkerityökalu viitseliäille macgyvereille, mutta sen varmaan
+suurin haittapuoli on juurikin se, että itse työkalu olettaa käyttäjän
+tietävän melko tarkkaan, miten se sisäisesti toimii. Siispä on hyvä tietää
+perusteet sekä komentorivihommista haluttuihin toimintoihin että siitä, mitä
+nämä toiminnot ovat Gitin mielestä. Git säilöö historian sisäisesti
+tietorakenteena, joka yleisesti tunnetaan DAGina (directed acyclic graph).
+Commitit ovat solmuja verkossa, ja se siitä. Joillakin solmuilla on erityinen
+nimi: haara (branch). Uudet commitit tehdään yleensä johonkin haaraan, jolloin
+haaran nimilappu etenee juuri commitattuun solmuun.&lt;/p&gt;
+
+&lt;p&gt;Tässä komentorivityökaluja joilla pääsee alkuun, joista kaikille on toki vielä
+N parametria, googlaa toki lisää tai yritä tajuta manpageja (haha):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;git init - kerro gitille, että haluaisit träkätä nykyistä hakemistoa&lt;/li&gt;
+  &lt;li&gt;git status - tarkastele repon nykytilaa&lt;/li&gt;
+  &lt;li&gt;git diff - vertaile hakemiston tilaa committien (tai nykytilan) välillä&lt;/li&gt;
+  &lt;li&gt;git add - lisää muuttuneita tiedostoja commitattavaksi (-p on paras juttu)&lt;/li&gt;
+  &lt;li&gt;git commit - lisää verkkoon uusi solmu hiljattain addatuista muutoksista&lt;/li&gt;
+  &lt;li&gt;git log - tarkastele muutoshistoriaa&lt;/li&gt;
+  &lt;li&gt;git rebase - muokkaa historiaa (-i on paras juttu)&lt;/li&gt;
+  &lt;li&gt;git branch - muokkaa olemassaolevia haaranimiä&lt;/li&gt;
+  &lt;li&gt;git checkout - siirry työskenneltävästä haarasta tai commitista toiseen&lt;/li&gt;
+  &lt;li&gt;git merge - yhdistä kaksi haaraa eli lisää verkkoon uusi solmu, jolla on
+kaksi parent-solmua; näin liitetään rinnakkain tehdyt työt yhteen&lt;/li&gt;
+  &lt;li&gt;git cherry-pick - kopioi commitin muutos jostain muualta ja länttää se
+nykytilan päälle, yleensä toiseen branchiin kuin alkuperäinen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lopuksi vielä käteviä aliaksia konffeihin helpottamaan elämää:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.df diff
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.sh show
+git config --global alias.cp cherry-pick
+git config --global alias.lol ‘log --graph --decorate --pretty=oneline
+                                  --abbrev-commit --all’
+git config --global pull.rebase true
+git config --global core.editor vim
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Jatkolukemista innokkaille:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;http://xkcd.com/1296/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;https://git-man-page-generator.lokaltog.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;http://git-animals.tumblr.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;http://wheningit-blog.tumblr.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;https://www.linux.fi/wiki/Git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;http://chris.beams.io/posts/git-commit/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;http://eagain.net/articles/git-for-computer-scientists/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;https://git-scm.com/documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;http://gitready.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;http://gitolite.com/gitk.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;https://github.com/tpope/vim-fugitive&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Jan 2017 12:00:00 +0200</pubDate>
+        <link>http://localhost:4000/beta/tekniikka/2017/01/01/vuosi-vauhtiin-gitilla.html</link>
+        <guid isPermaLink="true">http://localhost:4000/beta/tekniikka/2017/01/01/vuosi-vauhtiin-gitilla.html</guid>
+        
+        
+        <category>Tekniikka</category>
         
       </item>
     
