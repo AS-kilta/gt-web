@@ -4,10 +4,10 @@
     <title>Kultainen Tomaatti</title>
     <description>Kultainen Tomaatti (GT) on Aalto-yliopiston Automaatio- ja systeemitekniikan killan kiltalehti.
 </description>
-    <link>http://localhost:4000/beta/</link>
-    <atom:link href="http://localhost:4000/beta/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Feb 2017 21:38:16 +0200</pubDate>
-    <lastBuildDate>Mon, 13 Feb 2017 21:38:16 +0200</lastBuildDate>
+    <link>http://gt.as.fi/beta/</link>
+    <atom:link href="http://gt.as.fi/beta/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 14 Feb 2017 22:11:28 +0200</pubDate>
+    <lastBuildDate>Tue, 14 Feb 2017 22:11:28 +0200</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
@@ -21,8 +21,8 @@
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit culpa, expedita quibusdam. Ut laborum doloribus tempora velit id. Sed asperiores sapiente illum repellat porro necessitatibus vitae nostrum dolore. Ex, quasi.&lt;/p&gt;
 </description>
         <pubDate>Sun, 15 Jan 2017 23:39:46 +0200</pubDate>
-        <link>http://localhost:4000/beta/p%C3%A4%C3%A4kirjoitus/2017/01/15/lorem-ipsum.html</link>
-        <guid isPermaLink="true">http://localhost:4000/beta/p%C3%A4%C3%A4kirjoitus/2017/01/15/lorem-ipsum.html</guid>
+        <link>http://gt.as.fi/beta/p%C3%A4%C3%A4kirjoitus/2017/01/15/lorem-ipsum.html</link>
+        <guid isPermaLink="true">http://gt.as.fi/beta/p%C3%A4%C3%A4kirjoitus/2017/01/15/lorem-ipsum.html</guid>
         
         
         <category>pääkirjoitus</category>
@@ -60,8 +60,8 @@
 &lt;p&gt;4) Tämä lupaus tulee vähentämään uskoasi tekniikkaa kohtaan ja lisää luottopizzeriasi liikevaihtoa&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Jan 2017 12:00:01 +0200</pubDate>
-        <link>http://localhost:4000/beta/nelikentt%C3%A4/2017/01/01/kuukauden-nelikentta.html</link>
-        <guid isPermaLink="true">http://localhost:4000/beta/nelikentt%C3%A4/2017/01/01/kuukauden-nelikentta.html</guid>
+        <link>http://gt.as.fi/beta/nelikentt%C3%A4/2017/01/01/kuukauden-nelikentta.html</link>
+        <guid isPermaLink="true">http://gt.as.fi/beta/nelikentt%C3%A4/2017/01/01/kuukauden-nelikentta.html</guid>
         
         
         <category>Nelikenttä</category>
@@ -152,8 +152,8 @@
 
 </description>
         <pubDate>Sun, 01 Jan 2017 12:00:00 +0200</pubDate>
-        <link>http://localhost:4000/beta/horoskooppi/2017/01/01/vuosihoroskooppi.html</link>
-        <guid isPermaLink="true">http://localhost:4000/beta/horoskooppi/2017/01/01/vuosihoroskooppi.html</guid>
+        <link>http://gt.as.fi/beta/horoskooppi/2017/01/01/vuosihoroskooppi.html</link>
+        <guid isPermaLink="true">http://gt.as.fi/beta/horoskooppi/2017/01/01/vuosihoroskooppi.html</guid>
         
         
         <category>Horoskooppi</category>
@@ -272,8 +272,8 @@ git config --global core.editor vim
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;https://github.com/tpope/vim-fugitive&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Jan 2017 12:00:00 +0200</pubDate>
-        <link>http://localhost:4000/beta/tekniikka/2017/01/01/vuosi-vauhtiin-gitilla.html</link>
-        <guid isPermaLink="true">http://localhost:4000/beta/tekniikka/2017/01/01/vuosi-vauhtiin-gitilla.html</guid>
+        <link>http://gt.as.fi/beta/tekniikka/2017/01/01/vuosi-vauhtiin-gitilla.html</link>
+        <guid isPermaLink="true">http://gt.as.fi/beta/tekniikka/2017/01/01/vuosi-vauhtiin-gitilla.html</guid>
         
         
         <category>Tekniikka</category>
@@ -390,8 +390,8 @@ set hidden &quot; älä vaadi välitöntä tallentamista bufferia sulkiessa&lt;/
 
 </description>
         <pubDate>Sat, 31 Dec 2016 23:39:46 +0200</pubDate>
-        <link>http://localhost:4000/beta/tekniikka/2016/12/31/vuosi-vauhtiin-vimilla.html</link>
-        <guid isPermaLink="true">http://localhost:4000/beta/tekniikka/2016/12/31/vuosi-vauhtiin-vimilla.html</guid>
+        <link>http://gt.as.fi/beta/tekniikka/2016/12/31/vuosi-vauhtiin-vimilla.html</link>
+        <guid isPermaLink="true">http://gt.as.fi/beta/tekniikka/2016/12/31/vuosi-vauhtiin-vimilla.html</guid>
         
         
         <category>Tekniikka</category>
@@ -492,8 +492,8 @@ set hidden &quot; älä vaadi välitöntä tallentamista bufferia sulkiessa&lt;/
 &lt;p&gt;Kuten yllä todettiin, on AYY:n vapaaehtoisten kirjo käsittämättömän valtava. Vapaaehtoisten lisäksi keskustoimistolla pyörii monta kymmentä palkattua työntekijää, joiden vastuulla on mm.  palvelupiste, edunvalvonta, kiinteistöjen ylläpito sekä asuntotoimisto. Organisaationa AYY on siis erittäin laaja ja ainutlaatuinen, 90% palveluista ja toiminnasta tapahtuu aivan yliopiston kampuksen ytimessä siellä, missä opiskelijatkin ovat.&lt;/p&gt;
 </description>
         <pubDate>Sat, 31 Dec 2016 23:39:46 +0200</pubDate>
-        <link>http://localhost:4000/beta/ayyh/2016/12/31/tarinoita-ketolta.html</link>
-        <guid isPermaLink="true">http://localhost:4000/beta/ayyh/2016/12/31/tarinoita-ketolta.html</guid>
+        <link>http://gt.as.fi/beta/ayyh/2016/12/31/tarinoita-ketolta.html</link>
+        <guid isPermaLink="true">http://gt.as.fi/beta/ayyh/2016/12/31/tarinoita-ketolta.html</guid>
         
         
         <category>AYYH</category>
@@ -519,8 +519,8 @@ Kultainen päätoimittaja&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 31 Dec 2016 23:39:46 +0200</pubDate>
-        <link>http://localhost:4000/beta/p%C3%A4%C3%A4kirjoitus/2016/12/31/guld-igen.html</link>
-        <guid isPermaLink="true">http://localhost:4000/beta/p%C3%A4%C3%A4kirjoitus/2016/12/31/guld-igen.html</guid>
+        <link>http://gt.as.fi/beta/p%C3%A4%C3%A4kirjoitus/2016/12/31/guld-igen.html</link>
+        <guid isPermaLink="true">http://gt.as.fi/beta/p%C3%A4%C3%A4kirjoitus/2016/12/31/guld-igen.html</guid>
         
         
         <category>pääkirjoitus</category>
@@ -672,8 +672,8 @@ Kultainen päätoimittaja&lt;/p&gt;
 &lt;/ol&gt;
 </description>
         <pubDate>Sat, 31 Dec 2016 23:39:46 +0200</pubDate>
-        <link>http://localhost:4000/beta/haastattelu/2016/12/31/hellitus-esittaytyy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/beta/haastattelu/2016/12/31/hellitus-esittaytyy.html</guid>
+        <link>http://gt.as.fi/beta/haastattelu/2016/12/31/hellitus-esittaytyy.html</link>
+        <guid isPermaLink="true">http://gt.as.fi/beta/haastattelu/2016/12/31/hellitus-esittaytyy.html</guid>
         
         
         <category>haastattelu</category>
