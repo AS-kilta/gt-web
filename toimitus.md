@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /toimitus/
 ---
 
 <article class="post">

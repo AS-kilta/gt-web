@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /tilaa/
 ---
 
 <article class="post">
