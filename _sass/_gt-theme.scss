@@ -180,3 +180,26 @@ h4 a {
       border: none;
     }
 }
+
+.author {
+  margin: $spacing-unit;
+  @at-root {
+    .author__image {
+      object-fit: cover;
+      width: 150px;
+      height: 150px;
+      padding: 10px;
+      display: inline-block;
+    }
+    .author__text {
+      display: inline-block;
+    }
+    .author__job {
+      font-weight: bold;
+    }
+  }
+}
+.authors {
+  width: 50%;
+  float: left;
+}

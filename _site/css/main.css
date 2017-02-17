@@ -538,6 +538,25 @@ h4 a:visited {
     .fourfold__cell {
       border: none; } }
 
+.author {
+  margin: 30px; }
+  .author__image {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    display: inline-block; }
+
+  .author__text {
+    display: inline-block; }
+
+  .author__job {
+    font-weight: bold; }
+
+.authors {
+  width: 50%;
+  float: left; }
+
 /**
  * Syntax highlighting styles
  */
