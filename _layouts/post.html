@@ -7,7 +7,7 @@ layout: default
     <p class="post__category">{{ page.categories }}</p>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <div class="post-meta">
-      <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | localize: ":short" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}<p>
+      <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d.%m.%Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}<p>
     </div>
     {% if page.ingress %}
     <p class="post__ingress">{{ page.ingress }}</p>
