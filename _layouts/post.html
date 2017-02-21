@@ -4,7 +4,7 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <p class="post__category">{{ page.categories }}</p>
+    <p class="post__category">{{ page.categories | join: ' ' | replace: '_', ' ' }}</p>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <div class="post-meta">
       <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d.%m.%Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}<p>

@@ -13,7 +13,7 @@ layout: default
         </a>
         {% endif %}
         <div class="teaser__text">
-          <span class="post-meta"><span class="post__category">{{ post.categories }}</span> {{ post.date | date: "%d.%m.%Y" }}</span>
+          <span class="post-meta"><span class="post__category">{{ post.categories | join: ' ' | replace: '_', ' ' }}</span> {{ post.date | date: "%d.%m.%Y" }}</span>
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
