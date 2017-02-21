@@ -22,6 +22,9 @@ layout: default
     </figure>
     {% endif %}
     {{ content }}
+    {% if page.magazine %}
+    <i>Julkaistu GT:ssä {{ page.magazine }}.</i>
+    {% endif %}
   </div>
 
   <aside class="sidebar post__sidebar">

@@ -2,7 +2,7 @@
   <h3>Uusimmat</h3>
   {% for post in site.posts limit:7 %}
     <div class="sidebar__teaser">
-      <span class="post-meta"><span class="post__category">{{ post.categories }}</span>{{ post.date | localize: ":short"}}</span>
+      <span class="post-meta"><span class="post__category">{{ post.categories }}</span>{{ post.date | date: "%d.%m.%Y"}}</span>
       <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
     </div>
   {% endfor %}
