@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Näin tehtiin GT web"
-date:   2017-02-24 23:39:46 +0200
+date:   2017-01-24 23:39:46 +0200
 categories: Tekniikka
+magazine: "1/2017"
 author: Juuso Mikkonen
 ingress: GT web on nyt täällä! Ensimmäistä kertaa kiltalehden pitkässä historiassa koko sisältö on saatavilla paitsi printtinä ja pdf, myös natiivina webinä. Miten GT web tehtiin? Mitä ei tehty? Mitä on luvassa tulevaisuudessa?
 ---
@@ -20,7 +21,6 @@ Kauden tärkeimpiä tavoitteita webin osalta ovat saitin kehitys monipuolisemmak
 Kuten itse lehti, GT web on jatkuvasti kehittyvä ja muotoaan hakeva teos. Kehitys pyrkii olemaan mahdollisimman avointa – koko sivuston lähdekoodi on avoin ja  kiltalaisten kontribuutiot ja palaute otetaan mielellään vastaan. Iloisia lukuhetkiä!
 
 
-Juuso Mikkonen
+GT web [http://gt.as.fi]()
 
-GT web http://gt.as.fi
-GT-webin lähdekoodi https://github.com/juusaw/gt-web
+GT-webin lähdekoodi [https://github.com/juusaw/gt-web]()
