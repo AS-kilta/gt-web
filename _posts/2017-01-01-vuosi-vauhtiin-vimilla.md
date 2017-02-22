@@ -2,7 +2,7 @@
 layout: post
 title:  "Vuosi vauhtiin Vimillä"
 date:   2016-12-31 23:39:46 +0200
-categories: Tekniikka
+categories: tekniikka
 author: Konsta Hölttä
 ingress: Vim on yksi maailman kolmesta[1] eeppisimmästä editorista. Muinaisuudestaan huolimatta se on edelleen kaikkeen käyttöön erityisen soveltuva ja jopa moderni. Muinaisuutensa vuoksi se on erittäin nopea [2] (vanhat koneet eivät olleet, joten ennen oli editorien ohjelmoijat rautaa). Moderniutta pönkittää valtava laajennettavuus [3]. Vimistä forkattu Neovim [4] on vieläkin modernimpi, ja mikä parasta, luonnollinen käyttää vanhoille Vimmaajille.
 ---

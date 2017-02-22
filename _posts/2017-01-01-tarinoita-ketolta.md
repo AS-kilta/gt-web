@@ -2,7 +2,7 @@
 layout: post
 title:  "Tarinoita ketolta"
 date:   2016-12-31 23:39:46 +0200
-categories: AYYH
+categories: ayyh
 author: Onni lampi
 ingress: Tämän vuoden GT on siinä mielessä historiallinen, että rakkaan ylioppilaskuntamme, AYYn, hallituksesta 20% kuuluu toimituskuntaan! Tämä tuo mukanaan mielenkiintoisia synergiaetuja, joita kultainen toimitus aikoo häikäilemättä käyttää hyödykseen jopa ylioppilaskunnan vakauden ja hallituksen luottamuksen kustannuksella.
 ---

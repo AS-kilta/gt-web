@@ -2,7 +2,7 @@
 layout: post
 title:  "Penispippeli eli mitä AYY:n hallituskummi haluaa sanoa AS-killalle"
 date:   2017-01-24 23:39:46 +0200
-categories: AYYH
+categories: ayyh
 magazine: 1/2017
 caption: Hallituskummi power napeilla seminaariluentojen välillä.
 author: Pyry Huhtanen, AS hallituskummi 2017

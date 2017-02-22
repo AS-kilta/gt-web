@@ -2,7 +2,7 @@
 layout: post
 title:  "Kuukauden nelikenttä: uudenvuodenlupakset"
 date:   2017-01-01 12:00:01 +0200
-categories: Nelikenttä
+categories: nelikenttä
 author: Juuso Mikkonen
 ingress: Kuukauden nelikenttä -palstalla toimitus esittelee ajankohtaista tietoa kätevässä formaatissa. Uhka, mahdollisuus, heikkous vai vahvuus?
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Vuosi vauhtiin Gitillä"
 date:   2017-01-01 12:00:00 +0200
-categories: Tekniikka
+categories: tekniikka
 author: Konsta Hölttä
 ingress: Git on toinen yleisimmin käytetyistä ja tunnetuimmista järkevistä avoimen lähdekoodin versionhallintajärjestelmistä; jotkut vääräuskoiset tykkäävät käyttää Mercurialia.
 ---

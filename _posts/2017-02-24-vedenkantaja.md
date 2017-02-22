@@ -2,7 +2,7 @@
 layout: post
 title:  "Vedenkantaja"
 date:   2017-01-24 23:39:46 +0200
-categories: Novelli
+categories: novelli
 author: Arttu Rintala
 magazine: 1/2017
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Vuosihoroskooppi 2017"
 date:   2017-01-01 12:00:00 +0200
-categories: Horoskooppi
+categories: horoskooppi
 author: Kaisa Hynynen
 ---
 

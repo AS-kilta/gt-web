@@ -2,7 +2,7 @@
 layout: post
 title:  "Näin tehtiin GT web"
 date:   2017-01-24 23:39:46 +0200
-categories: Tekniikka
+categories: tekniikka
 magazine: 1/2017
 author: Juuso Mikkonen
 ingress: GT web on nyt täällä! Ensimmäistä kertaa kiltalehden pitkässä historiassa koko sisältö on saatavilla paitsi printtinä ja pdf, myös natiivina webinä. Miten GT web tehtiin? Mitä ei tehty? Mitä on luvassa tulevaisuudessa?
