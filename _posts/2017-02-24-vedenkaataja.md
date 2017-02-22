@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vedenkantaja"
+title:  "Vedenkaataja"
 date:   2017-01-24 23:39:46 +0200
 categories: novelli
 author: Arttu Rintala
