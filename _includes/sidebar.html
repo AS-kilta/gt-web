@@ -1,9 +1,25 @@
 <div class="post__sidebar--inner">
-  <h3>Uusimmat</h3>
-  {% for post in site.posts limit:7 %}
-    <div class="sidebar__teaser">
-      <span class="post-meta"><span class="post__category">{{ post.categories | join: ' ' | replace: '_', ' ' }}</span>{{ post.date | date: "%d.%m.%Y"}}</span>
-      <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+  <div class="sidebar__latest">
+    <h3>Uusimmat</h3>
+    {% for post in site.posts limit:7 %}
+      <div class="sidebar__teaser">
+        <span class="post-meta"><span class="post__category">{{ post.categories | join: ' ' | replace: '_', ' ' }}</span>{{ post.date | date: "%d.%m.%Y"}}</span>
+        <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% if site.categories[page.categories.first].size > 1 %}
+    <div class="sidebar__related">
+      <h3>Lisää aiheesta</h3>
+      {% for post in site.categories[page.categories.first] %}
+        {% if post.title != page.title %}
+          <div class="sidebar__teaser">
+            <span class="post-meta"><span class="post__category">{{ post.categories | join: ' ' | replace: '_', ' ' }}</span>{{ post.date | date: "%d.%m.%Y"}}</span>
+            <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+          </div>
+        {% endif %}
+      {% endfor %}
     </div>
-  {% endfor %}
+  {% endif %}
 </div>
