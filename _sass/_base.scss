@@ -11,6 +11,18 @@ dl, dd, ol, ul, figure {
 
 
 /**
+ * Proper box-sizing
+ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+/**
  * Basic styling
  */
 body {
