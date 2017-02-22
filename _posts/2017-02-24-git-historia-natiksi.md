@@ -3,6 +3,7 @@ layout: post
 title:  "Git-historia nätiksi"
 date:   2017-01-24 23:39:46 +0200
 categories: tekniikka
+magazine: 1/2017
 author: Konsta Hölttä
 ingress: Muille julkaistu tai muutoin valmis gitticommitti on ideaalisesti siisti, yhtenäinen kokonaisuus. Julkaisemattomille ei ole sääntöjä; niitä kannattaa tehdä tiheään, ja niistä finaaliversion trimmaamiseen on hyvät työkalut.
 ---

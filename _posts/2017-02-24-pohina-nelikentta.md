@@ -3,6 +3,7 @@ layout: post
 title:  "Kuukauden nelikenttä: pöhinää"
 date:   2017-01-24 23:39:46 +0200
 categories: nelikenttä
+magazine: 1/2017
 author: Juuso Mikkonen
 ingress: Kuukauden nelikenttä pureutuu startup-kulttuurin ja disruptoimisen ytimeen ja etsii toimivinta operaatiostrategiaa.
 ---

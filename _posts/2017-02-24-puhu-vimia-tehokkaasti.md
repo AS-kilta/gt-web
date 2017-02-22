@@ -3,6 +3,7 @@ layout: post
 title:  "Puhu Vimiä tehokkaasti"
 date:   2017-01-24 23:39:46 +0200
 categories: tekniikka
+magazine: 1/2017
 author: Konsta Hölttä
 ingress: Vimin erottaa muista editoreista vahvasti sen modaalinen luonne ja palasista yhdisteltävät näppäinkomennot.
 ---

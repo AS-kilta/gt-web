@@ -3,6 +3,7 @@ layout: post
 title:  "Kesätyöhoroskooppi"
 date:   2017-01-24 23:39:46 +0200
 categories: horoskooppi
+magazine: 1/2017
 author: Kaisa Hynynen
 ingress: Kesätyönhaku käy kuumimmillaan ja lievittääkseen työnhakijoiden tuskaa GT päätti kurkistaa eri horoskooppien kesätyörintamalle. Luettuaan taivaan tähtikarttaa ja planeettojen liikkeitä Kultainen toimitus voi ilomielin todeta, ettei sinun kannata menettää toivoasi kesätöiden suhteen! Paitsi jos olet leijona.
 ---

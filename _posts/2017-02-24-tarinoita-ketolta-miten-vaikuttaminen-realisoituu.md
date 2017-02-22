@@ -3,6 +3,7 @@ layout: post
 title:  "Miten vaikuttaminen realisoituu"
 date:   2017-01-24 23:39:46 +0200
 categories: AYYH
+magazine: 1/2017
 image: "/static/2017-02/harjakaiset_peruna.jpg"
 caption: AYY:n asuntoja nousee myös parasta aikaa Jätkäsaareen. Kuva - Henna Palonen
 author: Onni Lampi ja Noora Vänttinen
