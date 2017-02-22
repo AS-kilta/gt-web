@@ -62,7 +62,7 @@ permalink: /toimitus/
         <img class="author__image" src="{{ site.baseurl }}/static/toimituskuvat/sooda.jpg">
         <div class="author__text">
           <p class="author__job">Toimittaja</p>
-          <p class="author__name">Konsta "sooda" Hölttä</p>
+          <p class="author__name">Konsta Hölttä</p>
         </div>
       </div>
       <div class="author">

@@ -203,3 +203,28 @@ h4 a {
   width: 50%;
   float: left;
 }
+
+
+.page--magazine {
+  .teaser--magazine {
+    @include breakpoint(mobile) {
+      float: left;
+      width: 30%;
+    }
+  }
+}
+.article-list--magazine {
+  @include breakpoint(mobile) {
+    width: 67%;
+    float: right;
+    .teaser:first-of-type {
+      margin-top: 0;
+    }
+  }
+  h2 {
+    margin: 0;
+  }
+  .post-link {
+    font-size: 0.8em;
+  }
+}
