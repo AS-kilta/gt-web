@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Phuksikapteeni tervehtii kansaa"
-date:   2017-01-24 23:39:46 +0200
+date:   2017-02-23 12:00:00 +0200
 categories: kippari
 print_order: 1
 magazine: 1/2017

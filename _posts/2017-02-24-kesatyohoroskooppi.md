@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kesätyöhoroskooppi"
-date:   2017-01-24 23:39:46 +0200
+date:   2017-02-23 15:00:00 +0200
 categories: horoskooppi
 magazine: 1/2017
 print_order: 11

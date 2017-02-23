@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kaikkea kivaa Gambinasta"
-date:   2017-01-24 23:39:46 +0200
+date:   2017-02-23 12:30:00 +0200
 categories: gt_testaa
 magazine: 1/2017
 print_order: 8

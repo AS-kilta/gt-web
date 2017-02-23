@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Penispippeli eli mitä AYY:n hallituskummi haluaa sanoa AS-killalle"
-date:   2017-01-24 23:39:46 +0200
+date:   2017-02-23 10:00:00 +0200
 categories: ayyh
 magazine: 1/2017
 print_order: 10

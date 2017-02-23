@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Puhu Vimiä tehokkaasti"
-date:   2017-01-24 23:39:46 +0200
+date:   2017-02-23 14:00:00 +0200
 categories: tekniikka
 magazine: 1/2017
 print_order: 7

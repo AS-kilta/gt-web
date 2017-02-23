@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tervetuloa GT:n verkkopalvelujen pariin!"
-date:   2017-02-23 12:00:00 +0200
+date:   2017-02-23 15:20:00 +0200
 categories: pääkirjoitus
 author: Juuso Mikkonen
 image: "/static/2017-02/web-logo.png"
