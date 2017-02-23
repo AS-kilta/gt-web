@@ -7,6 +7,8 @@ print_order: 1
 magazine: 1/2017
 image: "/static/2017-02/roope.jpg"
 author: Roope Pääkkönen
+
+featured: 3
 ---
 Syyslukukausi on takanapäin ja uskon, että joululoma tuli jokaiselle tarpeeseen. Lukukauden loppuminen tarkoittaa useimmille toimijoille Otaniemen teekkaripiireissä toimikauden loppumista. Kiltojen hallitukset ja toimarit vaihtuvat, toimijoille valitaan seuraavat ja tahojen toimintaa hoonataan ja uudistetaan yhä uudestaan parempaan ja ajanmukaisempaan suuntaan. Fuksikapteeneille tämä muutos tulee kuitenkin paljon myöhemmin (joskin seuraajat tulevat kuvaan tässä vaiheessa), mahdollisena Wappuna. Tässä kohtaa kipparit laittavat vasta seuraavaa vaihdetta silmään, uutta limppua luukulle ja lisää pökköä pesään. #fullblast
 
