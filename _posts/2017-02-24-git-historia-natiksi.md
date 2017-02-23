@@ -23,7 +23,7 @@ Järkevä committi on selkeä, yksittäinen osakokonaisuus. Jos commit-titlessä
 
 Commithan on muokkaus repon aiemman tilan päälle. Manuaalisin tapa pyöritellä committeja ympäriinsä on `git cherry-pick`. Se ottaa commitin muutokset ja (yrittää)suorittaa ne nykytilan päälle, oli mikä oli. Esimerkiksi jos branch B on N committia edellä branchia A, ja nämä commitit ovat keskenään riippumattomia, niin onnistuu aina checkouttaaminen mihin tahansa committiin siltä väliltä ja koodi kääntyy, ja minkä tahansa uudemmista commiteista saa cherry-pickattua siihen. Ohessa mielivaltainen havainnekuva 1 jossa N=3, ja z on laitettu x:n päälle commitiksi z' johon on vielä luotu branch nimeltä C.
 
-[ Hei taittaja, tähän tästä drivefolderista löytyvä "gitrebase.eps", kuvatekstiksi "Kuva 1" ]
+![](/static/2017-02/gitrebase.svg "Kuva 1")
 
 Rebase on näppärämpi temppu, jolla saa otettua useamman commitin ja lätkäistyä ne muualle pohjautumaan (base) eri kohdasta, mistä tulee nimi "re-base" (v1.7.8.6 manpagesta: "Forward-port local commits to the updated upstream head". Allright selvä. Uusimman version manpage sen sijaan on jopa luettava ja hyödyllinen!). Tätä ei varsinaisesti tarvitse mitenkään joka sekunti. Sen sijaan vipu `-i` (`--interactive`) soveltuu käytettäväksi devaamisen aikana: interaktiivisella rebasella voi muokata aiempia committeja, yhdistellä niitä, committailla väliin lisää ja myös poistaa yksittäisiä välistä. Sitä voi ajatella ikäänkuin puoliautomatisoituna rivinä cherry-pickejä lisäominaisuuksin (pelkästään cherry-pickillä ei saa committeja yhdistettyä).
 
