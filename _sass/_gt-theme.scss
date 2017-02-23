@@ -15,8 +15,14 @@ body {
     }
     .teaser__text {
       display: inline-block;
+      vertical-align: middle;
       padding: ($spacing-unit / 2);
     }
+  }
+}
+.teaser--with-image {
+  .teaser__text {
+    max-width: 60%;
   }
 }
 
