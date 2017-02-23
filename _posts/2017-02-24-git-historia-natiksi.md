@@ -11,7 +11,7 @@ ingress: Muille julkaistu tai muutoin valmis gitticommitti on ideaalisesti siist
 
 git add -p: `Stage this hunk [y,n,q,a,d,/,K,j,J,g,e,?]?`. Mitä kävi sille vanhalle kunnon "Abort, Retry, Fail?" -virheviestille DOSista?
 
-Viime GT:ssä esiteltiin tusinahko komentorivi-gittiloitsua, joita googlaamalla pitäisi kunnon aasin olla tässä vaiheessa jo saanut muutamat ensimmäiset commitit kirjoitettua. Tyypillisen aurinkoisen maariyön jälkeen Gitin historia näyttää helposti jotakuinkin tältä: (lähde [https://xkcd.com/1296/](https://xkcd.com/1296/))
+[Viime GT:ssä esiteltiin](/tekniikka/2017/01/01/vuosi-vauhtiin-gitilla.html) tusinahko komentorivi-gittiloitsua, joita googlaamalla pitäisi kunnon aasin olla tässä vaiheessa jo saanut muutamat ensimmäiset commitit kirjoitettua. Tyypillisen aurinkoisen maariyön jälkeen Gitin historia näyttää helposti jotakuinkin tältä: (lähde [https://xkcd.com/1296/](https://xkcd.com/1296/))
 
 ![](/static/2017-02/git_commit.png "https://xkcd.com/1296/ 'Git commit'")
 
