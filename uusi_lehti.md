@@ -5,10 +5,8 @@ permalink: /uusi_lehti/
 <div class="page--magazine">
   {% include magazine.html %}
   <div class="article-list--magazine">
-    {% for post in site.posts %}
-      {% if post.magazine != site.latest_magazine %}
-        {% continue %}
-      {% endif %}
+    {% assign posts = (site.posts | where: 'magazine', site.latest_magazine | sort: 'print_order', 'last') %}
+    {% for post in posts %}
       <article class="article-list__teaser teaser">
         <div class="teaser__text">
           <h2>
