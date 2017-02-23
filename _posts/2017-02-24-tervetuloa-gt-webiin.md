@@ -2,10 +2,10 @@
 layout: post
 title:  "Tervetuloa GT:n verkkopalvelujen pariin!"
 date:   2017-02-23 12:00:00 +0200
-categories: tekniikka
+categories: pääkirjoitus
 author: Juuso Mikkonen
-image: "/static/2017-01/kultainen-tomaatti.png"
-ingress: Digitalisaatio, se on jo täällä.
+image: "/static/2017-02/web-logo.png"
+ingress: Digitalisaatio, se on jo täällä. Mekin ollaan.
 featured: 4
 ---
 
