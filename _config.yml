@@ -20,3 +20,4 @@ lang: fi
 # Remember to update when releasing a new magazine
 # Use format D/YYYY (for example 1/2017)
 latest_magazine: 1/2017
+latest_magazine_description: Vuoden 2017 ensimmäinen Kultainen Tomaatti julkaistiin 23.2 Automaatio- ja systeemitekniikan killan kiltakokouksessa.

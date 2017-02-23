@@ -3,7 +3,13 @@ layout: default
 permalink: /uusi_lehti/
 ---
 <div class="page--magazine">
-  {% include magazine.html %}
+  <div class="sidebar__new-magazine teaser teaser--magazine">
+    {% include magazine.html %}
+    <div>
+      <br>
+      <p>{{ site.latest_magazine_description }}</p>
+    </div>
+  </div>
   <div class="article-list--magazine">
     {% assign posts = (site.posts | where: 'magazine', site.latest_magazine | sort: 'print_order', 'last') %}
     {% for post in posts %}
