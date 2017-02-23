@@ -4,26 +4,26 @@ title:  "Vuosi vauhtiin Vimillä"
 date:   2017-01-01 12:00:00 +0200
 categories: tekniikka
 author: Konsta Hölttä
-ingress: Vim on yksi maailman kolmesta[1] eeppisimmästä editorista. Muinaisuudestaan huolimatta se on edelleen kaikkeen käyttöön erityisen soveltuva ja jopa moderni. Muinaisuutensa vuoksi se on erittäin nopea [2] (vanhat koneet eivät olleet, joten ennen oli editorien ohjelmoijat rautaa). Moderniutta pönkittää valtava laajennettavuus [3]. Vimistä forkattu Neovim [4] on vieläkin modernimpi, ja mikä parasta, luonnollinen käyttää vanhoille Vimmaajille.
+ingress: Tehokas tekstieditori on ammatikseen tai muutoin ahkerasti koodia tai muuta tekstipohjaista kirjoittavan tärkein työkalu. GT tarjoaa vuoden mittaisen artikkelisarjan Vimin käyttöön - mitä, miksi ja miten.
 ---
 
-Vim on yksi maailman kolmesta[1] eeppisimmästä editorista. Muinaisuudestaan
+Vim on yksi maailman kolmesta[^1] eeppisimmästä editorista. Muinaisuudestaan
 huolimatta se on edelleen kaikkeen käyttöön erityisen soveltuva ja jopa
-moderni. Muinaisuutensa vuoksi se on erittäin nopea [2] (vanhat koneet eivät
+moderni. Muinaisuutensa vuoksi se on erittäin nopea [^2] (vanhat koneet eivät
 olleet, joten ennen oli editorien ohjelmoijat rautaa). Moderniutta pönkittää
-valtava laajennettavuus [3]. Vimistä forkattu Neovim [4] on vieläkin
+valtava laajennettavuus [^3]. Vimistä forkattu Neovim [^4] on vieläkin
 modernimpi, ja mikä parasta, luonnollinen käyttää vanhoille Vimmaajille.
 
 Tässä artikkelisarjan ensimmäisessä osassa esitellään muutama oleellinen
 viminkäyttöperiaate ja joitakin perussäätöjä. Erikoisuuksiensa takia Vim ei
 varmasti sovellu kaikille, mutta ne joille sopii varmaankin tykkäävät.
-Kokeilemiseen suositellaan varattavaksi aikaa, vaikka sanonta, että vi(mi)n
-oppimiskäyrä on askelfunktio [5], ei olekaan totta (askelia on useita).
+Kokeilemiseen suositellaan varattavaksi aikaa, vaikka sanonta, että Vi(mi)n
+oppimiskäyrä on askelfunktio [^5], ei olekaan totta (askelia on useita).
 
 Asetuksien säätämiseen järkeväksi Vi:stä pohjautuvan historian päälle kannattaa
 tehdä jotain heti ensimmäisellä käyttökerralla. Jo muutamalla yksinkertaisella
 säädöllä saa paikattua historiallisia jäänteitä ja asetettua käteviä
-lisätoiminnallisuuksia. Konffit esitellään seuraavalla sivulla.
+lisätoiminnallisuuksia.
 
 Vimissä on likimain äärettömien asetusten lisäksi paljon sille ominaisia
 yksinkertaisia perusasioita, joita yhdistämällä emergoituu varsinainen
@@ -33,11 +33,11 @@ kokeilemaan sekä ohjeistaa muutama protip.
 
 Kyseessä on "modal editor" eli tässä härpättimessä on kuusi eri tilaa. Jotkin
 näppäinyhdistelmät toimivat joissakin, eikä missään tunnu olevan täyttä järkeä.
-Sanotaan, että vimissä on kaksi eri moodia: toisessa se piippaa, ja toisessa se
+Sanotaan, että Vimissä on kaksi eri moodia: toisessa se piippaa, ja toisessa se
 poistaa kaiken. Tämä on oikeasti Vi. Vimin tilat ovat normal, insert, visual,
 select, commandline ja ex. (Vi on Visual ex ja ex julkaistiin 1978.)
 
-Suunnilleen kaikkiin toimintoihin on oma "kielioppi" [6]. Jos huomaa vaikka
+Suunnilleen kaikkiin toimintoihin on oma "kielioppi" [^6]. Jos huomaa vaikka
 selailevansa ympäriinsä nuolinäppäimillä tai poistavansa tekstiä merkki
 kerrallaan, niin on menossa ihan metsään. Erikoisliikkeitä on roppakaupalla, ja
 nämä yleensä yhdistetään johonkin muokkaustoimintoon tuon kieliopin kautta.
@@ -51,7 +51,7 @@ työhön, missä tarvitaan lukuisia määriä säännönmukaisia editointeja. Vi
 editointikielioppi tanssii kauniisti makrojen kanssa, ja makroja voikin
 tallettamisen jälkeen jopa editoida merkki kerrallaan.
 
-Alkuun pääsee käynnistämällä (g)vimin ja kirjoittamalla ":help". Sen näyttämä
+Alkuun pääsee käynnistämällä (g)vimin ja kirjoittamalla `:help`. Sen näyttämä
 "quickref" on huikean kätevä ja sisältää kaikenlaista jota ei tässä tarvitse
 turhaan toistaa. Kokeile!
 
@@ -64,7 +64,7 @@ Tässä "Movement cheat sheet" asciina; nähdään selvästi nuolinappien turhuu
                   H
                   { (
       ;    B gE   k           ,
-0 ^ Fx Tx b ge h   l e w tx fx $
+ 0 ^ Fx Tx b ge h   l e w tx fx $
       ,           j   E W     ;
                 ) }
                   L
@@ -74,8 +74,7 @@ Tässä "Movement cheat sheet" asciina; nähdään selvästi nuolinappien turhuu
 {% endhighlight %}
 
 
-
-Joitakin perussäätöjä, laita $HOME/.vimrc:hen:
+Joitakin perussäätöjä, laita `$HOME/.vimrc`:hen:
 
 {% highlight text %}
 filetype plugin indent on " tiedostotyypin arvausmagiat päälle ja autoformatia
@@ -95,28 +94,19 @@ set hidden " älä vaadi välitöntä tallentamista bufferia sulkiessa
 
 Jatkolukemista innokkaille:
 
-[https://github.com/tpope/vim-sensible]()
-
-[https://mouhola.club/.vimrc]()
-
-[http://stackoverflow.com/questions/1218390#1220118]()
-
-[http://www.viemu.com/a-why-vi-vim.html]()
-
-[http://naleid.com/blog/2010/10/04/vim-movement-shortcuts-wallpaper]()
+* [https://github.com/tpope/vim-sensible](https://github.com/tpope/vim-sensible)
+* [https://mouhola.club/.vimrc](https://mouhola.club/.vimrc)
+* [http://stackoverflow.com/questions/1218390#1220118](http://stackoverflow.com/questions/1218390#1220118)
+* [http://www.viemu.com/a-why-vi-vim.html](http://www.viemu.com/a-why-vi-vim.html)
+* [http://naleid.com/blog/2010/10/04/vim-movement-shortcuts-wallpaper](http://naleid.com/blog/2010/10/04/vim-movement-shortcuts-wallpaper)
 
 <br>
 
-[1] Loput kaksi kolmesta: ed ja emacs. Vain toinen on moderni.
-
-[2] [https://pavelfatin.com/typing-with-pleasure/]()
-
-[3] [http://www.vim.org/scripts/]()
-
-[4] [https://neovim.io/]()
-
-[5] [https://i.stack.imgur.com/7Cu9Z.jpg]()
-
-[6] [https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/]()
+[^1]: Loput kaksi kolmesta: ed ja emacs. Vain toinen on moderni.
+[^2]: [https://pavelfatin.com/typing-with-pleasure/]()
+[^3]: [http://www.vim.org/scripts/]()
+[^4]: [https://neovim.io/]()
+[^5]: [https://i.stack.imgur.com/7Cu9Z.jpg]()
+[^6]: [https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/]()
 
 

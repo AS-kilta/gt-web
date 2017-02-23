@@ -4,13 +4,15 @@ title:  "Vuosi vauhtiin Gitillä"
 date:   2017-01-01 12:00:00 +0200
 categories: tekniikka
 author: Konsta Hölttä
-ingress: Git on toinen yleisimmin käytetyistä ja tunnetuimmista järkevistä avoimen lähdekoodin versionhallintajärjestelmistä; jotkut vääräuskoiset tykkäävät käyttää Mercurialia.
+ingress: Ilman versionhallintaa ei vain pärjää kunnolla missään päivää pidemmässä projektissa. GT tarjoaa vuoden mittaisen artikkelisarjan Gitin käyttöön - mitä, miksi ja miten.
 ---
 
-Linus Torvalds kehitti Gitin korvaamaan BitKeeperin
-käytön Linux-kernelin kehityksessä joskus 2005. Nykyisellään Gitiä kehittää ja
-ylläpitää kasa muitakin ihmisiä. Käyttäjiä sillä on `SIMOSTI()`, ja jollet kuulu
-joukkoon niin ei hätää - voit kääntää uuden sivun elämässäsi nyt
+Git on toinen yleisimmin käytetyistä ja tunnetuimmista järkevistä avoimen
+lähdekoodin versionhallintajärjestelmistä; jotkut vääräuskoiset tykkäävät
+käyttää Mercurialia. Linus Torvalds kehitti Gitin korvaamaan BitKeeperin käytön
+Linux-kernelin kehityksessä joskus 2005. Nykyisellään Gitiä kehittää ja
+ylläpitää kasa muitakin ihmisiä. Käyttäjiä sillä on `SIMOSTI()`, ja jollet
+kuulu joukkoon niin ei hätää - voit kääntää uuden sivun elämässäsi nyt
 vuodenvaihteen kunniaksi! Tässä lyhykäinen potkustartti peruskäyttöön; jatkoa
 seuraa myöhemmissä numeroissa. Gittiin kannattaa tuupata kaikki projektit,
 joiden parissa puuhailu kestää pidempään kuin yhden illan.
@@ -52,18 +54,18 @@ haaran nimilappu etenee juuri commitattuun solmuun.
 Tässä komentorivityökaluja joilla pääsee alkuun, joista kaikille on toki vielä
 N parametria, googlaa toki lisää tai yritä tajuta manpageja (haha):
 
-* git init - kerro gitille, että haluaisit träkätä nykyistä hakemistoa
-* git status - tarkastele repon nykytilaa
-* git diff - vertaile hakemiston tilaa committien (tai nykytilan) välillä
-* git add - lisää muuttuneita tiedostoja commitattavaksi (-p on paras juttu)
-* git commit - lisää verkkoon uusi solmu hiljattain addatuista muutoksista
-* git log - tarkastele muutoshistoriaa
-* git rebase - muokkaa historiaa (-i on paras juttu)
-* git branch - muokkaa olemassaolevia haaranimiä
-* git checkout - siirry työskenneltävästä haarasta tai commitista toiseen
-* git merge - yhdistä kaksi haaraa eli lisää verkkoon uusi solmu, jolla on
+* `git init` - kerro gitille, että haluaisit träkätä nykyistä hakemistoa
+* `git status` - tarkastele repon nykytilaa
+* `git diff` - vertaile hakemiston tilaa committien (tai nykytilan) välillä
+* `git add` - lisää muuttuneita tiedostoja commitattavaksi (`-p` on paras juttu)
+* `git commit` - lisää verkkoon uusi solmu hiljattain addatuista muutoksista
+* `git log` - tarkastele muutoshistoriaa
+* `git rebase` - muokkaa historiaa (`-i` on paras juttu)
+* `git branch` - muokkaa olemassaolevia haaranimiä
+* `git checkout` - siirry työskenneltävästä haarasta tai commitista toiseen
+* `git merge` - yhdistä kaksi haaraa eli lisää verkkoon uusi solmu, jolla on
   kaksi parent-solmua; näin liitetään rinnakkain tehdyt työt yhteen
-* git cherry-pick - kopioi commitin muutos jostain muualta ja länttää se
+* `git cherry-pick` - kopioi commitin muutos jostain muualta ja länttää se
   nykytilan päälle, yleensä toiseen branchiin kuin alkuperäinen
 
 Lopuksi vielä käteviä aliaksia konffeihin helpottamaan elämää:
@@ -76,8 +78,7 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.sh show
 git config --global alias.cp cherry-pick
-git config --global alias.lol ‘log --graph --decorate --pretty=oneline
-                                  --abbrev-commit --all’
+git config --global alias.lol 'log --graph --decorate --pretty=oneline --abbrev-commit --all'
 git config --global pull.rebase true
 git config --global core.editor vim
 ```
@@ -86,30 +87,17 @@ git config --global core.editor vim
 
 Jatkolukemista innokkaille:
 
-[http://xkcd.com/1296/]()
-
-[https://git-man-page-generator.lokaltog.net/]()
-
-[http://git-animals.tumblr.com/]()
-
-[http://wheningit-blog.tumblr.com/]()
-
-[https://www.linux.fi/wiki/Git]()
-
-[http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html]()
-
-[http://chris.beams.io/posts/git-commit/]()
-
-[http://eagain.net/articles/git-for-computer-scientists/]()
-
-[https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control]()
-
-[https://git-scm.com/documentation]()
-
-[http://gitready.com/]()
-
-[http://gitolite.com/gitk.html]()
-
-[https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/]()
-
-[https://github.com/tpope/vim-fugitive]()
+* [http://xkcd.com/1296/](http://xkcd.com/1296/)
+* [https://git-man-page-generator.lokaltog.net/](https://git-man-page-generator.lokaltog.net/)
+* [http://git-animals.tumblr.com/](http://git-animals.tumblr.com/)
+* [http://wheningit-blog.tumblr.com/](http://wheningit-blog.tumblr.com/)
+* [https://www.linux.fi/wiki/Git](https://www.linux.fi/wiki/Git)
+* [http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+* [http://chris.beams.io/posts/git-commit/](http://chris.beams.io/posts/git-commit/)
+* [http://eagain.net/articles/git-for-computer-scientists/](http://eagain.net/articles/git-for-computer-scientists/)
+* [https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+* [https://git-scm.com/documentation](https://git-scm.com/documentation)
+* [http://gitready.com/](http://gitready.com/)
+* [http://gitolite.com/gitk.html](http://gitolite.com/gitk.html)
+* [https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/](https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/)
+* [https://github.com/tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)
