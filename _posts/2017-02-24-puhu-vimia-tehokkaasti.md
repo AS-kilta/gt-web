@@ -28,7 +28,7 @@ Ympäri internetsin ihmemaailmaa on lukuisia hyviä lisälöpinöitä tästä ai
 
 ## Liikkuminen
 
-Viime GT:ssä mainittiin jo Ted Naleidin värkkäämä "Vim Movement Shortcuts Wallpaper" [^2]. Tämä on niin tärkeä juttu, että avataan sitä hieman enemmän. On myös hyvää jatkoa äskeiselle osalle. Tässä taas sama grafiikka, tällä kertaa pikselitaulukkona asciin sijaan:
+[Viime GT:ssä mainittiin jo](/tekniikka/2017/01/01/vuosi-vauhtiin-vimilla.html) Ted Naleidin värkkäämä "Vim Movement Shortcuts Wallpaper" [^2]. Tämä on niin tärkeä juttu, että avataan sitä hieman enemmän. On myös hyvää jatkoa äskeiselle osalle. Tässä taas sama grafiikka, tällä kertaa pikselitaulukkona asciin sijaan:
 
 ![](/static/2017-02/vim-shortcuts.png "Vim Movement Shortcuts Wallpaper, Ted Naleid")
 
