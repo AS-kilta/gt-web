@@ -13,7 +13,7 @@ git add -p: `Stage this hunk [y,n,q,a,d,/,K,j,J,g,e,?]?`. Mitä kävi sille vanh
 
 Viime GT:ssä esiteltiin tusinahko komentorivi-gittiloitsua, joita googlaamalla pitäisi kunnon aasin olla tässä vaiheessa jo saanut muutamat ensimmäiset commitit kirjoitettua. Tyypillisen aurinkoisen maariyön jälkeen Gitin historia näyttää helposti jotakuinkin tältä: (lähde [https://xkcd.com/1296/](https://xkcd.com/1296/))
 
-![](https://imgs.xkcd.com/comics/git_commit.png)
+![](/static/2017-02/git_commit.png "https://xkcd.com/1296/ 'Git commit'")
 
 Kunhan et vielä ole git pushannut, niin ei hätää! Kukaan harkkaryhmäläinen ei tule näkemään häpeääsi (varo kuitenkin olan takaa kurkkivia)! On vieläpä ihan normaalia devata tuolla lailla, koska kannattaa committailla ihan koko ajan. Huhu kertoo, että robokättä devatessakin yksi vaivainen `git reset --hard` aiheutti harmia koska git ei vielä tiennyt muutoksista.
 
