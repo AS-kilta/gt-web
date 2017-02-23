@@ -4,6 +4,7 @@ title:  "Value for Kilta"
 date:   2017-01-24 23:39:46 +0200
 categories: pääkirjoitus
 magazine: 1/2017
+print_order: 0
 image: "/static/2017-01/toimitus_keulii.jpg"
 caption: GT:n toimitus keuli ja edusti Teekkariperinnejuhlassa jo ennen valintaansa.
 author: Juuso Mikkonen
