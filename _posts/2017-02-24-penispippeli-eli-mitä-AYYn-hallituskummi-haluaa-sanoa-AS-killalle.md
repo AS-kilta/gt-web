@@ -11,8 +11,6 @@ author: Pyry Huhtanen, AS hallituskummi 2017
 ingress: Jokaisella erityisasemayhdistyksellä on AYYn hallituksessa kiltakummi. Meillä on Pyry Huhtanen
 ---
 
-![Pyry Huhtanen](/static/2017-02/pyry_huhtanen.jpg)
-
 # Tähän mennessä tapahtunutta:
 Itse suuri Saatana, Aalto-yliopiston ylioppilaskunnan hallituksen puheenjohtaja Joona Orpana, on päättänyt lähettää johtamastaan hallituksesta yhden jäsenen kunkin AYY:n erityisasemayhdistyksen hallituskummiksi. Niin päätyi allekirjoittanut AS kummiksi ja kummistatuksen vauhdittamana myös toimittamaan perille jo jonkin aikaa harkitsemansa AS jäsenhakemuksen, joka juhlallisin menoin (eli hieman vaivaantuneella lähes yhtäaikaisella olankohautuksella) AS hallituksen kokouksessa hyväksyttiin. Mutta mitä tällä kummitoiminnalla pyritään saavuttamaan? Onko kyseessä toiminnan etäältä tarkastelua ja raportointia, anneksaatiota edeltävä soluttautuminen vai jotain aivan muuta? Se todennäköisesti ei selviä ennen kuin on liian myöhäistä, mutta aloitetaan kuitenkin perusasioista.
 
