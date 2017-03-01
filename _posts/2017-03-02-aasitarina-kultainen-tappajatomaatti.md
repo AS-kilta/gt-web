@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "aASitarina #14: Valkotaulun Kultainen tappajatomaatti"
-date:   2017-03-01 00:00:00 +0200
+date:   2017-03-02 00:00:00 +0200
 categories: aasitarina
 image: "/static/aasitarina/kultainen_tappajatomaatti.jpg"
 caption: ASkin katosta löytyvä valkotaulu sekä siihen piirretty Kultainen tappajatomaatti
