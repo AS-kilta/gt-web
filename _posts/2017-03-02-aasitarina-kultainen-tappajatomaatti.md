@@ -5,10 +5,9 @@ date:   2017-03-02 00:00:00 +0200
 categories: aasitarina
 image: "/static/aasitarina/kultainen_tappajatomaatti.jpg"
 caption: ASkin katosta löytyvä valkotaulu sekä siihen piirretty Kultainen tappajatomaatti
+ingress: Neljästoista aASitarina on Juho Salmen ('08) vuonna 2011 taltioima kertomus ASkin katossa tänäkin päivänä majailevasta valkotaulusta, johon on piirretty Kultainen tappajatomaatti. Tämä sama kertomus on teipattuna valkotaulun toiselle puolelle.
 author: Juho Salmi
 ---
-
-Neljästoista aASitarina on Juho Salmen ('08) vuonna 2011 taltioima kertomus ASkin katossa tänäkin päivänä majailevasta valkotaulusta, johon on piirretty kultainen tappajatomaatti. Tämä sama kertomus on teipattuna valkotaulun toiselle puolelle.
 
 "ASki remontoitiin kesällä 2011. Silloin mietittiin, mikä on tämän valkotaulun tarina. Samalla harkittiin, että tilalle hankittaisiin oikea kattolevy. Uusi kattolevy hankittiinkin, mutta se osoittautui vääränlaiseksi. Minusta on hauskaa, että ASkin katossa on valkotaulu. Vieläkin hauskempaa asiasta tekee valkotaulun ja sen edeltäjien historia. Keräsin seuraavat muistelmat syksyllä 2011 ja entisöin remontissa ja vuosien varrella kuluneen Kultaisen tappajatomaatin. Toivottavasti tämä historiapläjäys on vähintäänkin viihdyttävä, kertoen samalla historian havinoita ASkin ja killan villistä menneisyydestä."
 
