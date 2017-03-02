@@ -29,4 +29,4 @@ Stetson harrisonilla heitettynä veikkaisin, että tomaatti on piirretty silloin
 
 – Juho “Centti” Cederström
 
-AS20v-toimikunta haastaa Juho Cederströmin, Noora Korpin ja Juha Koppisen kirjoittamaan tarinan lentävästä lauseesta "I am the man who walks alone". Tuotoksen voi tuupata tänne: [tinyurl.com/aASitarina](http://tinyurl.com/aASitarina){:target="_blank"}
+[AS20v-toimikunta](https://www.facebook.com/AS20v/) haastaa Juho Cederströmin, Noora Korpin ja Juha Koppisen kirjoittamaan tarinan lentävästä lauseesta "I am the man who walks alone". Tuotoksen voi tuupata tänne: [tinyurl.com/aASitarina](http://tinyurl.com/aASitarina)
