@@ -5,7 +5,6 @@ date:   2017-03-02 00:00:00 +0200
 categories: aasitarina
 image: "/static/aasitarina/kultainen_tappajatomaatti.jpg"
 caption: ASkin katosta löytyvä valkotaulu sekä siihen piirretty Kultainen tappajatomaatti
-featured: 5
 ingress: Neljästoista aASitarina on Juho Salmen ('08) vuonna 2011 taltioima kertomus ASkin katossa tänäkin päivänä majailevasta valkotaulusta, johon on piirretty Kultainen tappajatomaatti. Tämä sama kertomus on teipattuna valkotaulun toiselle puolelle.
 author: Juho Salmi
 ---
