@@ -23,4 +23,7 @@ Digitaalisin terveisin
 
 Juuso Mikkonen
 
-Päätoimittaja, Javasctipt-artesaani
+Päätoimittaja, Javascript-artesaani
+
+
+*Päivitetty 9.3: Kirjoitusvirhe korjattu. Virheen pääkirjoituksesta löytäneelle [luvattu palkkio](http://gt.as.fi/p%C3%A4%C3%A4kirjoitus/2016/12/31/guld-igen.html) toimitetaan mahdollisimman pian.*
