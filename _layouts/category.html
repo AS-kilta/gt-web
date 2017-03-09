@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<article class="teaser teaser--heading">
+  <div class="teaser__text">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    {% unless page.description == '' %}
+      <p>{{ page.description }}</p>
+    {% endunless %}
+  </div>
+</article>
+
+{% unless page.content == '' %}
+  <p>{{ page.content }}</p>
+{% endunless %}
+
+{% for post in site.categories[page.category] %}
+      <article class="article-list__teaser teaser {% if post.image %}teaser--with-image{% endif %}">
+        {% if post.image %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <img class="teaser__image" src="{{ post.image | prepend: site.baseurl }}">
+        </a>
+        {% endif %}
+        <div class="teaser__text">
+          <span class="post-meta"><span class="post__category">{{ post.categories | join: ' ' | replace: '_', ' ' }}</span> {{ post.date | date: "%d.%m.%Y" }}</span>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </div>
+      </article>
+
+{% endfor %}
