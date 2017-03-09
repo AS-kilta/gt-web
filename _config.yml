@@ -15,6 +15,9 @@ url: "http://gt.as.fi" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
+# Exclude project files from build
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
+
 lang: fi
 
 # Remember to update when releasing a new magazine
