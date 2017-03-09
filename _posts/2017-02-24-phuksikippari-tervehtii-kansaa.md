@@ -5,7 +5,7 @@ date:   2017-02-23 12:00:00 +0200
 categories: kippari
 print_order: 1
 magazine: 1/2017
-image: "/static/2017-02/roope.jpg"
+image: "/static/2017-01/roope.jpg"
 author: Roope Pääkkönen
 
 featured: 3

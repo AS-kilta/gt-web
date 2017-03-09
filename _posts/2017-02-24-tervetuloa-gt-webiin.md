@@ -4,7 +4,7 @@ title:  "Tervetuloa GT:n verkkopalvelujen pariin!"
 date:   2017-02-23 15:20:00 +0200
 categories: pääkirjoitus
 author: Juuso Mikkonen
-image: "/static/2017-02/web-logo.png"
+image: "/static/2017-web/web-logo.png"
 ingress: Digitalisaatio, se on jo täällä. Mekin ollaan.
 featured: 4
 ---

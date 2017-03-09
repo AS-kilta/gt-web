@@ -5,7 +5,7 @@ date:   2017-02-23 10:00:00 +0200
 categories: ayyh
 magazine: 1/2017
 print_order: 10
-image: "/static/2017-02/pyry_huhtanen.jpg"
+image: "/static/2017-01/pyry_huhtanen.jpg"
 caption: Hallituskummi power napeilla seminaariluentojen välillä.
 author: Pyry Huhtanen, AS hallituskummi 2017
 ingress: Jokaisella erityisasemayhdistyksellä on AYYn hallituksessa kiltakummi. Meillä on Pyry Huhtanen

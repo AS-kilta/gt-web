@@ -5,7 +5,7 @@ date:   2017-02-23 12:20:00 +0200
 categories: matkaraportti
 magazine: 1/2017
 print_order: 2
-image: "/static/2017-02/risteily.jpg"
+image: "/static/2017-01/risteily.jpg"
 author: Jan Juvonen
 ingress: Kuten jo monien vuosien ajan, niin myös tälläkin kertaa, pieni aASidelegaatio lähti hauskuuttamaan pitkäaikaisia ystäviään teologeja heidän perinteiselle risteilylleen. Risteily oli mitä ilmeisimmin suunnattu kaikille Suomen teologeille, sillä itse ainakin tapasin useita eri paikkakunnilta saapuneita edellä mainitun akateemisen taustan omaavia henkilöitä.
 ---

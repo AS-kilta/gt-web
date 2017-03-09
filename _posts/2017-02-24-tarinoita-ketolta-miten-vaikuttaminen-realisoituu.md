@@ -5,7 +5,7 @@ date:   2017-02-23 12:00:00 +0200
 categories: ayyh
 magazine: 1/2017
 print_order: 9
-image: "/static/2017-02/harjakaiset_peruna.jpg"
+image: "/static/2017-01/harjakaiset_peruna.jpg"
 caption: AYY:n asuntoja nousee myös parasta aikaa Jätkäsaareen. Kuva - Henna Palonen
 author: Onni Lampi ja Noora Vänttinen
 ingress: AYYn hallitus ja asiantuntijat tekevät tärkeänä osana päivätyötään edunvalvonnallista vaikuttamista.

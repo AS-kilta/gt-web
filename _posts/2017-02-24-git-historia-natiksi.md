@@ -13,7 +13,7 @@ git add -p: `Stage this hunk [y,n,q,a,d,/,K,j,J,g,e,?]?`. Mitä kävi sille vanh
 
 [Viime GT:ssä esiteltiin](/tekniikka/2017/01/01/vuosi-vauhtiin-gitilla.html) tusinahko komentorivi-gittiloitsua, joita googlaamalla pitäisi kunnon aasin olla tässä vaiheessa jo saanut muutamat ensimmäiset commitit kirjoitettua. Tyypillisen aurinkoisen maariyön jälkeen Gitin historia näyttää helposti jotakuinkin tältä: (lähde [https://xkcd.com/1296/](https://xkcd.com/1296/))
 
-![](/static/2017-02/git_commit.png "https://xkcd.com/1296/ 'Git commit'")
+![](/static/2017-01/git_commit.png "https://xkcd.com/1296/ 'Git commit'")
 
 Kunhan et vielä ole git pushannut, niin ei hätää! Kukaan harkkaryhmäläinen ei tule näkemään häpeääsi (varo kuitenkin olan takaa kurkkivia)! On vieläpä ihan normaalia devata tuolla lailla, koska kannattaa committailla ihan koko ajan. Huhu kertoo, että robokättä devatessakin yksi vaivainen `git reset --hard` aiheutti harmia koska git ei vielä tiennyt muutoksista.
 
@@ -23,7 +23,7 @@ Järkevä committi on selkeä, yksittäinen osakokonaisuus. Jos commit-titlessä
 
 Commithan on muokkaus repon aiemman tilan päälle. Manuaalisin tapa pyöritellä committeja ympäriinsä on `git cherry-pick`. Se ottaa commitin muutokset ja (yrittää)suorittaa ne nykytilan päälle, oli mikä oli. Esimerkiksi jos branch B on N committia edellä branchia A, ja nämä commitit ovat keskenään riippumattomia, niin onnistuu aina checkouttaaminen mihin tahansa committiin siltä väliltä ja koodi kääntyy, ja minkä tahansa uudemmista commiteista saa cherry-pickattua siihen. Ohessa mielivaltainen havainnekuva 1 jossa N=3, ja z on laitettu x:n päälle commitiksi z' johon on vielä luotu branch nimeltä C.
 
-![](/static/2017-02/gitrebase.svg "Kuva 1")
+![](/static/2017-01/gitrebase.svg "Kuva 1")
 
 Rebase on näppärämpi temppu, jolla saa otettua useamman commitin ja lätkäistyä ne muualle pohjautumaan (base) eri kohdasta, mistä tulee nimi "re-base" (v1.7.8.6 manpagesta: "Forward-port local commits to the updated upstream head". Allright selvä. Uusimman version manpage sen sijaan on jopa luettava ja hyödyllinen!). Tätä ei varsinaisesti tarvitse mitenkään joka sekunti. Sen sijaan vipu `-i` (`--interactive`) soveltuu käytettäväksi devaamisen aikana: interaktiivisella rebasella voi muokata aiempia committeja, yhdistellä niitä, committailla väliin lisää ja myös poistaa yksittäisiä välistä. Sitä voi ajatella ikäänkuin puoliautomatisoituna rivinä cherry-pickejä lisäominaisuuksin (pelkästään cherry-pickillä ei saa committeja yhdistettyä).
 

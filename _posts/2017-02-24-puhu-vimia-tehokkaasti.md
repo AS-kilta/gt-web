@@ -30,7 +30,7 @@ Ympäri internetsin ihmemaailmaa on lukuisia hyviä lisälöpinöitä tästä ai
 
 [Viime GT:ssä mainittiin jo](/tekniikka/2017/01/01/vuosi-vauhtiin-vimilla.html) Ted Naleidin värkkäämä "Vim Movement Shortcuts Wallpaper" [^2]. Tämä on niin tärkeä juttu, että avataan sitä hieman enemmän. On myös hyvää jatkoa äskeiselle osalle. Tässä taas sama grafiikka, tällä kertaa pikselitaulukkona asciin sijaan:
 
-![](/static/2017-02/vim-shortcuts.png "Vim Movement Shortcuts Wallpaper, Ted Naleid")
+![](/static/2017-01/vim-shortcuts.png "Vim Movement Shortcuts Wallpaper, Ted Naleid")
 
 Hyvin harvoin tarvitsee siirtyä etenkään samalla rivillä vain merkki kerrallaan. Laiskalla päällä olevat Viminkäyttäjät tamppaavatkin kompromissina `w`:tä ja `b`:tä, jotka siirtyvät sanan verran eteen- ja taaksepäin, mikä vastaa suunnilleen ctrl-nappia nuolilla Notepadissa (hyi olkoon). `:help word-motions`. Virkenänä etenkin kirjainten `F`, `T`, `t` ja `f` käyttö tuntuu allekirjoittaneella tulevan suoraan selkärangasta; usein ohjelmoidessa tarvitsee esim. poistaa tai muokata tekstiä kursorista vaikka seuraavaan sulkeeseen tai pilkkuun. `:help left-right-motions`
 

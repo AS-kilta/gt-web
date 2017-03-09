@@ -21,7 +21,7 @@ author: Juuso Mikkonen
 ingress: Asd asd asd.
 magazine: 1/2017
 print_order: 6
-image: "/static/2017-02/kuva.jpg"
+image: "/static/2017-01/kuva.jpg"
 caption: Kuvassa Nikke Knatterton
 ---
 
