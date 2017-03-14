@@ -24,3 +24,30 @@ lang: fi
 # Use format D/YYYY (for example 1/2017)
 latest_magazine: 1/2017
 latest_magazine_description: Vuoden 2017 ensimmäinen Kultainen Tomaatti julkaistiin 23.2 Automaatio- ja systeemitekniikan killan kiltakokouksessa.
+
+gems:
+  - jekyll-assets
+
+assets:
+  compress:
+    css: true
+    js: true
+
+  assets:
+    - "*.png"
+    - "bundle.css"
+
+  sources:
+    - _assets/css
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/fonts
+    - _assets/img
+    - _assets/js
+
+#  features:
+#    liquid: true | false | default: false
+#    integrity: true | false | default: false
+#    automatic_img_size: true | false | n(fixnum): 2,4,6,8 | default: true
+#    automatic_img_alt : true | false | default: true
