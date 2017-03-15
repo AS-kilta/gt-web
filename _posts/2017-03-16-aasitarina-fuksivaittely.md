@@ -1,17 +1,19 @@
 ---
 layout: post
 title:  "aASitarina #1: Fuksiväittely"
-date:   2016-12-01 00:00:00 +0200
+date:   2017-03-16 00:00:00 +0200
 categories: aasitarina
 image: "/static/aasitarina/fuksivaittely.jpg"
-caption: Eipou ja Mylvari hämillään fuksiväittelyssä
+caption: Eipou ja Mylvari hämillään fuksiväitellessään TTYY:n hallitusjoukkueen kanssa
 ingress: Ensimmäisessä aASitarinassa Juho Salmi ('08) kertoo, kuinka hän huijasi kaksi viatonta AS-fuksia TTYY:n fuksiväittelyyn.
 author: Juho Salmi
 ---
 
+(Metatakaumatorstai uusien aASitarinoiden puutteessa! Kirjoittakaa lisää! Tämä tarina julkaistiin alunperin [AS20v-Facebook-sivulla 2016-12-01](https://www.facebook.com/AS20v/photos/a.428363544218003.1073741828.258282037892822/424856467902044/))
+
 "Ollessani AS:n puheenjohtaja vuonna 2011 kävimme maaliskuun lopulla AYY:n Neuvoston kanssa moikkaamassa TTYY:n Kiltaneuvostoa lumisessa Hervannassa. Reissu oli tietysti railakas ja seuraavana päivänä olo oli mukavan impulsiivinen.
 
-Kun muu Neuvosto palasi aamulla takaisin Otaniemeen, minä päätin jäädä seikkailemaan vielä Hervantaan, sillä seuraavana aamuna Hervannasta lähtisi kyyti kohti Otaniemessä järjestettävää, myöhemmin KYR-päiviksi nimettyä TEK:n tapahtumaa, jonne oli kutsuttu kaikki Suomen teekkarikiltojen puheenjohtajat, fuksivastaavat ja TEK-yhdyshenkilöt. KYR-päivien seikkailuista ja nimestä riittää kerrottavaa omaksi tarinakseen, joten keskitytään ensin päivääni Hervannassa.
+Kun muu Neuvosto palasi aamulla takaisin Otaniemeen, minä päätin jäädä seikkailemaan vielä Hervantaan, sillä seuraavana aamuna Hervannasta lähtisi kyyti kohti Otaniemessä järjestettävää, myöhemmin KYR-päiviksi nimettyä, TEK:n tapahtumaa, jonne oli kutsuttu kaikki Suomen teekkarikiltojen puheenjohtajat, fuksivastaavat ja TEK-yhdyshenkilöt. KYR-päivien seikkailuista ja nimestä riittää kerrottavaa omaksi tarinakseen, joten keskitytään päivääni Hervannassa.
 
 Pääsin Autekin tyyppien kanssa järjestämään jonkin fuksisuunnistuksen rastia. Rastista en muista juuri muuta kuin että rekvisiittana oli hiiligrilli, johon polttomoottoripuhallin tohotti lisää höökiä, jotta makkarat paistuisivat talvisissakin olosuhteissa.
 
