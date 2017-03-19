@@ -10,14 +10,14 @@ layout: default
     {% for post in featured_posts %}
       <article class="article-list__teaser teaser {% if post.image %}teaser--with-image{% endif %}">
         {% if post.image %}
-        <a href="{{ post.url | prepend: site.baseurl }}">
+        <a href="{{ post.url | prepend: site.baseurl | replace:'%C3%A4','ä' }}">
           <img class="teaser__image" src="{{ post.image | prepend: site.baseurl }}">
         </a>
         {% endif %}
         <div class="teaser__text">
           <span class="post-meta"><span class="post__category">{{ post.categories | join: ' ' | replace: '_', ' ' }}</span> {{ post.date | date: "%d.%m.%Y" }}</span>
           <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl | replace:'%C3%A4','ä' }}">{{ post.title }}</a>
           </h2>
         </div>
       </article>
@@ -25,14 +25,14 @@ layout: default
     {% for post in other_posts %}
       <article class="article-list__teaser teaser {% if post.image %}teaser--with-image{% endif %}">
         {% if post.image %}
-        <a href="{{ post.url | prepend: site.baseurl }}">
+        <a href="{{ post.url | prepend: site.baseurl | replace:'%C3%A4','ä' }}">
           <img class="teaser__image" src="{{ post.image | prepend: site.baseurl }}">
         </a>
         {% endif %}
         <div class="teaser__text">
           <span class="post-meta"><span class="post__category">{{ post.categories | join: ' ' | replace: '_', ' ' }}</span> {{ post.date | date: "%d.%m.%Y" }}</span>
           <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl | replace:'%C3%A4','ä' }}">{{ post.title }}</a>
           </h2>
         </div>
       </article>

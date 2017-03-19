@@ -16,7 +16,7 @@ permalink: /uusi_lehti/
       <article class="article-list__teaser teaser">
         <div class="teaser__text">
           <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl  | replace:'%C3%A4','ä' }}">{{ post.title }}</a>
           </h2>
           <span class="post-meta"><span class="post__category">{{ post.categories | join: ' ' | replace: '_', ' ' }}</span>{{ post.author }}</span>
         </div>
