@@ -5,8 +5,8 @@ layout: default
 <div class="home">
 
   <div class="main__article-list article-list section-main">
-    {% assign featured_posts = (site.posts | where_exp: 'post', 'post.featured >= 0' | sort: 'featured' | reverse) %}
-    {% assign other_posts = (site.posts | where_exp: 'post', 'post.featured == nil') %}
+    {% assign featured_posts = site.posts | where_exp: 'post', 'post.featured >= 0' | sort: 'featured' | reverse %}
+    {% assign other_posts = site.posts | where_exp: 'post', 'post.featured == nil' %}
     {% for post in featured_posts %}
       <article class="article-list__teaser teaser {% if post.image %}teaser--with-image{% endif %}">
         {% if post.image %}

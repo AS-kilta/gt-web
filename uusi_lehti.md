@@ -11,7 +11,7 @@ permalink: /uusi_lehti/
     </div>
   </div>
   <div class="article-list--magazine">
-    {% assign posts = (site.posts | where: 'magazine', site.latest_magazine | sort: 'print_order', 'last') %}
+    {% assign posts = site.posts | where: 'magazine', site.latest_magazine | sort: 'print_order', 'last' %}
     {% for post in posts %}
       <article class="article-list__teaser teaser">
         <div class="teaser__text">
