@@ -20,9 +20,12 @@ body {
     }
   }
 }
-.teaser--with-image {
-  .teaser__text {
+.teaser--with-image .teaser__text {
+  @include breakpoint(tablet) {
     max-width: 60%;
+  }
+  @include breakpoint(desktop) {
+    max-width: 70%;
   }
 }
 
