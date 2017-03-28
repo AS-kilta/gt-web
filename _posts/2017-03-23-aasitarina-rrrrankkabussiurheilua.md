@@ -3,7 +3,6 @@ layout: post
 title:  "aASitarina #2: rrrRankkabussiurheilua"
 date:   2017-03-22 00:00:00 +0200
 categories: aasitarina
-featured: 5
 image: "/static/aasitarina/rrrrankka-jan.jpg"
 caption: Kuvassa Jan vielä kaikissa sielun ja ruumiin voimissaan valmiina rrrRankkoihin koitoksiin (©Ananias)
 ingress: Toisessa aASitarinassa Jan Juvonen ('12) kertoo, kuinka hän sai rrrRankkabussin kiinni

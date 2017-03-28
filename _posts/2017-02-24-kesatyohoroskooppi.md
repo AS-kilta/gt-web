@@ -7,8 +7,6 @@ magazine: 1/2017
 print_order: 11
 author: Kaisa Hynynen
 ingress: Kesätyönhaku käy kuumimmillaan ja lievittääkseen työnhakijoiden tuskaa GT päätti kurkistaa eri horoskooppien kesätyörintamalle. Luettuaan taivaan tähtikarttaa ja planeettojen liikkeitä Kultainen toimitus voi ilomielin todeta, ettei sinun kannata menettää toivoasi kesätöiden suhteen! Paitsi jos olet leijona.
-
-featured: 2
 ---
 
 ### OINAS (21.3. - 19.4.)
