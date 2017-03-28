@@ -6,6 +6,7 @@ categories: gt_testaa
 magazine: Rankka/2017
 author: Kultainen toimitus
 ingress: Kotimaan pitkän kunniaksi GT:n toimitus testasi rrrRankkajuomista perinteisimmät.
+print_order: 8
 ---
 
 #### Aku

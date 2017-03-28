@@ -6,6 +6,9 @@ categories: rankka
 magazine: Rankka/2017
 author: Konsta Hölttä
 ingress: Yksi rrrRRrrRRRrRankan pyhimmistä tarkoituksista on tietysti ebin loot. Tavallisesti loot tarttuu etenkin säätöhenkisen henkilön haalariin, vyötärölle, tai olalle; matkan jälkeen loot päätyy usein askiin tahi muutoin alkuperäisloottaajan elinympäristöön. Loottaamisessa eksklusiivisella maanympärimatkalla kannattaa muistaa mm. loottikäyrä ja muita vihjeitä.
+image: "/static/2017-rankka/loot-glaston.jpg"
+print_order: 4
+featured: 4
 ---
 # Yleistä lootista
 
@@ -40,5 +43,3 @@ Loot voi olla jotakuinkin mitä tahansa teollisuustietokoneesta haarukkaan. Loot
 * omistaa selvää visiota lootin lopullisesta käyttötarkoituksesta
 
 .. eikä paljon mitään muutakaan. Kannattaa kuitenkin muistaa, että geneeristä ASkitomaria hermostuttaa ylimääräinen liian iso roina, joten sinne loothyllyyn kannattaa sijoittaa vain pienemmät asiat ja viedä pahemmat omaan kotiin. Lootatkaa villisti, keksikää uusia käyttötarkoituksia ja juhlikaa saalista määränpäässä!
-
-![glaston-loottailu](/static/2017-rankka/loot-glaston.jpg)

@@ -6,7 +6,6 @@ categories: pääkirjoitus
 author: Juuso Mikkonen
 image: "/static/2017-web/web-logo.png"
 ingress: Digitalisaatio, se on jo täällä. Mekin ollaan.
-featured: 4
 ---
 
 Tätä tekstiä kirjoittaessani vuoden ensimmäisen Kultaisen Tomaatin sekä GT-webin launchiin on aikaa kaksi tuntia.

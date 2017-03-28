@@ -6,6 +6,7 @@ categories: tekniikka
 magazine: Rankka/2017
 author: Konsta Hölttä
 ingress: Wikileaksin täysin legit CIA-julkistus toi ilmi, että Git on osa CIA:n(kin) "Hacking Toolseja". Vault 7:stä löytyi ainakin monta Git-aiheista sivua. GT esittelee tässä tipsit ja tricksit lyhyesti; muita varten voi käydä lukemassa tarkemmin vaikka rrrRankkabussissa ajanvietteeksi.
+print_order: 6
 ---
 Joku pääsivu: [https://wikileaks.org/ciav7p1/cms/space_1736707.html](https://wikileaks.org/ciav7p1/cms/space_1736707.html). Howtoja ja muuta kivaa on laidasta laitaan, mutta samat löytyvät triviaalisti itsekin googlaamalla. Jutuista kyllä selviää rivien välistä miten workflowt kummastuttavat, mitä yleisimpiä käyttöpatterneita kavereilla on ja mitkä pikkujutut yleensä askarruttavat. Toisaalta tuonne kokoelmaan on vaan tuupattu iso kasa talteen muualta copypastettuja (ns. lootattuja) tutoriaaleja.
 

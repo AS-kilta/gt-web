@@ -6,6 +6,7 @@ categories: rankka
 magazine: Rankka/2017
 author: Juuso Mikkonen
 ingress: Ei Rankkaa ilman jonotusta! Tänä vuonna GT:n toimitus jalkautui jonottavan aASikansan joukkoon ja suoritti suuren kyselyn vastatakseen moniin rrrRankan ikuisuuskysymyksiin.
+print_order: 5
 ---
 
 Kyselyyn saatiin kymmenen (10) vastausta, joista yksi hylättiin duplikaattina. Käytetty otanta on siis kokonaisuudessaan N=9.

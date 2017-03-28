@@ -9,8 +9,6 @@ image: "/static/2017-01/toimitus_keulii.jpg"
 caption: GT:n toimitus keuli ja edusti Teekkariperinnejuhlassa jo ennen valintaansa.
 author: Juuso Mikkonen
 ingress: Tervetuloa vuoden 2017 ensimmäisen paperisen GT:n pariin. Toimitus on toipunut vuodenvaihteen kiireestä ja juhlinnasta sekä ASCII-lehden taittamisesta ja ahkeroinut kasaan huikean lukupaketin alkuvuodelle.
-
-featured: 1
 ---
 
 Vuoden alku on jännittävää aikaa killistille. Järjestetäänkö wappu? Onko poikaa jäljellä? Tekeekö uusi hallitus mitään? Kultainen Tomaatti tekee parhaansa vastatakseen näihin kysymyksiin – tai ainakin joihinkin kysymyksiin.

@@ -4,8 +4,10 @@ title:  "Rankka survival guide"
 date:   2017-03-23 12:00:01 +0200
 categories: ranka
 author: Onni Lampi
+image: "/static/2017-rankka/survival.jpg"
 magazine: Rankka/2017
 ingress: Onneksi olkoon! Tätä artikkelia lukiessasi olet päässyt osaksi ainutlaatuista jatkumoa; rrrRankan käyneitä aaseja. rrrRankka vertautuu usein etenkin vanhempien killistien kertomissa tarinoissa talvisotaan; se muuttaa miestä. Yksikään killisti ei ole rrrRankan jälkeen palannut kotoiseen Otaniemeen vähintäänkin muutamaa haalarimerkkiä ja tarinaa rikkaampana.
+print_order: 11
 ---
 
 
