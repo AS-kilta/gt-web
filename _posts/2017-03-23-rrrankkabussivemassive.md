@@ -6,6 +6,9 @@ categories: rankka
 author: Eljas, Harppi, Kukka, Lehdari & Veikka
 ingress: RanggaBussiveMassivet ovat viihdyttäneet rrrRankka-kansaa jo kahden vuoden ajan päättömillä ideoillaan ja piikikkäillä lyriikoillaan. Ne raikaavat bussissa, valvottavat makuupussiin kääriytyneitä matkaajia ja virittävät rrrRankalle jonottavat tunnelmaan. Mutta mistä kaikki sai alkunsa? Mistä Kukan kuuluisat lyriikat ovat peräisin? Kuka tuotoksia oikeasti tehtailee? Tämä artikkeli vastaa näihin kysymyksiin ja valottaa RanggaBussiveMassiven herkkää luomisprosessia!
 magazine: Rankka/2017
+image: "/static/2017-rankka/studio.jpg"
+caption: RanggaBussiveMassive2017 studio ennen kaljainvaasiota.
+
 ---
 
 #### Mistä kaikki sai alkunsa?
@@ -20,6 +23,8 @@ Näin sai alkunsa ensimmäinen RanggaBussiveMassive. Kaikkiaan kyseessä oli yhd
 
 *"Ragga, Massive, Rankka, Bussi, RanggaBussiveMassive. Tais syntyä siitä kun oli tarkoitus tehdä raggaa samoihin aikoihin kun rankka oli tuloillaan."* -Kukka
 
+![](/static/2017-rankka/kukka.jpg)
+
 Debyyttisinglen julkaisun jälkeen kolmehenkinen tuotantotiimi siirtyi rrrRankalta kotiuduttuaan tauolle, mutta palasi vuotta myöhemmin entistä suuremmalla köörillä. Toisen RanggaBussiveMassiven tekeminen aloitettiin jo hyvissä ajoin noin kuukautta ennen rrrRankkabussin starttaamista. Tuotanto kuitenkin venyi viimeiseen yöhön saakka ja suurin työ tehtiin vajaassa viikossa. Prosessi oli huomattavasti monimutkaisempi edelliseen vuoteen nähden.
 
 #### Tarinaa tokan biisin sessareista
@@ -29,6 +34,8 @@ Debyyttisinglen julkaisun jälkeen kolmehenkinen tuotantotiimi siirtyi rrrRankal
 *Nauhoitukset kestivät vain runsaan tunnin verran ja käytännössä Kukka sylki lyriikoita melkein koko ajan. Koneelta pistettiin pyörimään Kukan kuulokkeisiin sama looppi ja materiaalia tulikin kaikkiaan yli 20 minuutin verran. Nauhoituksien jälkeen aloitettiin Lehdarin kanssa voksujen seulominen ja taidettiin istua siinä kuutisen tuntia. Sen jälkeen loppui voimat ja päätettiin jatkaa toisena päivänä. Myös jälkimmäisellä kerralla meni useampi tunti ennen kuin sopivat pätkät oli valittu ja aseteltu paikalleen. Ja siitähän se lysti vasta alkoi, kun kaikki lyriikat eivät edes osuneet rytmiin ja niitä piti alkaa pilkkomaan, venyttämään, pitchaamaan (ei siis se hissipuhe) ja ties sun mitä. Parhaimmillaan osa lopullisen version riimeistä koostuu yksittäisistä sanoista, mutta biisin kontekstissa nekin toimivat hyvin.*
 
 *Kun voksut olivat paikallaan ja tempossa, alkoi efektistäkin rakentelu. Sain tasoiteltua yksittäisten pätkien äänenvoimakkuudet, mutta en oikein ollut tyytyväinen lopputulokseen. Voksut eivät vaan istuneet muuhun biisiin. Tässä kohtaa apuun astui Veikka Kähkönen, joka tiesi välittömästi, mitä tehdä. Oltiin sovittu, että Veikka punkkaa mun luona vikan yön ennen rrrRankalle lähtöä ja siinä illan mittaan korjailtiin vielä viimeisiä juttuja. Neljään saakka taisin viilailla biisiä ja loppua kohti homma alkoi käydä aika työlääksi, kun projektifilun avaaminen kesti noin kymmenen minuuttia ja biisin renderöinti mp3-tiedostoksi kesti noin 15 minuuttia. Yhden pienen muutoksen tekemiseen meni siis lähes puoli tuntia aikaa."* -Harppi
+
+![](/static/2017-rankka/lehdar.jpg)
 
 Toisen tuotoksen julkaisua odotettiin kiivaasti jo yöllä. Nyt jo viisihenkiseksi kasvaneen tuotantotiimin esimieheltä ei kuitenkaan irronnut lupaa julkaista RanggaBussiveMassive2016:ta vielä yön hämärissä, joten hiljaisuus vallitsi aamuun saakka. Tai ei ehkä kaikkien mielestä.
 
