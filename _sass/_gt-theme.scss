@@ -4,7 +4,9 @@ body {
 }
 
 .teaser {
-  margin: ($spacing-unit / 2) 0;
+  &:not(:first-of-type) {
+    margin: ($spacing-unit / 2) 0;
+  }
   background-color: $white-color;
   @at-root {
     .teaser__image {
@@ -151,7 +153,6 @@ h4 a {
   @include breakpoint(mobile) {
     float: right;
     width: 25%;
-    padding-top: $spacing-unit / 2;
   }
 }
 
@@ -224,11 +225,14 @@ h4 a {
 }
 .article-list--magazine {
   @include breakpoint(mobile) {
-    width: 67%;
+    width: 68%;
     float: right;
     .teaser:first-of-type {
       margin-top: 0;
     }
+  }
+  .teaser {
+    margin-top: $spacing-unit / 2;
   }
   h2 {
     margin: 0;
