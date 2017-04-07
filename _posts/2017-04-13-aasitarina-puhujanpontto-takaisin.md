@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "aASitarina #4: Kuinka puhujanpönttö päätyi takaisin killan käyttöön"
-date:   2017-04-14 00:00:00 +0200
+date:   2017-04-13 00:00:00 +0200
 categories: aasitarina
 image: "/static/aasitarina/puhujanpontto_stimulaatiossa.jpg"
 caption: "Kuvassa !111111:n edustus IE-ikäjärjestyksessä: Aapo Rantala ('13), Juho Sundin ('08), Salla Ojala ('09), Antti-Ville Vaari ('10), Ville Tissari ('10), Antti Toivanen ('11), Laura Gröhn ('12), Henry Sanmark ('13), Mikko Mustonen ('14), Eero Santamala ('14), Jan Juvonen ('15), Sami Pukkila ('15), Noora Salminen ('16), Kaisa Hynynen ('16). (© Konsta Hölttä)"
