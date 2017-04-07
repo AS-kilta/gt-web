@@ -5,7 +5,7 @@ date:   2017-04-06 00:00:00 +0200
 categories: aasitarina
 image: "/static/aasitarina/wappufiilisseuranta2013.png"
 caption: Kuvassa wappufiilisseurantakäyrä vuodelta 2013. Kuten tästä nähdään, wappufiilis ei kasva monotonisesti.
-ingress: Kuudennessatoista aASitarinassa Wapputekniikan tutkimusryhmän emeritusjohtaja Juho Salmi kertoo, miten wappufiilisseuranta syntyi
+ingress: Kuudennessatoista aASitarinassa Wapputekniikan tutkimusryhmän emeritusjohtaja Juho Salmi ('08) kertoo, miten wappufiilisseuranta syntyi
 author: Juho Salmi
 ---
 
@@ -19,7 +19,7 @@ Wappua tutkiakseni avasin aprillipäivänä [wappufiilisseurannan](http://tinyur
 
 Hypoteesini piti kutinsa! Ihmisten subjektiiviset wappufiilikset kasvoivat hiljalleen wapun lähestyessä. Vaikka wappufiilikset korreloivat opiskelijatapahtumien, sään ja viikonloppujen kanssa, ei tilastosta voinut osoittaa mitään selkeää päivää, jona wappu olisi alkanut. Täten voitiin todeta, että Aallon wappu ei toimi käskemällä, vaan subjektiivisella sumealla logiikalla. Aallossa oli siis Suomen sumein wappu!
 
-Wappu 2013 huipentui 116 fiilistelijän voimin vappupäivänä lähes 100 %:in wappuisuusasteeseen. Tässä ajassa laskentataloukusta oli tullut oma sosiaalinen mediansa, kun ihmiset kommentoivat omia ja toistensa fiiliksiä.
+Wappu 2013 huipentui 116 fiilistelijän voimin vappupäivänä lähes 100 %:in wappuisuusasteeseen. Tässä ajassa laskentataulukosta oli tullut oma sosiaalinen mediansa, kun ihmiset kommentoivat omia ja toistensa fiiliksiä.
 
 Koska wappufiilisseuranta oli menestys, piti se toteuttaa seuraavinakin vuosina. Seuraavina vuosina lanseerattiin [Wappufiilis-Facebook-sivu](https://www.facebook.com/wappufiilis/), käsite termisestä wapusta sekä lisäiltiin seurantaan vuosikurssi- ja opintoalatiedot. Sain jonkun verran porukkaa innostumaan wappufiilistelystä myös Aallon ulkopuolella. Yritin myös kehnoin tuloksin rakentaa yhteisöä, [Wapputekniikan tutkimusryhmää](https://www.facebook.com/groups/wappufiilis/), joka olisi ottanut wappufiiliksen hoitaakseen. Ajatus oli saada toiminnan taakse laajempi porukka laajemman pöhinän ja jatkuvuuden aikaan saamiseksi senkin jälkeen, kun minusta aika opiskelijaskenessä jättäisi. Lopulta vuonna 2016 Teekkarijaosto innostui ottamaan hommasta kopin, ja wappufiiliksen jatkuvuus varmistui.
 
