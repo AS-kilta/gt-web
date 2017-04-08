@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article class="teaser teaser--heading">
+  <div class="teaser__text">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    {% unless page.description == '' %}
+      <p>{{ page.description }}</p>
+    {% endunless %}
+  </div>
+</article>
+
+<div class="page--calendar auto-content">
+  {% for post in site.categories['wappu17'] %}
+    <a href="{{ post.url }}">
+      <div class="auto-col-3 calendar-item--wrapper">
+        <article class="calendar-item">
+          <div class="calendar-item__cover">
+            <h2>{{ post.number }}</h2>
+          </div>
+          <div class="calendar-item__inside">
+            {{ post.title }}
+          </div>
+        </article>
+      </div>
+    </a>
+  {% endfor %}
+  </div>
+</div>
