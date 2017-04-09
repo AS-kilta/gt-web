@@ -2,6 +2,24 @@
 layout: default
 ---
 
+<style>
+  .dynamic-bg--wappu17 {
+    width: calc(100% - 50px);
+    background-image: url("/static/2017-wappu/juuso-icon.png");
+    position: absolute;
+    top: -50%;
+    bottom: -50px;
+    left: 0;
+    z-index: -10;
+    overflow: hidden;
+    animation: bg-slide 5s ease-in-out infinite alternate;
+  }
+  @keyframes bg-slide {
+    from { transform: translate(0, 0); }
+    to { transform: translate(50px, 50px); }
+  }
+</style>
+<div class="dynamic-bg--wappu17"></div>
 <article class="teaser teaser--heading">
   <div class="teaser__text">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>

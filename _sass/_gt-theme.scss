@@ -270,6 +270,7 @@ body.special-bg {
   margin: 5px;
   text-align: center;
   .calendar-item__cover {
+    transition: all 2s linear;
     padding-top: 40px;
   }
   .calendar-item__inside {
@@ -287,3 +288,21 @@ body.special-bg {
   }
 }
 
+a {
+  &:nth-of-type(3n) {
+    .calendar-item {
+      background-color: #CAFFD0;
+    }
+  }
+  &:nth-of-type(3n+1) {
+    .calendar-item {
+      background-color: #FFF07C;
+    }
+  }
+  &:nth-of-type(3n+2) {
+    .calendar-item {
+      background-color: #48A9A6;
+      color: $white-color;
+    }
+  }
+}
