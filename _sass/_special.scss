@@ -1,0 +1,65 @@
+.dynamic-bg--wappu17 {
+  width: calc(100% - 50px);
+  background-image: url("/static/2017-wappu/juuso-icon.png");
+  position: absolute;
+  top: -50%;
+  bottom: -50px;
+  left: 0;
+  z-index: -10;
+  overflow: hidden;
+  animation: wappu17-bg-slide 5s ease-in-out infinite alternate;
+}
+@keyframes wappu17-bg-slide {
+  from { transform: translate(0, 0); }
+  to { transform: translate(50px, 50px); }
+}
+
+.page--calendar.page--calendar {
+  width: 100%;
+  padding-top: 10px;
+}
+.calendar-item {
+  @include breakpoint(0, tablet) {
+    width: 46%;
+    float: left;
+  }
+  height: 120px;
+  background-color: $white-color;
+  margin: 5px;
+  text-align: center;
+  .calendar-item__cover {
+    padding-top: 40px;
+  }
+  .calendar-item__inside {
+    padding-top: 40px;
+    display: none;
+  }
+  &:hover {
+    border: 2px solid $brand-color;
+    .calendar-item__cover {
+      display: none;
+    }
+    .calendar-item__inside {
+      display: block;
+    }
+  }
+}
+
+a {
+  &:nth-of-type(3n) {
+    .calendar-item {
+      background-color: #CAFFD0;
+    }
+  }
+  &:nth-of-type(3n+1) {
+    .calendar-item {
+      background-color: #FFF07C;
+    }
+  }
+  &:nth-of-type(3n+2) {
+    .calendar-item {
+      background-color: #48A9A6;
+      color: $white-color;
+    }
+  }
+}

@@ -3,22 +3,19 @@ layout: default
 ---
 
 <style>
-  .dynamic-bg--wappu17 {
-    width: calc(100% - 50px);
-    background-image: url("/static/2017-wappu/juuso-icon.png");
-    position: absolute;
-    top: -50%;
-    bottom: -50px;
-    left: 0;
-    z-index: -10;
-    overflow: hidden;
-    animation: bg-slide 5s ease-in-out infinite alternate;
+  body {
+    background-color: lightblue;
   }
-  @keyframes bg-slide {
-    from { transform: translate(0, 0); }
-    to { transform: translate(50px, 50px); }
+  .header__title,
+  .header__navigation ul,
+  .teaser--heading {
+    background-color: lightyellow;
+  }
+  .header__navigation {
+    border-color: #48A9A6;
   }
 </style>
+
 <div class="dynamic-bg--wappu17"></div>
 <article class="teaser teaser--heading">
   <div class="teaser__text">
@@ -44,5 +41,17 @@ layout: default
       </div>
     </a>
   {% endfor %}
+  <a href="https://wappu.fi">
+    <div class="auto-col-3 calendar-item--wrapper">
+      <article class="calendar-item">
+        <div class="calendar-item__cover" style="padding-top: 20px;">
+          <h2>Luukku auki ja wappu käyntiin!</h2>
+        </div>
+        <div class="calendar-item__inside">
+          Wapedi waps!
+        </div>
+      </article>
+    </div>
+  </a>
   </div>
 </div>
