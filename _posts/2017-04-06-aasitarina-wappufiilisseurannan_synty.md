@@ -4,7 +4,7 @@ title:  "aASitarina #16: Kuinka wappufiilisseuranta syntyi"
 date:   2017-04-06 00:00:00 +0200
 categories: aasitarina
 image: "/static/aasitarina/wappufiilisseuranta2013.png"
-caption: Kuvassa wappufiilisseurantakäyrä vuodelta 2013. Kuten tästä nähdään, wappufiilis ei kasva monotonisesti.
+caption: Kuvassa wappufiilisseurantakäyrä vuodelta 2013. Kuten tästä nähdään, wappufiilis ei kasva monotonisesti, eikä mitään selkeää wapun alkua ole havaittavissa.
 ingress: Kuudennessatoista aASitarinassa Wapputekniikan tutkimusryhmän emeritusjohtaja Juho Salmi ('08) kertoo, miten wappufiilisseuranta syntyi
 author: Juho Salmi
 ---
