@@ -1,22 +1,7 @@
-.dynamic-bg--wappu17 {
-  width: calc(100% - 50px);
-  background-image: url("/static/2017-wappu/juuso-icon.png");
-  position: absolute;
-  top: -50%;
-  bottom: -50px;
-  left: 0;
-  z-index: -10;
-  overflow: hidden;
-  animation: wappu17-bg-slide 5s ease-in-out infinite alternate;
-}
-@keyframes wappu17-bg-slide {
-  from { transform: translate(0, 0); }
-  to { transform: translate(50px, 50px); }
-}
-
 .page--calendar.page--calendar {
   width: 100%;
   padding-top: 10px;
+  margin-left: 10px;
 }
 .calendar-item {
   @include breakpoint(0, tablet) {
@@ -24,7 +9,7 @@
     float: left;
   }
   height: 120px;
-  background-color: $white-color;
+  background-color: rgba(250, 250, 250, 0.9);
   margin: 5px;
   text-align: center;
   .calendar-item__cover {
@@ -34,18 +19,9 @@
     padding-top: 40px;
     display: none;
   }
-  &:hover {
-    border: 2px solid $brand-color;
-    .calendar-item__cover {
-      display: none;
-    }
-    .calendar-item__inside {
-      display: block;
-    }
-  }
 }
 
-a {
+a.released {
   &:nth-of-type(3n) {
     .calendar-item {
       background-color: #CAFFD0;
@@ -62,4 +38,67 @@ a {
       color: $white-color;
     }
   }
+  .calendar-item {
+      &:hover {
+        border: 2px solid $brand-color;
+        .calendar-item__cover {
+          display: none;
+        }
+        .calendar-item__inside {
+          display: block;
+        }
+      }
+  }
+}
+
+.teaser--wappu {
+  background: url('/static/2017-wappu/korkkihommia2.png') repeat-x;
+  background-color: $white-color;
+  text-align: center;
+  padding-top: 180px;
+  margin-bottom: $spacing-unit / 2;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+  animation: border-color 5s infinite;
+  -webkit-animation: border-color 5s infinite;
+}
+
+.wappu-link {
+  @extend %no-link-style;
+}
+
+@keyframes bg-color
+{
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  75%  {background-color: green;}
+  100% {background-color: red;}
+}
+
+@-webkit-keyframes bg-color
+{
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  75%  {background-color: green;}
+  100% {background-color: red;}
+}
+
+@keyframes border-color
+{
+  0%   {border-color: red;}
+  25%  {border-color: yellow;}
+  50%  {border-color: blue;}
+  75%  {border-color: green;}
+  100% {border-color: red;}
+}
+
+@-webkit-keyframes border-color
+{
+  0%   {border-color: red;}
+  25%  {border-color: yellow;}
+  50%  {border-color: blue;}
+  75%  {border-color: green;}
+  100% {border-color: red;}
 }

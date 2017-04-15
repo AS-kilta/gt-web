@@ -3,17 +3,21 @@ layout: default
 ---
 
 <style>
-  body {
-    background-color: lightblue;
+body {
+  animation: bg-color 60s infinite;
+  -webkit-animation: bg-color 60s infinite;
+  background-image: url("/static/2017-wappu/icon-animated.gif");
+}
+@media (max-width: 600px) {
+  .post-title {
+    font-size: 36px;
   }
-  .header__title,
-  .header__navigation ul,
-  .teaser--heading {
-    background-color: lightyellow;
-  }
-  .header__navigation {
-    border-color: #48A9A6;
-  }
+}
+.header__title {
+  background: url('/static/2017-wappu/korkkihommia.png') repeat-x;
+  background-color: white;
+  padding-top: 180px;
+}
 </style>
 
 <div class="dynamic-bg--wappu17"></div>
@@ -27,31 +31,36 @@ layout: default
 </article>
 
 <div class="page--calendar auto-content">
-  {% for post in site.categories['wappu17'] %}
-    <a href="{{ post.url }}">
+  <div class="auto-row">
+    {% assign collection = site.categories['wappu17'] | sort: 'calendar' %}
+    {% for post in collection %}
+      {% assign content = post.content | strip_newlines %}
+      <a {% unless content == "" %} href="{{ post.url }}" class="released" {% endunless %}>
+        <div class="auto-col-3 calendar-item--wrapper">
+          <article class="calendar-item">
+            <div class="calendar-item__cover">
+              <h2>{{ post.number }}</h2>
+            </div>
+            {% unless content == "" %}
+            <div class="calendar-item__inside">
+              {{ post.title }}
+            </div>
+            {% endunless %}
+          </article>
+        </div>
+      </a>
+    {% endfor %}
+    <a href="https://wappu.fi" class="released">
       <div class="auto-col-3 calendar-item--wrapper">
         <article class="calendar-item">
-          <div class="calendar-item__cover">
-            <h2>{{ post.number }}</h2>
+          <div class="calendar-item__cover" style="padding-top: 20px;">
+            <h2>Luukku auki ja wappu käyntiin!</h2>
           </div>
           <div class="calendar-item__inside">
-            {{ post.title }}
+            Wapedi waps!
           </div>
         </article>
       </div>
     </a>
-  {% endfor %}
-  <a href="https://wappu.fi">
-    <div class="auto-col-3 calendar-item--wrapper">
-      <article class="calendar-item">
-        <div class="calendar-item__cover" style="padding-top: 20px;">
-          <h2>Luukku auki ja wappu käyntiin!</h2>
-        </div>
-        <div class="calendar-item__inside">
-          Wapedi waps!
-        </div>
-      </article>
-    </div>
-  </a>
   </div>
 </div>

@@ -68,6 +68,12 @@ $font-serif: 'Noto Serif', serif;
   }
 }
 
+%no-link-style {
+    &, &:hover, &:visited {
+        text-decoration: none !important;
+        color: $text-color;
+    }
+}
 
 //
 // Autogrid CSS framework by Juuso Mikkonen (github.com/juusaw)
