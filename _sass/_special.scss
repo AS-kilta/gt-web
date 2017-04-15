@@ -52,7 +52,7 @@ a.released {
 }
 
 .teaser--wappu {
-  background: url('/static/2017-wappu/korkkihommia.png') repeat-x;
+  background: url($baseurl + '/static/2017-wappu/korkkihommia.png') repeat-x;
   background-color: $white-color;
   text-align: center;
   padding-top: 180px;
