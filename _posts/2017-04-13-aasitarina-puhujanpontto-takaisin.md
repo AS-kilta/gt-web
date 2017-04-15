@@ -7,6 +7,7 @@ image: "/static/aasitarina/puhujanpontto_stimulaatiossa.jpg"
 caption: "Kuvassa !111111:n edustus IE-ikäjärjestyksessä: Aapo Rantala ('13), Juho Sundin ('08), Salla Ojala ('09), Antti-Ville Vaari ('10), Ville Tissari ('10), Antti Toivanen ('11), Laura Gröhn ('12), Henry Sanmark ('13), Mikko Mustonen ('14), Eero Santamala ('14), Jan Juvonen ('15), Sami Pukkila ('15), Noora Salminen ('16), Kaisa Hynynen ('16). (© Konsta Hölttä)"
 ingress: Neljäs aASitarina tulee videoituna Aapo Rantalan ('11) suusta Stimulaation koktailtilaisuudessa 2015. !111111:n tervehdyksen yhteydessä hän kertoo tarinan, kuinka JMT1:n remontin seurauksena killan puhujanpönttö päätyi hänen kämpilleen sekä videolla lopulta Stimulaatio-lahjana takaisin killan päänvaivaksi. Videon kruunaa Juho Sundinin kuhaläppä.
 author: Juho Salmi
+featured: 7
 ---
 
 (Metatakaumatorstai #4 uusien aASitarinoiden puutteessa! Kirjoittakaa lisää! Tämä tarina julkaistiin alunperin [AS20v-Facebook-sivulla 2016-12-22](https://www.facebook.com/AS20v/posts/442102656177425).)
