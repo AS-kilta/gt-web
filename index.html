@@ -5,7 +5,7 @@ layout: default
 <div class="home">
 
     {% if site.wappu %}
-    <a href="/wappu17" class="wappu-link">
+    <a href="{{ '/wappu17' | prepend: site.baseurl }}" class="wappu-link">
       <div class="teaser teaser--wappu">
         <h1>GT:n wappukalenteri on täällä!</h1>
         <h4>Kultainen toimitus toivottaa hauskaa wappua itse kullekin!</h4>

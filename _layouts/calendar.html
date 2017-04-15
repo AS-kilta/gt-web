@@ -35,7 +35,7 @@ body {
     {% assign collection = site.categories['wappu17'] | sort: 'calendar' %}
     {% for post in collection %}
       {% assign content = post.content | strip_newlines %}
-      <a {% unless content == "" %} href="{{ post.url }}" class="released" {% endunless %}>
+      <a {% unless content == "" %} href="{{ post.url | prepend: site.baseurl }}" class="released" {% endunless %}>
         <div class="auto-col-3 calendar-item--wrapper">
           <article class="calendar-item">
             <div class="calendar-item__cover">
