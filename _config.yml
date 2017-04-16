@@ -25,3 +25,6 @@ lang: fi
 latest_magazine: Rankka/2017
 latest_magazine_description: >
   GT:n perinteinen rankkanumero julkaistiin Automaatio- ja systeemitekniikan killan kotimaan pitkän ensimmäisenä päivänä 23.3.17
+
+# Finally!
+wappu: true

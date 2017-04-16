@@ -4,9 +4,19 @@ layout: default
 
 <div class="home">
 
+    {% if site.wappu %}
+    <a href="{{ '/wappu17' | prepend: site.baseurl }}" class="wappu-link">
+      <div class="teaser teaser--wappu">
+        <h1>GT:n wappukalenteri on täällä!</h1>
+        <h4>Kultainen toimitus toivottaa hauskaa wappua itse kullekin!</h4>
+      </div>
+    </a>
+    {% endif %}
+
   <div class="main__article-list article-list section-main">
-    {% assign featured_posts = site.posts | where_exp: 'post', 'post.featured >= 0' | sort: 'featured' | reverse %}
-    {% assign other_posts = site.posts | where_exp: 'post', 'post.featured == nil' %}
+
+    {% assign featured_posts = site.posts | where_exp: 'post', 'post.featured >= 0' | where_exp: 'post', 'post.no_frontpage != true' | sort: 'featured' | reverse %}
+    {% assign other_posts = site.posts | where_exp: 'post', 'post.featured == nil'  | where_exp: 'post', 'post.no_frontpage != true' %}
     {% for post in featured_posts %}
       <article class="article-list__teaser teaser {% if post.image %}teaser--with-image{% endif %}">
         {% if post.image %}

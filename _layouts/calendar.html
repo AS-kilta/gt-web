@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<style>
+body {
+  animation: bg-color 60s infinite;
+  -webkit-animation: bg-color 60s infinite;
+  background-image: url("{{site.baseurl}}/static/2017-wappu/icon-animated.gif");
+}
+@media (max-width: 600px) {
+  .post-title {
+    font-size: 36px;
+  }
+}
+.header__title {
+  background: url("{{site.baseurl}}/static/2017-wappu/korkkihommia.png") repeat-x;
+  background-color: white;
+  padding-top: 180px;
+}
+</style>
+
+<div class="dynamic-bg--wappu17"></div>
+<article class="teaser teaser--heading">
+  <div class="teaser__text">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    {% unless page.description == '' %}
+      <p>{{ page.description }}</p>
+    {% endunless %}
+  </div>
+</article>
+
+<div class="page--calendar auto-content">
+  <div class="auto-row">
+    {% assign collection = site.categories['wappu17'] | sort: 'calendar' %}
+    {% for post in collection %}
+      {% assign content = post.content | strip_newlines %}
+      <a {% unless content == "" %} href="{{ post.url | prepend: site.baseurl }}" class="released" {% endunless %}>
+        <div class="auto-col-3 calendar-item--wrapper">
+          <article class="calendar-item">
+            <div class="calendar-item__cover">
+              <h2>{{ post.number }}</h2>
+            </div>
+            {% unless content == "" %}
+            <div class="calendar-item__inside">
+              {{ post.title }}
+            </div>
+            {% endunless %}
+          </article>
+        </div>
+      </a>
+    {% endfor %}
+    <a href="https://wappu.fi" class="released">
+      <div class="auto-col-3 calendar-item--wrapper">
+        <article class="calendar-item">
+          <div class="calendar-item__cover" style="padding-top: 20px;">
+            <h2>Luukku auki ja wappu käyntiin!</h2>
+          </div>
+          <div class="calendar-item__inside">
+            Wapedi waps!
+          </div>
+        </article>
+      </div>
+    </a>
+  </div>
+</div>

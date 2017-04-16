@@ -1,7 +1,8 @@
 <div class="post__sidebar--inner">
   <div class="sidebar__latest">
     <h3>Uusimmat</h3>
-    {% for post in site.posts limit:7 %}
+    {% assign latest = site.posts | where_exp: 'post', 'post.no_frontpage != true' %}
+    {% for post in latest limit: 7 %}
       <div class="sidebar__teaser">
         <span class="post-meta"><span class="post__category">{{ post.categories | join: ' ' | replace: '_', ' ' }}</span>{{ post.date | date: "%d.%m.%Y"}}</span>
         <h4><a href="{{ post.url | prepend: site.baseurl | replace:'%C3%A4','ä' }}">{{ post.title }}</a></h4>
@@ -12,7 +13,8 @@
   {% if site.categories[page.categories.first].size > 1 %}
     <div class="sidebar__related">
       <h3>Lisää aiheesta</h3>
-      {% for post in site.categories[page.categories.first] %}
+      {% assign related = site.categories[page.categories.first] %}
+      {% for post in related limit: 7 %}
         {% if post.title != page.title %}
           <div class="sidebar__teaser">
             <span class="post-meta"><span class="post__category">{{ post.categories | join: ' ' | replace: '_', ' ' }}</span>{{ post.date | date: "%d.%m.%Y"}}</span>

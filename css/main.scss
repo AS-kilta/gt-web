@@ -1,9 +1,13 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
+
 @charset "utf-8";
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif|Fjalla+One');
+
+$baseurl: '{{site.baseurl}}';
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -68,6 +72,12 @@ $font-serif: 'Noto Serif', serif;
   }
 }
 
+%no-link-style {
+    &, &:hover, &:visited {
+        text-decoration: none !important;
+        color: $text-color;
+    }
+}
 
 //
 // Autogrid CSS framework by Juuso Mikkonen (github.com/juusaw)
@@ -96,7 +106,7 @@ $font-serif: 'Noto Serif', serif;
     }
 }
 
-@media screen and (min-width: 600px) {
+@include breakpoint (tablet) {
     @for $i from 1 through 12 {
         .auto-col-#{$i} {
             width: $i / 12 * 98%;
@@ -122,5 +132,6 @@ $font-serif: 'Noto Serif', serif;
         "base",
         "layout",
         "gt-theme",
+        "special",
         "syntax-highlighting"
 ;
