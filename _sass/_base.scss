@@ -171,6 +171,7 @@ pre {
     max-width: $content-width;
     margin-right: auto;
     margin-left: auto;
+    overflow: hidden;
     @extend %clearfix;
 }
 
