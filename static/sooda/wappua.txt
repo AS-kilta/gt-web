@@ -1,17 +1,3 @@
----
-layout: wappu17-post
-title:  "wappua.txt"
-date:   2017-04-20 00:00:30 +0300
-categories: wappu17
-number: 20
-calendar: 16
-no_frontpage: false
-featured: 9
-author: Sooda "Konsta" Hölttä
----
-
-*[Saatavilla myös aidossa ja alkuperäisessä txt-formaatissa](/static/sooda/wappua.txt)*
-
 Ollaan tässä just Rabben kanssa wappua viettämässä ja ui juma!! AS:n teltalla Ulliksella oli joku TEOLLISUUSMASIINA jakamassa juotavaa! Näin sitä työphuksien hommat viedään käsistä robotisaatiolla. Ihan HYVÄT muumimehut niillä siellä oli, mutta ei mikään vedä vertoja Simolle, joka pohjautuu tietysti aitoon TURBOHIIVAAN!!! Panolan harrastekuntakin kalpenisi Rabben neljännen polven juomanlASkutaidoille. Limen ja muiden ainesosien koostumus on tietysti salaisuus.
 
 Jo viime viikolla oltiin saatu valmiiksi munkkitaikina AKATEEMISEN pohjatyön voimin kun suoritettiin fysiikan laitoksen ERITTÄIN customina erikoistyönä kokonaisvaltainen taustatutkimus eri valmistajien taikinoiden koostumuksesta. Ennen massaspektrometrin käyttöä toki suoritettiin valistuneet arvaukset erinäisten salaisten reseptien pohjalta. Rabben serkun mimmi itseasiassa opiskelee ravitsemustiedettä Viikissä Helsingin yliopistolla, saatiin siltä PERIN tarkat suositukset!
@@ -23,3 +9,4 @@ Se kuitenkin meidän ravinnostamme. Tässä Ulliksella myytiin viimeiset ÄPYT. 
 Legendaarinen hölmöjen vitsien shitpost-kulttuuri ponnisti muuten sitsikilpailuissakin liki tempauksenomaisella tavalla, kun ympäröitiin KOKO alvari kakkahymiöillä ja pelleilystickereillä haha!! Harkittiin samaa tänne koko Ullikselle, mutta laskettiin ettei koko Otaniemen tulostimissa olisi LÄHESKÄÄN riittänyt muste! Täytynee hankkia sponssi ensi vuodelle. Vallattiin sitsien jälkeen Radiodiodin kontit ja shitpostattiin ÄÄNEEN! Meneillään ollut radiokuunnelma meni ihan hämilleen ja lopulta oli täysin juonessa mukana, mikä tietysti oli täysin odotettavissa. Värjättiin asianomaisten päät violetilla hiussprayllä kiitokseksi ymmärryksestä. DJ vain nauroi.
 
 Nyt pitää lopettaa tällä erää. Tuolla lavalla alkaa just Futuricen exclusive Whappu-voittajan julistus-juhlistus ja juuri MEIDÄN kiltamme on viime hetkinä hiponut voittopisteitä. Siirrytään lavaa kohti paukkuserpentiinit TANASSA! Katsotaan miten äijien käy…
+
