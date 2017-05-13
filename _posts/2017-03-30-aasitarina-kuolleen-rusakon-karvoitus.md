@@ -5,7 +5,6 @@ date:   2017-03-30 00:00:00 +0200
 categories: aasitarina
 ingress: Kolmannessa aASitarinassa Kalle Kollin ('02) kertoo hänen, Deividin, rusakon ja Aarne Halmeen hellän dynaamisesta kohtaamisesta
 author: Juho Salmi
-featured: 4
 ---
 
 (Metatakaumatorstai #3 uusien aASitarinoiden puutteessa! Kirjoittakaa lisää! Tämä tarina julkaistiin alunperin [AS20v-Facebook-sivulla 2016-12-15](https://www.facebook.com/AS20v/posts/439096943144663).)

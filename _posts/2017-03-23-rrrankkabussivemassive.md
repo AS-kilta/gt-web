@@ -9,7 +9,6 @@ magazine: Rankka/2017
 image: "/static/2017-rankka/studio.jpg"
 caption: RanggaBussiveMassive2017 studio ennen kaljainvaasiota.
 print_order: 9
-featured: 6
 ---
 
 #### Mistä kaikki sai alkunsa?

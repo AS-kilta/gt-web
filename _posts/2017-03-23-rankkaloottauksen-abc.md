@@ -8,7 +8,6 @@ author: Konsta Hölttä
 ingress: Yksi rrrRRrrRRRrRankan pyhimmistä tarkoituksista on tietysti ebin loot. Tavallisesti loot tarttuu etenkin säätöhenkisen henkilön haalariin, vyötärölle, tai olalle; matkan jälkeen loot päätyy usein askiin tahi muutoin alkuperäisloottaajan elinympäristöön. Loottaamisessa eksklusiivisella maanympärimatkalla kannattaa muistaa mm. loottikäyrä ja muita vihjeitä.
 image: "/static/2017-rankka/loot-glaston.jpg"
 print_order: 4
-featured: 4
 ---
 # Yleistä lootista
 

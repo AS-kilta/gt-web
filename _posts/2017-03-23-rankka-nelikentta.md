@@ -7,7 +7,6 @@ author: Juuso Mikkonen
 magazine: Rankka/2017
 ingress: Rankka on täällä, eikä hypeltä välty kukaan. Kuukauden nelikenttä esittelee tällä kertaa rrrRankkabussin sekalaisen seurakunnan.
 print_order: 2
-featured: 2
 ---
 
 <div class="fourfold clearfix">

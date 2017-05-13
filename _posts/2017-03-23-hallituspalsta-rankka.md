@@ -7,7 +7,6 @@ author: Severi Casserly
 magazine: Rankka/2017
 image: "/static/2017-rankka/severi.jpg"
 print_order: 3
-featured: 2
 ---
 
 Olen lähiaikoina yllättävän usein löytänyt itseni tekemästä asioita, joista olin joskus ajatellut, että tätä en ainakaan koskaan tule tekemään. Tällä kertaa kyseessä ei ole minkäänlaiset päihteet tai kerettiläiset tekstieditorit, vaan jotain ihan muuta. Yhtenä hyvänä esimerkkinä on kiltalehteen kirjoittaminen. Kaikenlainen tarinointi on aina, jo varhaisista ala-aste ajoista, ollut syvimmän vihan ja inhoni kohde. Kirjoitettuani kovalla vaivalla improbaturin ylioppilastutkintooni, luulin virheellisesti päässeeni siitä kaikesta hömpötyksestä eroon, puhtaan asiatekstin maailmaan. Voi kuinka olinkaan väärässä, mutta ei siitä sen enempää.

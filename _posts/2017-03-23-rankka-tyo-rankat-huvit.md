@@ -8,7 +8,6 @@ magazine: Rankka/2017
 image: "/static/2017-rankka/juuso.jpg"
 ingress: Onnea kiltalainen! Istut toivottavasti tätä lukiessasi rrrRankkabussissa matkalla kohti suuria seikkailuja. Itse istun ainakin, ellen ole parhaillaan kaatamassa alkoholitonta kotiviiniä nautittavaksi.
 print_order: 1
-featured: 1
 ---
 
 Lämmin ja aurinkoinen alkukevät on kenties vienyt monen ajatukset jo Wappuun, mutta ei mennä kuitenkaan asioiden edelle. Ensin huvit, sitten työ. Wappu saapuu (lähes) joka kevät, mutta rrrRankka on vain kerran vuodessa. Paistaa se aurinko rrrRankkabussiinkin – ja hyvällä tuurilla sälekaihtimien välistä myös sinne aamun kalvosulkeisexculle.

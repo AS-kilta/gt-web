@@ -7,7 +7,6 @@ magazine: Rankka/2017
 author: Konsta Hölttä
 ingress: Rankan parhainta antia on kokea massiivisia teollisuuskomplekseja, joita tuskin koskaan opiskeluelämän jälkeen pääsee näkemään yhtä säännöllisesti ja läheltä. Yrityssuhdehyypiön järjestämien excujen lisäksi matkalla voi aiheutua myös DIY-excuja mm. ravintoloihin, paikallisille rakennustyömaille sekä kampustiloihin.
 print_order: 10
-featured: 5
 ---
 # Hyvän vierailun ainekset
 
