@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "aASitarina #17: Jan varASlähdössä"
-date:   2017-05-18 00:00:00 +0200
+title:  "aASitarina #18: AS ripikoulu"
+date:   2017-05-26 00:00:00 +0200
 categories: aasitarina
-image: "/static/aasitarina/pesispokaali.jpg"
+image: "/static/aasitarina/pesispokaali.JPG"
 caption: "Sanni Rissanen TYT-AS-pesiksessä rippikoulua seuranneen 2014 wapun alla. Toivotamme tervetulleeksi kuvat TYT-AS-rippikoulusta historiikkia varten, sillä tähän hätään emme rippikoulukuvia löytäneet!"
 ingress: Kuudes aASitarina on Sanni Rissasen kertomus, kuinka Teologian Ylioppilaiden Tiedekuntayhdistys TYT järjesti killalle rippikoulun ja siten myös naimaluvan.
 author: Juho Salmi
