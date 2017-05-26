@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "aASitarina #18: AS ripikoulu"
+title:  "aASitarina #18: AS-rippikoulu"
 date:   2017-05-26 00:00:00 +0200
 categories: aasitarina
 image: "/static/aasitarina/pesispokaali.JPG"
