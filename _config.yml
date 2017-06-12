@@ -22,9 +22,13 @@ lang: fi
 
 # Remember to update when releasing a new magazine
 # Use format D/YYYY (for example 1/2017)
-latest_magazine: Rankka/2017
+latest_magazine: 2/2017
+latest_cover: /static/2017-02/kansi.jpg
+
 latest_magazine_description: >
-  GT:n perinteinen rankkanumero julkaistiin Automaatio- ja systeemitekniikan killan kotimaan pitkän ensimmäisenä päivänä 23.3.17
+  Vuoden toinen järjestysnumerollinen GT julkaistiin perinteisesti Eskalaatiossa, Automaatio- ja systeemitekniikan killan puolivuotisjuhlan silliksellä. Lehden teemana on killalle ominainen testauskulttuuri. 
+#latest_magazine_description: >
+#  GT:n perinteinen rankkanumero julkaistiin Automaatio- ja systeemitekniikan killan kotimaan pitkän ensimmäisenä päivänä 23.3.17
 
 # Finally!
 wappu: false
