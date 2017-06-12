@@ -7,6 +7,7 @@ author: Kaisa Hynynen
 ingress: "Mitämitä, sinäkö muka alumni? Kaikkihan sen tietää, ettei AS:läisistä tule alumneja. Vai tuleeko? Milloin saan edes kandini kasaan? Mistä tunnistaa AS alumnin? Tuleeko Henry Sanmarkista DI? Näihin ja moniin muihin kysymyksiin vastaa toimitus, joka jälleen kerran kurkisti kauas tulevaisuuteen."
 magazine: 2/2017
 print_order: 9
+featured: 4
 ---
  
  

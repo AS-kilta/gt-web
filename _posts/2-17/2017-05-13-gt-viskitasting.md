@@ -8,6 +8,7 @@ image: /static/2017-02/viski2.jpg
 ingress: "Kultaisen toimituksen viskijaos suuntasi eräänä toukokuisena iltana Sipsitilarockin jatkoilta suorittamaan viskimaistelua tieteen ja yhteisen hyvinvoinnin nimissä. Hyvinvointi pysytteli kaukana toimittajista seuraavana aamuna."
 magazine: 2/2017
 print_order: 6
+featured: 3
 ---
 
 Toimittajat tutustuivat taustatyönä myös oikeaoppiseen maistelutekniikkaan Richard Patersonin oppien mukaisesti. Tärkeäksi osaksi testiä muodostui dialogi viskin kanssa, joka viritti aistit oikeaan tunnelmaan itse maistamista varten. Lasia ei sentään huuhdottu viskillä, saati tyhjennetty tämän jälkeen herrasmiesmäisesti juoma olan yli heittäen.

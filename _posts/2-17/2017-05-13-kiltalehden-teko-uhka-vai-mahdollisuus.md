@@ -8,6 +8,7 @@ ingress: "Tervetuloa uuden Kultaisen Tomaatin pariin. Jälleen vuosi on edennyt 
 image: "/static/2017-rankka/juuso.jpg"
 magazine: 2/2017
 print_order: 1
+featured: 5
 ---
 
 Niin kauan kuin muistan, GT on testannut. Se, mitä ei tiedetä, voidaan selvittää testaamalla. Se, mikä jo tiedetään, voidaan testata silti, jos se on hauskaa. Joskus testit tuottavat maailmaan uutta ja merkittävää tietoa, joka vie ihmiskuntaa askelen lähemmäs singulariteettiä. Joskus testistä jää hauska tarina ja yksi kulmakarva lähtötilannetta vähemmän. Kaikki tämä tieteen nimissä – tietenkin.

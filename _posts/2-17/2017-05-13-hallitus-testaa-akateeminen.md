@@ -7,6 +7,7 @@ author: Automaatio- ja systeemitekniikan killan hallitus
 ingress: "GT:n tilausviikolla tapahtui myös Otaniemen ulkopuolella. Killan hallitus uskaltautui läntiseen satamakaupunkiin testaamaan Akateemisen aurajokilaivatutkinnon. Juttu on koottu hallituksen viesteistä aihetunnuksella #hallitustestaa."
 magazine: 2/2017
 print_order: 4
+featured: 2
 ---
 
 
