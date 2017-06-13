@@ -9,8 +9,6 @@ magazine: 2/2017
 print_order: 5
 ---
 
-Jokainen meistä kunnon_miähistä on varmasti törmännyt intissä erittäin särmiin sekä erittäin vähän särmiin kapiaisiin ja muihin kouluttajiin. Samoin jokaiselle on varmasti tuttu kaikkien lemppariharjoitus eli sulkeiset. Koska sulkeiskäskyt ovat jokaisella jo takaraivossa, tänään testaammekin osaatteko (kuten jokaisen innovatiivisen huippu_lipasto_soturin kuuluisi) soveltaa yhdistettyjä valmistavaosa-käskyosa-comboja. Ohessa myös kuvat ko. käskyjen toteuttamisista. 
- 
 
 ### Lakki - vie
 
