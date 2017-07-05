@@ -104,7 +104,7 @@
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: 13px;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
@@ -181,7 +181,6 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
 }
 
 
@@ -194,12 +193,12 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 34px;
     letter-spacing: -1px;
     line-height: 1;
 
     @include breakpoint(desktop) {
-        font-size: 36px;
+        font-size: 28px;
     }
 }
 

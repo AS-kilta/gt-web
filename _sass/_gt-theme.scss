@@ -105,6 +105,9 @@ body {
 
 .post-content {
   font-family: $font-serif;
+  p {
+    margin-bottom: 22px;
+  }
 }
 
 .post__ingress {
@@ -120,6 +123,7 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   margin-right: 5px;
+  margin-bottom: 10px;
 }
 
 .post {
