@@ -156,6 +156,11 @@ h4 a {
 }
 
 .sidebar {
+  @include breakpoint(0, mobile) {
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px solid #ddd;
+  }
   @include breakpoint(mobile) {
     float: right;
     width: 25%;
