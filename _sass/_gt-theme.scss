@@ -8,11 +8,12 @@ body {
     margin: ($spacing-unit / 2) 0;
   }
   background-color: $white-color;
+  border-bottom: 1px solid #dedede;
   @at-root {
     .teaser__image {
       display: inline-block;
       @include breakpoint(tablet) {
-        max-width: 200px;
+        max-width: 35%;
       }
     }
     .teaser__text {
@@ -24,10 +25,7 @@ body {
 }
 .teaser--with-image .teaser__text {
   @include breakpoint(tablet) {
-    max-width: 60%;
-  }
-  @include breakpoint(desktop) {
-    max-width: 70%;
+    max-width: 64%;
   }
 }
 
@@ -53,6 +51,7 @@ body {
 
 .header__navigation {
   border-top: 3px solid $brand-color;
+  border-bottom: 1px solid #dedede;
   margin-top: $spacing-unit / 4;
   overflow: hidden;
   ul {
