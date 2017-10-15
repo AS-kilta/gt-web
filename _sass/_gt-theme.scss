@@ -21,6 +21,9 @@ body {
       vertical-align: middle;
       padding: ($spacing-unit / 2);
     }
+    .teaser__title {
+      font-size: 21px;
+    }
   }
 }
 .teaser--with-image .teaser__text {

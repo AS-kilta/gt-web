@@ -26,7 +26,7 @@ layout: default
         {% endif %}
         <div class="teaser__text">
           <span class="post-meta"><span class="post__category">{{ post.categories | join: ' ' | replace: '_', ' ' }}</span> {{ post.date | date: "%d.%m.%Y" }}</span>
-          <h2>
+          <h2 class="teaser__title">
             <a class="post-link" href="{{ post.url | prepend: site.baseurl | replace:'%C3%A4','ä' }}">{{ post.title }}</a>
           </h2>
         </div>
@@ -41,7 +41,7 @@ layout: default
         {% endif %}
         <div class="teaser__text">
           <span class="post-meta"><span class="post__category">{{ post.categories | join: ' ' | replace: '_', ' ' }}</span> {{ post.date | date: "%d.%m.%Y" }}</span>
-          <h2>
+          <h2 class="teaser__title">
             <a class="post-link" href="{{ post.url | prepend: site.baseurl | replace:'%C3%A4','ä' }}">{{ post.title }}</a>
           </h2>
         </div>
