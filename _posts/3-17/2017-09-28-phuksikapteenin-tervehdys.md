@@ -6,6 +6,7 @@ categories: hallituspalsta
 author: Noora Salminen
 magazine: 4/2017
 print_order: 2
+featured: 1
 ---
 
 

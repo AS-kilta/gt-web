@@ -8,6 +8,7 @@ image: /static/2017-03/hyperdekantointi/esittely.jpg
 ingress: On kiistelty tosiasia, että useimpien punaviinien kannattaa antaa olla ilman kanssa kosketuksissa maun avaamiseksi ennen nauttimista. Kunnon hifisti lotraakin viinin dekantteriin tai vähintään pyörittelee ylisuuressa lasissa pitkään, mutta hätähousu voi aiheuttaa rutkasti ilmakosketusta pyöräyttämällä suuren määrän viintä kätevästi tehosekoittimessa.
 magazine: 4/2017
 print_order: 3
+featured: 4
 ---
 
 ## Taustaa

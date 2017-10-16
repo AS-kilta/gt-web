@@ -8,7 +8,6 @@ ingress: "Tänä vuonna Teekkarijaosto toteutti tamperelaisten kollegoidensa kan
 image: "/static/2017-02/hervanta.jpg"
 magazine: 2/2017
 print_order: 11
-featured: 1
 ---
 
 
