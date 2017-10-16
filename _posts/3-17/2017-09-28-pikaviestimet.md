@@ -5,6 +5,8 @@ date:   2017-09-28 12:00:00 +0200
 categories: nelikenttä
 author: Juuso Mikkonen
 ingress: Kuukauden nelikentän aiheena joka syksy kulttuurishokkia aiheuttavat pikaviestimet.
+magazine: 4/2017
+print_order: 10
 ---
 
 <div class="fourfold clearfix">

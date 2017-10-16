@@ -5,6 +5,8 @@ date:   2017-09-28 12:00:00 +0200
 categories: kirja-arvostelu
 author: GT:n toimitus
 image: "/static/2017-03/henu.jpg"
+magazine: 4/2017
+print_order: 5
 ---
 
 Kultainen toimitus arvosteli kesän kohutuimman kirjajulkaisun, Henry Sanmarkin esikoisteoksen Embedded software development methods for mission critical satellite operations (Unigrafia, 2017). Sanmarkin teosta on toimituksessa odotettu kuin kuuta nousevaa ja onneksemme teos valmistui luettavaksi laiturinnokkaan. Pelkkää kevyttä kesälukemista opus ei kuitenkaan ole – kirjailija itse kuvaili GT:n haastattelussa kesäkuussa luomisprosessin olleen “[A]ika tuskaliasta, vähä kuin synnytys. [sic]”

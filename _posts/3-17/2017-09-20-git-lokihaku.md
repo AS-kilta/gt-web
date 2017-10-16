@@ -6,7 +6,7 @@ categories: tekniikka
 author: Konsta Hölttä
 image: /static/2017-03/pickaxe.jpg
 ingress: Satunnainen gitinkäyttäjä käyttää git logia lähinnä lukeakseen mitä viime aikoina on tapahtunut. Tehokäyttäjä käyttää tätä tehokasta lokinmurskainta vaikkapa laskemaan omat committinsa tai etsimään että milloin jokin ominaisuus ilmestyi softaan ensimmäistä kertaa.
-magazine: 3/2017
+magazine: 4/2017
 print_order: 6
 ---
 

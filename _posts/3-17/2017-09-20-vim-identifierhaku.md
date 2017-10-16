@@ -5,7 +5,7 @@ date:   2017-09-20 12:00:00 +0200
 categories: tekniikka
 author: Konsta Hölttä
 ingress: Koodia editoitaessa yksi IDE-härpättimien keskeisistä ominaisuuksista on funktioiden esittelyihin tai määrittelyihin hyppiminen pikanapeilla tai hiirellä klikkailemalla. Ehkäpä jopa voi listata kaikki paikat, joista funktiota X kutsutaan. Myös yleinen tekstihaku saattaa olla jotenkin kätevöitetty. Vim osaa tottahan toki nämä kaikki.
-magazine: 3/2017
+magazine: 4/2017
 print_order: 12
 ---
 

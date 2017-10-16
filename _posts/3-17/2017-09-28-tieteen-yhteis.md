@@ -4,6 +4,8 @@ title:  "Salaliittoteoria, osa XXXIX: Ajatuksia tieteen yhteiskuntavastuusta"
 date:   2017-09-28 12:00:00 +0200
 categories: salaliittoteoria
 author: Juho Lindholm
+magazine: 4/2017
+print_order: 9
 ---
 
 Yleensä ajatellaan, että demokraattisessa yhteiskunnassa ja erityisesti tieteessä keskustelun on oltava vapaata: auktoriteeteilla, traditioilla, myyteillä ja uskonnoilla ei ole veto-oikeutta siihen, mitä saa ilmaista julkisesti. Eräs tunnetuimpia tätä ajattelutapaa kannattaneita filosofeja oli valistusajan suurin nimi Immanuel Kant, jonka mukaan valistus on vapautumista itse aiheutetusta lapsellisuuden tilasta. Ei siis tule luottaa auktoriteetteihin ym. vaan ainoastaan järkeen. Tieteen uskottavuus oli siis perusteltava sillä, että sen metodi perustuu universaaliin järkeen. Tämä on Kantin mukaan todistettava a priori, kokemuksesta riippumattomasti; muutoin tieto ei voi olla täysin varmaa, ja vain täysin varmaa tietoa voi kutsua tiedoksi sanan varsinaisessa merkityksessä.

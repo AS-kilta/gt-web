@@ -4,6 +4,8 @@ title:  "Toimituksen kesäkuulumiset"
 date:   2017-09-28 12:00:00 +0200
 categories: artikkeli
 author: Kultainen toimitus
+magazine: 4/2017
+print_order: 8
 ---
 
 

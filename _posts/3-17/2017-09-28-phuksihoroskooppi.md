@@ -5,6 +5,8 @@ date:   2017-09-28 12:00:00 +0200
 categories: horoskooppi
 author: AStrologi Kaisa Hynynen
 ingress: Phuksivuosi on yksi parhaista opiskeluvuosista! Tai ainakin yksi opiskeluvuosista. Toimitus kurkisti tulevaisuuteen ja selvitti, millainen phuksivuosi eri tähtimerkeillä onkaan luvassa. Jei!
+magazine: 4/2017
+print_order: 4
 ---
 
 
