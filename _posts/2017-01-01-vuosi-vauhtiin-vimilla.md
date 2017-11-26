@@ -103,10 +103,8 @@ Jatkolukemista innokkaille:
 <br>
 
 [^1]: Loput kaksi kolmesta: ed ja emacs. Vain toinen on moderni.
-[^2]: [https://pavelfatin.com/typing-with-pleasure/]()
-[^3]: [http://www.vim.org/scripts/]()
-[^4]: [https://neovim.io/]()
-[^5]: [https://i.stack.imgur.com/7Cu9Z.jpg]()
-[^6]: [https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/]()
-
-
+[^2]: [https://pavelfatin.com/typing-with-pleasure/](https://pavelfatin.com/typing-with-pleasure/)
+[^3]: [http://www.vim.org/scripts/](http://www.vim.org/scripts/)
+[^4]: [https://neovim.io/](https://neovim.io/)
+[^5]: [https://i.stack.imgur.com/7Cu9Z.jpg](https://i.stack.imgur.com/7Cu9Z.jpg)
+[^6]: [https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/](https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/)
