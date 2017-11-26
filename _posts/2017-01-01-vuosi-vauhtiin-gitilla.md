@@ -87,17 +87,17 @@ git config --global core.editor vim
 
 Jatkolukemista innokkaille:
 
-* [http://xkcd.com/1296/](http://xkcd.com/1296/)
-* [https://git-man-page-generator.lokaltog.net/](https://git-man-page-generator.lokaltog.net/)
-* [http://git-animals.tumblr.com/](http://git-animals.tumblr.com/)
-* [http://wheningit-blog.tumblr.com/](http://wheningit-blog.tumblr.com/)
-* [https://www.linux.fi/wiki/Git](https://www.linux.fi/wiki/Git)
-* [http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
-* [http://chris.beams.io/posts/git-commit/](http://chris.beams.io/posts/git-commit/)
-* [http://eagain.net/articles/git-for-computer-scientists/](http://eagain.net/articles/git-for-computer-scientists/)
-* [https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
-* [https://git-scm.com/documentation](https://git-scm.com/documentation)
-* [http://gitready.com/](http://gitready.com/)
-* [http://gitolite.com/gitk.html](http://gitolite.com/gitk.html)
-* [https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/](https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/)
-* [https://github.com/tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)
+* <http://xkcd.com/1296/>
+* <https://git-man-page-generator.lokaltog.net/>
+* <http://git-animals.tumblr.com/>
+* <http://wheningit-blog.tumblr.com/>
+* <https://www.linux.fi/wiki/Git>
+* <http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html>
+* <http://chris.beams.io/posts/git-commit/>
+* <http://eagain.net/articles/git-for-computer-scientists/>
+* <https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control>
+* <https://git-scm.com/documentation>
+* <http://gitready.com/>
+* <http://gitolite.com/gitk.html>
+* <https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/>
+* <https://github.com/tpope/vim-fugitive>

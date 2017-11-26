@@ -94,17 +94,17 @@ set hidden " älä vaadi välitöntä tallentamista bufferia sulkiessa
 
 Jatkolukemista innokkaille:
 
-* [https://github.com/tpope/vim-sensible](https://github.com/tpope/vim-sensible)
-* [https://mouhola.club/.vimrc](https://mouhola.club/.vimrc)
-* [http://stackoverflow.com/questions/1218390#1220118](http://stackoverflow.com/questions/1218390#1220118)
-* [http://www.viemu.com/a-why-vi-vim.html](http://www.viemu.com/a-why-vi-vim.html)
-* [http://naleid.com/blog/2010/10/04/vim-movement-shortcuts-wallpaper](http://naleid.com/blog/2010/10/04/vim-movement-shortcuts-wallpaper)
+* <https://github.com/tpope/vim-sensible>
+* <https://mouhola.club/.vimrc>
+* <http://stackoverflow.com/questions/1218390#1220118>
+* <http://www.viemu.com/a-why-vi-vim.html>
+* <http://naleid.com/blog/2010/10/04/vim-movement-shortcuts-wallpaper>
 
 <br>
 
 [^1]: Loput kaksi kolmesta: ed ja emacs. Vain toinen on moderni.
-[^2]: [https://pavelfatin.com/typing-with-pleasure/](https://pavelfatin.com/typing-with-pleasure/)
-[^3]: [http://www.vim.org/scripts/](http://www.vim.org/scripts/)
-[^4]: [https://neovim.io/](https://neovim.io/)
-[^5]: [https://i.stack.imgur.com/7Cu9Z.jpg](https://i.stack.imgur.com/7Cu9Z.jpg)
-[^6]: [https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/](https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/)
+[^2]: <https://pavelfatin.com/typing-with-pleasure/>
+[^3]: <http://www.vim.org/scripts/>
+[^4]: <https://neovim.io/>
+[^5]: <https://i.stack.imgur.com/7Cu9Z.jpg>
+[^6]: <https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/>

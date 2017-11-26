@@ -22,6 +22,6 @@ Kauden tärkeimpiä tavoitteita webin osalta ovat saitin kehitys monipuolisemmak
 Kuten itse lehti, GT web on jatkuvasti kehittyvä ja muotoaan hakeva teos. Kehitys pyrkii olemaan mahdollisimman avointa – koko sivuston lähdekoodi on avoin ja  kiltalaisten kontribuutiot ja palaute otetaan mielellään vastaan. Iloisia lukuhetkiä!
 
 
-GT web [http://gt.as.fi](http://gt.as.fi)
+GT web <http://gt.as.fi>
 
-GT-webin lähdekoodi [https://github.com/juusaw/gt-web](https://github.com/juusaw/gt-web)
+GT-webin lähdekoodi <https://github.com/juusaw/gt-web>

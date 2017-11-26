@@ -8,7 +8,7 @@ author: Konsta Hölttä
 ingress: Wikileaksin täysin legit CIA-julkistus toi ilmi, että Vim on osa CIA:n(kin) "Hacking Toolseja". Vault 7:stä löytyi ainakin monta Vim-aiheista sivua. GT esittelee tässä lyhyesti mistä on kyse; muuta varten voi käydä lukemassa tarkemmin vaikka rrrRankkabussissa ajanvietteeksi.
 print_order: 7
 ---
-Jonkinlainen pääsivu löytyy osoitteesta: [https://wikileaks.org/ciav7p1/cms/page_3375350.html](https://wikileaks.org/ciav7p1/cms/page_3375350.html) ja löytyy muutama alisivu sekä tutoriaalicopypasteja muualta. Haun perusteella emacsille ei btw ole omaa sivua.
+Jonkinlainen pääsivu löytyy osoitteesta: <https://wikileaks.org/ciav7p1/cms/page_3375350.html> ja löytyy muutama alisivu sekä tutoriaalicopypasteja muualta. Haun perusteella emacsille ei btw ole omaa sivua.
 
 Sisältö tl;dr:
 
