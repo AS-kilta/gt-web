@@ -116,9 +116,9 @@ Oletettavasti ylipäätään viinin hölskyttely isossa tehosekoitinkulhon kalta
 
 ## Lähteet
 
-[^1]: [http://modernistcuisine.com/2011/09/how-to-hyperdecant-your-wine/]()
-[^2]: [https://en.wikipedia.org/wiki/Decanter]()
-[^3]: [https://www.experimentalbrew.com/experiments/about_triangle_testing]()
-[^4]: [https://www.random.org/integers/?num=1&min=1&max=3&col=5&base=10&format=html&rnd=new]()
-[^5]: [https://www.wilfa.fi/product/keittio/tehosekoitin/tehosekoitin-wblb-1400s/]()
-[^6]: [http://www.ikea.com/fi/fi/catalog/products/00154870/]()
+[^1]: <http://modernistcuisine.com/2011/09/how-to-hyperdecant-your-wine/>
+[^2]: <https://en.wikipedia.org/wiki/Decanter>
+[^3]: <https://www.experimentalbrew.com/experiments/about_triangle_testing>
+[^4]: <https://www.random.org/integers/?num=1&min=1&max=3&col=5&base=10&format=html&rnd=new>
+[^5]: <https://www.wilfa.fi/product/keittio/tehosekoitin/tehosekoitin-wblb-1400s/>
+[^6]: <http://www.ikea.com/fi/fi/catalog/products/00154870/>

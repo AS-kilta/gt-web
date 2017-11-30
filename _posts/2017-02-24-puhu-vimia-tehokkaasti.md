@@ -38,8 +38,8 @@ Ylös ja alas liikkuminen on myös rivi kerrallaan melko kömpelöä. Ihmisten t
 
 Eestaas liikkuminen (ns. teleportaatio) kahden tai useamman sijainnin välillä onnistuu näppärästi sijaintimerkeillä, jotka ohjelmoidaan komentamalla `m` ja jokin kirjain. Heittomerkki ja sama kirjain vie kursorin tuollaiseen lokaatioon merkin riville; grave-aksenttimerkki ja kirjain vie täsmälliseen sijaintiin. Pienet kirjaimet ovat varattu bufferikohtaisiin merkkeihin ja isot kirjaimet toimivat globaalisti; niillä voi hyppiä vikkelästi bufferista toiseen. Kirjaimet ovat omaan käyttöön; muutamat merkit ovat maagisesti automaattisia: piste vie aiemman muokkauksen paikkaan, ja heittomerkki paikkaan mistä siirryttiin (eli näpyttämällä kaksi heittomerkkiä putkeen peräjälkeen voi hyppiä kahden sijainnin välillä). `:help mark-motions`
 
-[^0]: [https://en.wikipedia.org/wiki/Composition_over_inheritance](https://en.wikipedia.org/wiki/Composition_over_inheritance)
+[^0]: <https://en.wikipedia.org/wiki/Composition_over_inheritance>
 
-[^1]: [https://news.ycombinator.com/item?id=7976493](https://news.ycombinator.com/item?id=7976493)
+[^1]: <https://news.ycombinator.com/item?id=7976493>
 
-[^2]: [http://naleid.com/blog/2010/10/04/vim-movement-shortcuts-wallpaper](http://naleid.com/blog/2010/10/04/vim-movement-shortcuts-wallpaper)
+[^2]: <http://naleid.com/blog/2010/10/04/vim-movement-shortcuts-wallpaper>
