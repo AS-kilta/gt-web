@@ -6,6 +6,7 @@ categories: tekniikka
 author: Konsta Hölttä
 ingress: Askarruttaako koskaan, että kenen käsialaa on jokin merkillinen funktio, tai että minä aikoina jotakin tiedostoa ylipäätään on muokattu miltäkin riviltä? Viime GT:ssä käytiin läpi historiankaivelutyökalua, josta päästäänkin perspektiiviä hieman vaihtamalla git blameen. Blame kertoo tiedoston rivien revisiot, authorit ja päiväykset.
 magazine: 5/2017
+print_order: 7
 image: /static/2017-04/homer.gif
 ---
 Komentamalla `git blame tiedostonimi` Git [tuuttaa esille](https://git-scm.com/docs/git-blame) tiedoston sisällön siten, että vasempaan laitaan on annotoitu kutakin riviä vastaavan commitin sha1-revisiokoodi, kirjoittaja, kirjoituspäivämäärä ja rivinumero. Näitä voi toki muokata monella ekstravivulla. Tässä oletustulosteesta esimerkiksi rivit 51-56 gt-webin tiedostosta index.html kirjoitushetkellä:

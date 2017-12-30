@@ -8,7 +8,6 @@ image: /static/2017-03/pickaxe.jpg
 ingress: Satunnainen gitinkäyttäjä käyttää git logia lähinnä lukeakseen mitä viime aikoina on tapahtunut. Tehokäyttäjä käyttää tätä tehokasta lokinmurskainta vaikkapa laskemaan omat committinsa tai etsimään että milloin jokin ominaisuus ilmestyi softaan ensimmäistä kertaa.
 magazine: 4/2017
 print_order: 6
-featured: 2
 ---
 
 Yksi parhaista "bugeista" on yleisesti tunnettu vitsi, että jollain softalla on enemmän komentorivillä käytettäviä vipuja kuin ls:llä. (ls:llä (v8.27) on [manuskan][1] mukaan noin 58 kpl.) No, git log [menee ohi että humahtaa][2].

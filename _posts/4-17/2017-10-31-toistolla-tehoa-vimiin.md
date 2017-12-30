@@ -6,6 +6,7 @@ categories: tekniikka
 author: Konsta Hölttä
 ingress: Monista editoreista löytyy sellainen moderni multicursor-nimeä kantava ominaisuus, jolla voi toistaa saman editoinnin moneen kohtaan. Missä Vimin visual block -tila ei riitä eivätkä purkkaskriptit maistu, voi käyttää makroja, eli livenä talletettavia komentosarjoja. Makrot tietty sopivat vähän kaikenlaiseen muuhunkin, ja multicursorhömppäeditoreista yleensä löytyy nekin. Jos editorissa ei ole makroja, niin se soveltuu korkeintaan ostoslistan kirjoittamiseen.
 magazine: 5/2017
+print_order: 4
 image: /static/2017-04/kermit.gif
 ---
 Kunhan sen Vimin kieliopin sisäistää, niin makroista tulee harvinaisen luontevia käyttää, sillä Vimissä liikkuminen on niin mahtavaa. Pelkät liikeet ja yksinkertaiset muokkaukset eivät toki ole ainoita joita makroon saa sekaan. Normalmode-äksön tallentuu, ja suunnilleen kaikki mitä näppiksellä voi tehdä.

@@ -7,7 +7,6 @@ author: Juuso Mikkonen
 ingress: Pitkään se taas kesti – välillä tuntui ettei se pääty koskaan. Päivistä tuli viikkoja, viikoista kuukausia ja lopulta viimeinen näistäkin oli ohi.  Puhun tietysti kesästä.
 magazine: 4/2017
 print_order: 1
-featured: 3
 ---
 
 
