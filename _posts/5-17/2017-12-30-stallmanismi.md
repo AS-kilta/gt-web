@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SYL on täten Stallmanistinen järjestö"
-date:   2017-12-02 12:00:00 +0200
+date:   2017-12-30 13:00:01 +0200
 categories: puhe
 author: Onni Lampi
 magazine: 6/2017

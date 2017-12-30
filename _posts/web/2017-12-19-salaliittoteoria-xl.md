@@ -4,7 +4,6 @@ title:  "Salaliittoteoria, osa XL"
 date:   2017-12-19 12:00:00 +0200
 categories: salaliittoteoria
 author: Juho Lindholm
-featured: 2
 ---
 
 *Pari ajatusta lisää tieteen yhteiskuntavastuusta*

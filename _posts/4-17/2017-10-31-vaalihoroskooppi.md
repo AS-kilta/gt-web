@@ -7,7 +7,6 @@ author: Kaisa Hynynen
 ingress: GT:n toimitus selvitti, mitä vapaaehtoishommia eri horoskooppimerkkien edustajilla on odotettavissa ensi vuodelle killassa. Tällasta sit ens vuonna. Muistakaas hakea!
 magazine: 5/2017
 print_order: 5
-featured: 2
 ---
 
 #### OINAS (21.3. - 19.4.)

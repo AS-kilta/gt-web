@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Kaikki tiedostot Vimiin
-date:   2017-12-02 13:00:00 +0200
+date:   2017-12-30 13:00:00 +0200
 categories: tekniikka
 author: Konsta Hölttä
 ingress: Monen avonaisen tiedoston tuki löytyy jokaisesta itseään kunnioittavasta tekstieditorista. Vimissä tiedostoja voi editoida mm. vierekkäin ja allekkain kuin ikkunamanagerissa ikkunoita, ja eri vierekkäin-allekkain-näkymiä saa useita kuin ikkunamanagerissa virtuaalityöpöytiä.

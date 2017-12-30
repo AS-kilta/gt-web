@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Git-muutokset yhteen
-date:   2017-12-02 13:00:00 +0200
+date:   2017-12-30 12:00:00 +0200
 categories: tekniikka
 author: Konsta Hölttä
 ingress: Oliskohan tähän asti käsitelty lähinnä itse lokaalisti tehtäviä git-taikatemppuja. Jokaisessa yli yhden hengen puuhassa jota kehitetään git-repositoryssä saa kanssakäydä muiden ihmisten kanssa. Jo GT:ssä 1/2017 esiteltiin git rebase, jolla sotkuhistorian muotoilee siistimmäksi kun töitänsä aikoo esitellä muille pull requestin tai git pushin muodossa. Monimutkaisemmissa ympäristöissä git merge on tarpeellinen.

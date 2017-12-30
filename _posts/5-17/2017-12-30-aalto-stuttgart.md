@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Opiskelu Aallossa ja Stuttgartissa"
-date:   2017-12-02 12:00:00 +0200
+date:   2017-12-30 12:00:00 +0200
 categories: matkaraportti
 author: Jan Juvonen
 magazine: 6/2017

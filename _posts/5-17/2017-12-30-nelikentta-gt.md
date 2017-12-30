@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kuukauden nelikenttä: Miten meni noin niinkun omasta mielestä?"
-date:   2017-12-02 12:00:00 +0200
+date:   2017-12-30 12:30:00 +0200
 categories: nelikenttä
 author: Juuso Mikkonen
 magazine: 6/2017

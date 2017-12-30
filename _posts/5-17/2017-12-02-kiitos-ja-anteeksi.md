@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kiitos ja anteeksi"
-date:   2017-12-02 12:00:00 +0200
+date:   2017-12-30 12:00:00 +0200
 categories: pääkirjoitus
 author: Juuso Mikkonen
 ingress: Vuosi – ja samaten toimituksen kausi – lähestyy loppuaan kuin phuksin koulumotivaatio joulukuun kynnyksellä. Tuntuu haikealta ajatella, että pian toimituksen on aika laskea kynät pöydälle ja punainen pipo naulaan. Tätä tekstiä lukiessa kilta on jo oletettavasti siunannut seuraavan päätoimittajan tulevaan virkaansa.

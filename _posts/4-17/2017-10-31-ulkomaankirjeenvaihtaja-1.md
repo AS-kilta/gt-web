@@ -7,7 +7,6 @@ author: Jan Juvonen
 magazine: 5/2017
 image: "/static/2017-04/saksa2.jpg"
 print_order: 6
-featured: 4
 ---
 
 Arwon lukijat,

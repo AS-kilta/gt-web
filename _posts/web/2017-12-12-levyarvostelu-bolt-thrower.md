@@ -4,7 +4,6 @@ title:  "Death metalin kolme vuosikymmentä: Bolt Thrower, osa 1"
 date:   2017-12-12 12:00:00 +0200
 categories: levyarvostelu
 author: Juho Lindholm
-featured: 2
 ---
 
 Jos death metalia opetettaisiin yliopistossa, Bolt Throwerin tuotanto käytäisiin läpi peruskursseilla. Brittiläinen vanhan liiton death metal tavoittelee harvoin teknistä virtuositeettia tai kaikkein äärimmäisimpiä nopeuksia. Coventryssa (suom. Noitapiiriyritys) vuonna 1986 perustettu Bolt Thrower ei ole tässä suhteessa poikkeus: bändin musiikki on alagenren klassikkobändien laajan skaalan helpoimmin lähestyttävästä päästä. Deathin, Morbid Angelin ja Carcassin virtuoosien jälkeen on syytä tutustua old school death metalin helpompaan puoleen.

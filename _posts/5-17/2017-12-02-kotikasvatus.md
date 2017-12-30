@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GT testaa: kotikasvatus"
-date:   2017-12-02 13:00:00 +0200
+date:   2017-12-30 13:00:00 +0200
 categories: gt_testaa
 author: Konsta Hölttä
 ingress: Toimituksen jäsen sai vuoden alussa käsiinsä kourallisen chilinsiemeniä, joista on vuoden mittaan kasvanut kokonaisia pensaita ja niihin lukuisia tulisia ja tulisempia värikkäitä chilejä. Kuinkas sitten kävikään?
