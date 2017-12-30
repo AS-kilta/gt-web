@@ -5,9 +5,9 @@ date:   2017-12-02 12:00:00 +0200
 categories: puhe
 author: Onni Lampi
 magazine: 6/2017
-print_order: 8
 image: /static/2017-05/onni_syl.png
 caption: GT:n toimittaja hiljentyy liittokokouksen puhujapöntössä vapaan softan äärelle.
+print_order: 10
 ---
 
 Joka vuosi AYY:ltä lähtee delegaatio tuonne niin sanottuun poliittisten broilerien mekkaan, eli Suomen Ylioppilaskuntien Liiton liittokokoukseen. Vaikka liittokokous itsessään on täynnä poliittista vaikuttamista ja puoluepolitiikkaa, ei AYY:n presenssi kokouksessa voisi olla kauempana broileroinnista. 

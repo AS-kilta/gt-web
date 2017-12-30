@@ -7,6 +7,7 @@ author: Konsta Hölttä
 ingress: Monen avonaisen tiedoston tuki löytyy jokaisesta itseään kunnioittavasta tekstieditorista. Vimissä tiedostoja voi editoida mm. vierekkäin ja allekkain kuin ikkunamanagerissa ikkunoita, ja eri vierekkäin-allekkain-näkymiä saa useita kuin ikkunamanagerissa virtuaalityöpöytiä.
 magazine: 6/2017
 image: /static/2017-05/gits.jpg
+print_order: 3
 ---
 Toimitus huomasi, että vaikka bufferien sulava hallinta on tekstieditorin tärkeimpiä ominaisuuksia, Vim-artikkelisarja on hädin tuskin sivunnut usean bufferin (KAIKKIEN) pyörittelyä. IDE-rätkyttimien yhtenä ongelmana on perinteisesti se, että ruudulta vie tilaa kaikenlainen muu ja koodieditoriin mahtuu vain yksi tiedosto kerralla. Toisaalta modernit IDE-rätkyttimet ovat oppineet antamaan tilaa sille tärkeimmälle, eli koodille, jota kirjoittaa sitten yhtä täysii kuin oheisen Ghost in the Shell -kuvan tyyppi.
 

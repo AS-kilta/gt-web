@@ -5,7 +5,7 @@ date:   2017-12-02 12:00:00 +0200
 categories: nelikenttä
 author: Juuso Mikkonen
 magazine: 6/2017
-print_order: 10
+print_order: 11
 ingress: Vuoden loppu on itsereflektion aikaa. Kaikkeen ei GT:n toimituskaan ehtinyt, vaikka parhaamme yritettiin. Ensi vuoden toimituksellekin jäi tehtävää!
 ---
 

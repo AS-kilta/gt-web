@@ -7,6 +7,7 @@ author: Konsta Hölttä
 ingress: Oliskohan tähän asti käsitelty lähinnä itse lokaalisti tehtäviä git-taikatemppuja. Jokaisessa yli yhden hengen puuhassa jota kehitetään git-repositoryssä saa kanssakäydä muiden ihmisten kanssa. Jo GT:ssä 1/2017 esiteltiin git rebase, jolla sotkuhistorian muotoilee siistimmäksi kun töitänsä aikoo esitellä muille pull requestin tai git pushin muodossa. Monimutkaisemmissa ympäristöissä git merge on tarpeellinen.
 magazine: 6/2017
 image: /static/2017-05/branch.jpg
+print_order: 8
 ---
 Gitin brancheja eli bräntsejä eli haaroja on helppo luoda ja helppo mergata toisiinsa. Muinaisten versionhallintajärjestelmien kanssa näin ei ole aina ollut [^1]. Kun pellin alla oleva tietorakenne träkkää historiaa kunnolla, branchien luonti ja niiden liittäminen takaisin on jos ei vaivatonta niin ainakin kuolevaisen tehtävissä. Eri kehityshaaroja yhdistäessä -- oli yhdistäminen sitten merge tai rebase -- vaanii aina konfliktien mahdollisuus, mikäli eri haarat ovat muokanneet samoja osia.
 

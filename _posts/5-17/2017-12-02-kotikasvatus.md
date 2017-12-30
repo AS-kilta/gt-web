@@ -7,6 +7,7 @@ author: Konsta Hölttä
 ingress: Toimituksen jäsen sai vuoden alussa käsiinsä kourallisen chilinsiemeniä, joista on vuoden mittaan kasvanut kokonaisia pensaita ja niihin lukuisia tulisia ja tulisempia värikkäitä chilejä. Kuinkas sitten kävikään?
 magazine: 6/2017
 image: /static/2017-05/chilit/small/00.jpg
+print_order: 9
 ---
 
 ## Johdanto

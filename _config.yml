@@ -22,12 +22,15 @@ lang: fi
 
 # Remember to update when releasing a new magazine
 # Use format D/YYYY (for example 1/2017)
-latest_magazine: 5/2017
-latest_cover: /static/2017-04/kansi.png
+latest_magazine: 6/2017
+latest_cover: /static/2017-05/kansi.png
+
+
 
 latest_magazine_description: >
- Syksyn toinen GT julkaistiin Automaatio- ja systeemitekniikan killan kiltavaalien alkupamauksen yhteydessä. Lehdessä on mukana kenties pisin suomeksi julkaistu GNU Emacs -aiheinen artikkeli.
-
+ Vuoden 2017 viimeinen GT julkaistiin Stimulaatio XIX -tapahtuman silliksellä joulukuun alussa. Lehti on kultaisen toimituksen 2017 viimeinen. 
+# latest_magazine_description: >
+#  Syksyn toinen GT julkaistiin Automaatio- ja systeemitekniikan killan kiltavaalien alkupamauksen yhteydessä. Lehdessä on mukana kenties pisin suomeksi julkaistu GNU Emacs -aiheinen artikkeli.
 #latest_magazine_description: >
 #  Vuoden neljäs ja syyskauden ensimmäinen GT vuosimallia 2017 julkaistiin Automaatio- ja systeemitekniikan killan phuksisitseillä syyskuussa.
 #latest_magazine_description: >
