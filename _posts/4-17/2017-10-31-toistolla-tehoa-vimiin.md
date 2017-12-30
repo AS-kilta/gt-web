@@ -21,7 +21,7 @@ Rekistereitä on monta. On suositeltavaa opetella ottamaan niistä hyöty irti; 
 
 Normalmoden `p` on joskus kurja jos kesken editoimisen pitää pasteta. Ei hätää, insertmoodissakin voi pastettaa minkä vaan rekkarin: `<C-r><rekisterimerkki>`. Joissain erikoistapauksissa `<C-r>` pitää syöttää [kahdesti][3]. Tekstiä korvatessa taas oletusrekisteri voi ärsyttää. Ei vieläkään hätää: siinä missä oletusrekisteri helposti hukkuu, rekisteri *0* on [vain yankeille][4].
 
-Koska makrot ovat ihan tavallista tekstiä Vimin rekistereissä joissa voi copypastatakin kamaa, tuon äsken mainitun makron saisi vaikka pastettua bufferiin sanomalla `"ap`, jolloin bufferissa näkyisi `^Vjjkkr.` (`^V` eli ctrl-v-merkki on yleensä omalla erikoismerkkivärillään). Samaten makroa voi muokata ihan editoimalla bufferia (esim. lisäämällä yhden `j`:n tähän esimerkkiin niin että alueen korkeus kasvaa yhdellä) valitsemalla haluamansa makrosisällön ja näppäilemällä `"ay`.
+Koska makrot ovat ihan tavallista tekstiä Vimin rekistereissä joissa voi copypastatakin kamaa, tuon äsken mainitun makron saisi vaikka pastettua bufferiin sanomalla `"ap`, jolloin bufferissa näkyisi `^Vjjllr.` (`^V` eli ctrl-v-merkki on yleensä omalla erikoismerkkivärillään). Samaten makroa voi muokata ihan editoimalla bufferia (esim. lisäämällä yhden `j`:n tähän esimerkkiin niin että alueen korkeus kasvaa yhdellä) valitsemalla haluamansa makrosisällön ja näppäilemällä `"ay`.
 
 Vielä parempi tapa editoida makroa on `:let @a='<C-r>a'`. Joo, kuten insert-moodissa, myös komentorivillä `<C-r>`:llä voi pastettaa rekisterin. Ennen enterin painamista voi vielä muokata sisältöä; näin makron voi uudelleenmääritellä.
 
