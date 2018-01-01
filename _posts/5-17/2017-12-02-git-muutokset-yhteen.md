@@ -39,7 +39,7 @@ Konflikteja syntyy, kun eri kehityshaaroissa on tehty muutoksia samoihin kohtiin
 
 Hassujen markereiden käpistely tekstitiedostojen seasta on eittämättä primitiivistä. Git tukee “mergetoolia” eli työkalua, joka ymmärtää näyttää 3-way mergen eri versiot kerralla [^12]. Esimerkiksi Vim osaa tälläisen. Tiedostomuotokohtaisen mergetoolin konffaaminen on myös likimain pakollista, jos on binääritiedostoja. Toisaalta jos binääritiedoston editori (esim. joku photoshop) ei tue mergailua tai jos merge ei käy järkeen ylipäätään (vaikka käännetylle softalle), niin on yleensä vaan pulassa ja pitää valita jompikumpi: `git merge -s ours` tai `theirs` [^13].
 
-Mikäli mergaa toistuvasti samoja muutoksia, **rerere** on suositeltavaa ottaa käyttöön. “Reuse recorded resolution” tallettaa kontekstin ja käyttää sitä uudelleen jos sama konflikti toistuu. [^14]
+Mikäli mergaa toistuvasti samoja muutoksia, **rerere** on suositeltavaa ottaa käyttöön. “Reuse recorded resolution” tallettaa kontekstin ja käyttää sitä uudelleen jos sama konflikti toistuu. [^16]
 
 Haarautuminen ja haaroista yhteen kerääntyminen on tosiaan helppoa ja merkittävimmät hankaluudet aiheutuvat sopimisesta ihmisten kanssa. Gitin mergailutyökalut itsessään ovat tehokkaita ja mikä vaan onnistuu. Ei muuta kun manuska käteen ja harjoittelemaan.
 
@@ -60,6 +60,6 @@ Haarautuminen ja haaroista yhteen kerääntyminen on tosiaan helppoa ja merkitt�
 [^13]: <https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging>
 [^14]: <https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows>
 [^15]: <https://git-scm.com/blog/2010/03/02/undoing-merges.html>
-[^14]: <https://git-scm.com/blog/2010/03/08/rerere.html>
+[^16]: <https://git-scm.com/blog/2010/03/08/rerere.html>
 
 *(kuva: [Wikipedia / Daniel Schwen](https://en.wikipedia.org/wiki/File:CTA_loop_junction.jpg))*
